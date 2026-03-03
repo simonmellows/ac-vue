@@ -1,0 +1,192 @@
+html,
+body,
+#app {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.background-theme-color {
+  background-color: rgb(var(--v-theme-background)) !important;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.mw-100{
+    max-width: 100% !important;
+}
+.mh-100{
+    max-height: 100% !important;
+}
+
+.h-66{
+    height: 66.66666% !important;
+}
+.h-33{
+    height: 33.33333% !important;
+}
+
+.card-title-lg{
+    font-size: 2rem !important; 
+    letter-spacing: 2px !important;
+}
+
+/*.v-card-text-stretch{
+    padding-bottom: 0px !important;
+    padding-right: 12px !important;
+    padding-left: 12px !important;
+    margin-left: 8px !important;
+    margin-right: 8px !important;
+    margin-bottom: 16px !important;
+    overflow-y: scroll !important;
+    flex-grow: 1 !important;
+}*/
+
+.disabled{
+    opacity: 0.4;
+    pointer-events: none;
+}
+.disabled .v-slider-thumb{
+    pointer-events: none !important;
+}
+
+.scroll-snap-y {
+    /* Enable scrolling */
+    overflow-y: scroll; /* Horizontal scrolling */
+    scroll-snap-type: y mandatory; /* Enable scroll snap on the x-axis, mandatory snapping */
+    scroll-behavior: smooth; /* Smooth scrolling */
+}
+
+.scroll-snap-y > * {
+    scroll-snap-align: start; /* Center each child when scrolling */
+    flex-shrink: 0; /* Prevent children from shrinking */
+}
+.scroll-snap-x {
+    /* Enable scrolling */
+    overflow-x: scroll; /* Horizontal scrolling */
+    scroll-snap-type: x mandatory; /* Enable scroll snap on the x-axis, mandatory snapping */
+    scroll-behavior: smooth; /* Smooth scrolling */
+}
+
+.scroll-snap-x > * {
+    scroll-snap-align: start; /* Center each child when scrolling */
+    flex-shrink: 0; /* Prevent children from shrinking */
+}
+
+
+/* Animations */
+.spinner {
+    animation: spin 1s linear infinite;
+}
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.dashboard-card-icon{
+    font-size: 30px !important;
+}
+
+.dashboard-card-title {
+    font-size: 18px !important;
+}
+
+.dashboard-body{
+    height: calc(100% - 98px) !important;
+}
+
+/* Horizontal Gridding */
+.v-row-horizontal{
+    flex-direction: column !important;
+    overflow-x: auto !important;
+}
+.v-col-horizontal{
+    flex-shrink: 0 !important;
+}
+
+/* 1 row */
+.v-row-12 .v-col-horizontal { flex: 0 0 calc(100% / 1) !important; }
+
+/* 2 rows */
+.v-row-6 .v-col-horizontal  { flex: 0 0 calc(100% / 2) !important; }
+
+/* 3 rows */
+.v-row-4 .v-col-horizontal  { flex: 0 0 calc(100% / 3) !important; }
+
+/* 4 rows */
+.v-row-3 .v-col-horizontal  { flex: 0 0 calc(100% / 4) !important; }
+
+/* 6 rows */
+.v-row-2 .v-col-horizontal  { flex: 0 0 calc(100% / 6) !important; }
+
+/* 12 rows */
+.v-row-1 .v-col-horizontal  { flex: 0 0 calc(100% / 12) !important; }
+
+/* TSWs */
+@media (min-width: 1200px) and (max-width: 1900px) {
+    html {
+        font-size: calc(1vw + 1vh) !important;
+    }
+    
+    .dashboard-card-title {
+        font-size: 22px !important;
+    }
+
+    .dashboard-body{
+        height: calc(100% - 128px) !important;
+    }
+}
+
+/* TSWs 
+@media (min-width: 1200px) and (max-width: 1900px) {
+    html {
+        font-size: calc(1vw + 1vh) !important;
+    }
+    .v-toolbar {
+        height: 7vmin !important;
+        font-size: 1.2rem;
+    }
+    .v-toolbar__content {
+        min-height: inherit !important;
+    }
+    .v-main{
+        --v-layout-left: 1vmin !important;
+        --v-layout-bottom: 8vmin !important;
+        --v-layout-right: 1vmin !important;
+    }
+    .v-bottom-navigation{
+        height: 8vmin !important;
+        padding-left: 1vmin !important;
+        padding-right: 1vmin !important;
+    }
+    .v-toolbar__content{
+        margin-top: auto !important;
+        margin-bottom: auto !important;
+        padding-left: 1vmin !important;
+        padding-right: 1vmin !important;
+        height: 80px !important;
+    }
+    .v-btn{
+        height: unset !important;
+        padding: 12px 16px !important;
+    }
+    .h-card-text{
+        height: calc(100% - 67.59px) !important
+    }
+    .v-btn--icon{
+        width: calc(var(--v-btn-height) + 18px) !important;
+    }
+    .v-select__selection{
+        font-size: 20px !important;
+    }
+}
+    */

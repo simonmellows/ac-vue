@@ -1,0 +1,1342 @@
+{
+	"Errors": [],
+	"id": "_jkivk549r",
+	"name": "contract",
+	"description": "",
+	"company": "",
+	"client": "",
+	"author": "",
+	"version": "1.0.0.0",
+	"schemaVersion": 1,
+	"subContractLinks": [],
+	"subContracts": [],
+	"specifications": [
+		{
+			"Errors": [],
+			"parentId": "_jkivk549r",
+			"id": "_pftdnvfua",
+			"componentId": "_7tqfzfo8l",
+			"instanceName": "ui",
+			"numberOfInstances": 1
+		},
+		{
+			"Errors": [],
+			"parentId": "_jkivk549r",
+			"id": "_c9x73e0ri",
+			"componentId": "_swr3v2nxv",
+			"instanceName": "room",
+			"numberOfInstances": 5
+		},
+		{
+			"Errors": [],
+			"parentId": "_jkivk549r",
+			"id": "_ta31fmuh9",
+			"componentId": "_lsfs9ru7u",
+			"instanceName": "roomGroup",
+			"numberOfInstances": 5
+		}
+	],
+	"components": [
+		{
+			"Errors": [],
+			"parentId": "_jkivk549r",
+			"id": "_phq2hthii",
+			"name": "itemButton",
+			"commands": [
+				{
+					"Errors": [],
+					"name": "labelFb",
+					"siblingId": "_pvoj4g30l",
+					"dataType": 3,
+					"notes": "",
+					"id": "_avmozlhix",
+					"parentId": "_phq2hthii",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "iconFb",
+					"siblingId": "_w0ttee0ki",
+					"dataType": 3,
+					"notes": "",
+					"id": "_7xqrftl9u",
+					"parentId": "_phq2hthii",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "visibleFb",
+					"siblingId": "_jbega742l",
+					"dataType": 1,
+					"notes": "",
+					"id": "_koa2e3fj7",
+					"parentId": "_phq2hthii",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "enableFb",
+					"siblingId": "_t0bw3g7lr",
+					"dataType": 1,
+					"notes": "",
+					"id": "_kd748sfsc",
+					"parentId": "_phq2hthii",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "pressFb",
+					"siblingId": "_koxsijlg9",
+					"dataType": 1,
+					"notes": "",
+					"id": "_78xf9kl3p",
+					"parentId": "_phq2hthii",
+					"attributeType": 0
+				}
+			],
+			"feedbacks": [
+				{
+					"Errors": [],
+					"name": "press",
+					"siblingId": "_78xf9kl3p",
+					"dataType": 1,
+					"notes": "",
+					"id": "_koxsijlg9",
+					"parentId": "_phq2hthii",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_avmozlhix",
+					"dataType": 3,
+					"notes": "",
+					"id": "_pvoj4g30l",
+					"parentId": "_phq2hthii",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_7xqrftl9u",
+					"dataType": 3,
+					"notes": "",
+					"id": "_w0ttee0ki",
+					"parentId": "_phq2hthii",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_koa2e3fj7",
+					"dataType": 1,
+					"notes": "",
+					"id": "_jbega742l",
+					"parentId": "_phq2hthii",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_kd748sfsc",
+					"dataType": 1,
+					"notes": "",
+					"id": "_t0bw3g7lr",
+					"parentId": "_phq2hthii",
+					"attributeType": 1
+				}
+			],
+			"specifications": []
+		},
+		{
+			"Errors": [],
+			"parentId": "_jkivk549r",
+			"id": "_cklvgymkh",
+			"name": "itemClimateZone",
+			"commands": [
+				{
+					"Errors": [],
+					"name": "labelFb",
+					"siblingId": "_ruoz31qp2",
+					"dataType": 3,
+					"notes": "",
+					"id": "_h3qq48pv5",
+					"parentId": "_cklvgymkh",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "visibleFb",
+					"siblingId": "_bwrv0g0xe",
+					"dataType": 1,
+					"notes": "",
+					"id": "_9gw13hu82",
+					"parentId": "_cklvgymkh",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "hasEnableFb",
+					"siblingId": "_9wfxtxg1q",
+					"dataType": 1,
+					"notes": "",
+					"id": "_kzlpz3h10",
+					"parentId": "_cklvgymkh",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "enableFb",
+					"siblingId": "_3s8tafd4e",
+					"dataType": 1,
+					"notes": "",
+					"id": "_y3lmn7wx2",
+					"parentId": "_cklvgymkh",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_uyo0k2xsz",
+					"dataType": 1,
+					"notes": "",
+					"id": "_mgv1iwtxp",
+					"parentId": "_cklvgymkh",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_o7soqzmkg",
+					"dataType": 1,
+					"notes": "",
+					"id": "_er9dsiztz",
+					"parentId": "_cklvgymkh",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "hasScheduleFb",
+					"siblingId": "_ufvpqkgqw",
+					"dataType": 1,
+					"notes": "",
+					"id": "_8nthe0qn7",
+					"parentId": "_cklvgymkh",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "setpointFb",
+					"siblingId": "_9wa9w0rzo",
+					"dataType": 3,
+					"notes": "",
+					"id": "_uk13sl30e",
+					"parentId": "_cklvgymkh",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "temperatureFb",
+					"siblingId": "_28acxjztu",
+					"dataType": 3,
+					"notes": "",
+					"id": "_jtesyfk43",
+					"parentId": "_cklvgymkh",
+					"attributeType": 0
+				}
+			],
+			"feedbacks": [
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_9gw13hu82",
+					"dataType": 1,
+					"notes": "",
+					"id": "_bwrv0g0xe",
+					"parentId": "_cklvgymkh",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_h3qq48pv5",
+					"dataType": 3,
+					"notes": "",
+					"id": "_ruoz31qp2",
+					"parentId": "_cklvgymkh",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_uk13sl30e",
+					"dataType": 3,
+					"notes": "",
+					"id": "_9wa9w0rzo",
+					"parentId": "_cklvgymkh",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_jtesyfk43",
+					"dataType": 3,
+					"notes": "",
+					"id": "_28acxjztu",
+					"parentId": "_cklvgymkh",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "setpointRaise",
+					"siblingId": "_mgv1iwtxp",
+					"dataType": 1,
+					"notes": "",
+					"id": "_uyo0k2xsz",
+					"parentId": "_cklvgymkh",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "setpointLower",
+					"siblingId": "_er9dsiztz",
+					"dataType": 1,
+					"notes": "",
+					"id": "_o7soqzmkg",
+					"parentId": "_cklvgymkh",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_8nthe0qn7",
+					"dataType": 1,
+					"notes": "",
+					"id": "_ufvpqkgqw",
+					"parentId": "_cklvgymkh",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_kzlpz3h10",
+					"dataType": 1,
+					"notes": "",
+					"id": "_9wfxtxg1q",
+					"parentId": "_cklvgymkh",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "enable",
+					"siblingId": "_y3lmn7wx2",
+					"dataType": 1,
+					"notes": "",
+					"id": "_3s8tafd4e",
+					"parentId": "_cklvgymkh",
+					"attributeType": 1
+				}
+			],
+			"specifications": [
+				{
+					"Errors": [],
+					"parentId": "_jkivk549r",
+					"id": "_4fmund5rq",
+					"componentId": "_phq2hthii",
+					"instanceName": "mode",
+					"numberOfInstances": 5
+				},
+				{
+					"Errors": [],
+					"parentId": "_jkivk549r",
+					"id": "_r45gx65o8",
+					"componentId": "_phq2hthii",
+					"instanceName": "fanSpeed",
+					"numberOfInstances": 5
+				},
+				{
+					"Errors": [],
+					"parentId": "_jkivk549r",
+					"id": "_kow84vokl",
+					"componentId": "_phq2hthii",
+					"instanceName": "toggle",
+					"numberOfInstances": 3
+				}
+			]
+		},
+		{
+			"Errors": [],
+			"parentId": "_jkivk549r",
+			"id": "_7y9dj8hjq",
+			"name": "itemLightingCircuit",
+			"commands": [
+				{
+					"Errors": [],
+					"name": "labelFb",
+					"siblingId": "_pc0vye50t",
+					"dataType": 3,
+					"notes": "",
+					"id": "_kie5mv535",
+					"parentId": "_7y9dj8hjq",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "visibleFb",
+					"siblingId": "_stj3ja72p",
+					"dataType": 1,
+					"notes": "",
+					"id": "_dj4opk96m",
+					"parentId": "_7y9dj8hjq",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "typeFb",
+					"siblingId": "_3ghx8qbyb",
+					"dataType": 2,
+					"notes": "",
+					"id": "_294hiz4fc",
+					"parentId": "_7y9dj8hjq",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "pressFb",
+					"siblingId": "_ourrd2zt7",
+					"dataType": 1,
+					"notes": "",
+					"id": "_wszuvdz6v",
+					"parentId": "_7y9dj8hjq",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "levelFb",
+					"siblingId": "_k5p8637jy",
+					"dataType": 2,
+					"notes": "",
+					"id": "_shlinryo7",
+					"parentId": "_7y9dj8hjq",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "switchOnFb",
+					"siblingId": "_iw6c2k01r",
+					"dataType": 1,
+					"notes": "",
+					"id": "_7wlbhtewj",
+					"parentId": "_7y9dj8hjq",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "switchOffFb",
+					"siblingId": "_c1ovoa5fr",
+					"dataType": 1,
+					"notes": "",
+					"id": "_uf9ngmgfb",
+					"parentId": "_7y9dj8hjq",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_wpd5qemz5",
+					"dataType": 1,
+					"notes": "",
+					"id": "_0lp887u0m",
+					"parentId": "_7y9dj8hjq",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "redFb",
+					"siblingId": "_35rijkd4r",
+					"dataType": 2,
+					"notes": "",
+					"id": "_qz6g2c45k",
+					"parentId": "_7y9dj8hjq",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "greenFb",
+					"siblingId": "_j1x8yh6vv",
+					"dataType": 2,
+					"notes": "",
+					"id": "_25z4b4y82",
+					"parentId": "_7y9dj8hjq",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "blueFb",
+					"siblingId": "_z0urtjm73",
+					"dataType": 2,
+					"notes": "",
+					"id": "_je3un72yj",
+					"parentId": "_7y9dj8hjq",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "whiteFb",
+					"siblingId": "_jt1aly9fw",
+					"dataType": 2,
+					"notes": "",
+					"id": "_ssjd30tyz",
+					"parentId": "_7y9dj8hjq",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "warmWhiteFb",
+					"siblingId": "_7zsagoalj",
+					"dataType": 2,
+					"notes": "",
+					"id": "_aen3fk9ho",
+					"parentId": "_7y9dj8hjq",
+					"attributeType": 0
+				}
+			],
+			"feedbacks": [
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_kie5mv535",
+					"dataType": 3,
+					"notes": "",
+					"id": "_pc0vye50t",
+					"parentId": "_7y9dj8hjq",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_294hiz4fc",
+					"dataType": 2,
+					"notes": "",
+					"id": "_3ghx8qbyb",
+					"parentId": "_7y9dj8hjq",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "press",
+					"siblingId": "_wszuvdz6v",
+					"dataType": 1,
+					"notes": "",
+					"id": "_ourrd2zt7",
+					"parentId": "_7y9dj8hjq",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "level",
+					"siblingId": "_shlinryo7",
+					"dataType": 2,
+					"notes": "",
+					"id": "_k5p8637jy",
+					"parentId": "_7y9dj8hjq",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "switchOn",
+					"siblingId": "_7wlbhtewj",
+					"dataType": 1,
+					"notes": "",
+					"id": "_iw6c2k01r",
+					"parentId": "_7y9dj8hjq",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "switchOff",
+					"siblingId": "_uf9ngmgfb",
+					"dataType": 1,
+					"notes": "",
+					"id": "_c1ovoa5fr",
+					"parentId": "_7y9dj8hjq",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "toggle",
+					"siblingId": "_0lp887u0m",
+					"dataType": 1,
+					"notes": "",
+					"id": "_wpd5qemz5",
+					"parentId": "_7y9dj8hjq",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "red",
+					"siblingId": "_qz6g2c45k",
+					"dataType": 2,
+					"notes": "",
+					"id": "_35rijkd4r",
+					"parentId": "_7y9dj8hjq",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "green",
+					"siblingId": "_25z4b4y82",
+					"dataType": 2,
+					"notes": "",
+					"id": "_j1x8yh6vv",
+					"parentId": "_7y9dj8hjq",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "blue",
+					"siblingId": "_je3un72yj",
+					"dataType": 2,
+					"notes": "",
+					"id": "_z0urtjm73",
+					"parentId": "_7y9dj8hjq",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "white",
+					"siblingId": "_ssjd30tyz",
+					"dataType": 2,
+					"notes": "",
+					"id": "_jt1aly9fw",
+					"parentId": "_7y9dj8hjq",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "warmWhite",
+					"siblingId": "_aen3fk9ho",
+					"dataType": 2,
+					"notes": "",
+					"id": "_7zsagoalj",
+					"parentId": "_7y9dj8hjq",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_dj4opk96m",
+					"dataType": 1,
+					"notes": "",
+					"id": "_stj3ja72p",
+					"parentId": "_7y9dj8hjq",
+					"attributeType": 1
+				}
+			],
+			"specifications": []
+		},
+		{
+			"Errors": [],
+			"parentId": "_jkivk549r",
+			"id": "_lsfs9ru7u",
+			"name": "itemRoomGroup",
+			"commands": [
+				{
+					"Errors": [],
+					"name": "labelFb",
+					"siblingId": "_on4abk7k5",
+					"dataType": 3,
+					"notes": "",
+					"id": "_swwn1tttg",
+					"parentId": "_lsfs9ru7u",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "visibleFb",
+					"siblingId": "_kafj1e21p",
+					"dataType": 1,
+					"notes": "",
+					"id": "_su6r7powj",
+					"parentId": "_lsfs9ru7u",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "floorplanFileNameFb",
+					"siblingId": "_px6mst181",
+					"dataType": 3,
+					"notes": "",
+					"id": "_li5ir8ald",
+					"parentId": "_lsfs9ru7u",
+					"attributeType": 0
+				}
+			],
+			"feedbacks": [
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_swwn1tttg",
+					"dataType": 3,
+					"notes": "",
+					"id": "_on4abk7k5",
+					"parentId": "_lsfs9ru7u",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_su6r7powj",
+					"dataType": 1,
+					"notes": "",
+					"id": "_kafj1e21p",
+					"parentId": "_lsfs9ru7u",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_li5ir8ald",
+					"dataType": 3,
+					"notes": "",
+					"id": "_px6mst181",
+					"parentId": "_lsfs9ru7u",
+					"attributeType": 1
+				}
+			],
+			"specifications": []
+		},
+		{
+			"Errors": [],
+			"parentId": "_jkivk549r",
+			"id": "_swr3v2nxv",
+			"name": "itemRoom",
+			"commands": [
+				{
+					"Errors": [],
+					"name": "labelFb",
+					"siblingId": "_sa5fysxyh",
+					"dataType": 3,
+					"notes": "",
+					"id": "_ihjitazfr",
+					"parentId": "_swr3v2nxv",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "visibleFb",
+					"siblingId": "_fmie96v13",
+					"dataType": 1,
+					"notes": "",
+					"id": "_t2mc7uns3",
+					"parentId": "_swr3v2nxv",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "favouriteFb",
+					"siblingId": "_dl1idrgec",
+					"dataType": 1,
+					"notes": "",
+					"id": "_mtol2w4o9",
+					"parentId": "_swr3v2nxv",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "roomGroupFb",
+					"siblingId": "_m6ndks8q4",
+					"dataType": 2,
+					"notes": "",
+					"id": "_59mqyyuc3",
+					"parentId": "_swr3v2nxv",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "powerOnFb",
+					"siblingId": "_8up4xr2wv",
+					"dataType": 1,
+					"notes": "",
+					"id": "_2ny964ukv",
+					"parentId": "_swr3v2nxv",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "volumeFb",
+					"siblingId": "_682l60u1y",
+					"dataType": 2,
+					"notes": "",
+					"id": "_kve33555j",
+					"parentId": "_swr3v2nxv",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_trgm4ez32",
+					"dataType": 1,
+					"notes": "",
+					"id": "_bcf6zeynx",
+					"parentId": "_swr3v2nxv",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_vu25aywf1",
+					"dataType": 1,
+					"notes": "",
+					"id": "_bqrcitgc9",
+					"parentId": "_swr3v2nxv",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "volumeMuteFb",
+					"siblingId": "_e9g8symeb",
+					"dataType": 1,
+					"notes": "",
+					"id": "_vxzt8t5ki",
+					"parentId": "_swr3v2nxv",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "volumeTypeFb",
+					"siblingId": "_4ct2pjzct",
+					"dataType": 2,
+					"notes": "",
+					"id": "_0ka3cgm1h",
+					"parentId": "_swr3v2nxv",
+					"attributeType": 0
+				}
+			],
+			"feedbacks": [
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_ihjitazfr",
+					"dataType": 3,
+					"notes": "",
+					"id": "_sa5fysxyh",
+					"parentId": "_swr3v2nxv",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_t2mc7uns3",
+					"dataType": 1,
+					"notes": "",
+					"id": "_fmie96v13",
+					"parentId": "_swr3v2nxv",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "favourite",
+					"siblingId": "_mtol2w4o9",
+					"dataType": 1,
+					"notes": "",
+					"id": "_dl1idrgec",
+					"parentId": "_swr3v2nxv",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_59mqyyuc3",
+					"dataType": 2,
+					"notes": "",
+					"id": "_m6ndks8q4",
+					"parentId": "_swr3v2nxv",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "power",
+					"siblingId": "_2ny964ukv",
+					"dataType": 1,
+					"notes": "",
+					"id": "_8up4xr2wv",
+					"parentId": "_swr3v2nxv",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "volume",
+					"siblingId": "_kve33555j",
+					"dataType": 2,
+					"notes": "",
+					"id": "_682l60u1y",
+					"parentId": "_swr3v2nxv",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "volumeRaise",
+					"siblingId": "_bcf6zeynx",
+					"dataType": 1,
+					"notes": "",
+					"id": "_trgm4ez32",
+					"parentId": "_swr3v2nxv",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "volumeLower",
+					"siblingId": "_bqrcitgc9",
+					"dataType": 1,
+					"notes": "",
+					"id": "_vu25aywf1",
+					"parentId": "_swr3v2nxv",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "volumeMute",
+					"siblingId": "_vxzt8t5ki",
+					"dataType": 1,
+					"notes": "",
+					"id": "_e9g8symeb",
+					"parentId": "_swr3v2nxv",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_0ka3cgm1h",
+					"dataType": 2,
+					"notes": "",
+					"id": "_4ct2pjzct",
+					"parentId": "_swr3v2nxv",
+					"attributeType": 1
+				}
+			],
+			"specifications": [
+				{
+					"Errors": [],
+					"parentId": "_jkivk549r",
+					"id": "_errf1t0cy",
+					"componentId": "_ik6rr7jil",
+					"instanceName": "lighting",
+					"numberOfInstances": 1
+				},
+				{
+					"Errors": [],
+					"parentId": "_jkivk549r",
+					"id": "_w0v6jdekf",
+					"componentId": "_gamh3wzky",
+					"instanceName": "shading",
+					"numberOfInstances": 1
+				},
+				{
+					"Errors": [],
+					"parentId": "_jkivk549r",
+					"id": "_xbxnnzuhw",
+					"componentId": "_dqod3qwbz",
+					"instanceName": "climate",
+					"numberOfInstances": 1
+				},
+				{
+					"Errors": [],
+					"parentId": "_jkivk549r",
+					"id": "_bejkdlna3",
+					"componentId": "_dlgzwwvpq",
+					"instanceName": "watch",
+					"numberOfInstances": 1
+				},
+				{
+					"Errors": [],
+					"parentId": "_jkivk549r",
+					"id": "_0r3i5j6ot",
+					"componentId": "_x1rmqvo7t",
+					"instanceName": "listen",
+					"numberOfInstances": 1
+				}
+			]
+		},
+		{
+			"Errors": [],
+			"parentId": "_jkivk549r",
+			"id": "_x1rmqvo7t",
+			"name": "roomListen",
+			"commands": [
+				{
+					"Errors": [],
+					"name": "visibleFb",
+					"siblingId": "_wuuua4qtm",
+					"dataType": 1,
+					"notes": "",
+					"id": "_c5ch1l6ok",
+					"parentId": "_x1rmqvo7t",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "toggleFb",
+					"siblingId": "_mqw0qw66d",
+					"dataType": 1,
+					"notes": "",
+					"id": "_j8656o2ir",
+					"parentId": "_x1rmqvo7t",
+					"attributeType": 0
+				}
+			],
+			"feedbacks": [
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_c5ch1l6ok",
+					"dataType": 1,
+					"notes": "",
+					"id": "_wuuua4qtm",
+					"parentId": "_x1rmqvo7t",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "toggle",
+					"siblingId": "_j8656o2ir",
+					"dataType": 1,
+					"notes": "",
+					"id": "_mqw0qw66d",
+					"parentId": "_x1rmqvo7t",
+					"attributeType": 1
+				}
+			],
+			"specifications": [
+				{
+					"Errors": [],
+					"parentId": "_jkivk549r",
+					"id": "_ak7r1qpi8",
+					"componentId": "_phq2hthii",
+					"instanceName": "source",
+					"numberOfInstances": 20
+				}
+			]
+		},
+		{
+			"Errors": [],
+			"parentId": "_jkivk549r",
+			"id": "_dlgzwwvpq",
+			"name": "roomWatch",
+			"commands": [
+				{
+					"Errors": [],
+					"name": "visibleFb",
+					"siblingId": "_5lkmpakes",
+					"dataType": 1,
+					"notes": "",
+					"id": "_23bca30s2",
+					"parentId": "_dlgzwwvpq",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "toggleFb",
+					"siblingId": "_4k9yf49pw",
+					"dataType": 1,
+					"notes": "",
+					"id": "_0wqdo9vpx",
+					"parentId": "_dlgzwwvpq",
+					"attributeType": 0
+				}
+			],
+			"feedbacks": [
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_23bca30s2",
+					"dataType": 1,
+					"notes": "",
+					"id": "_5lkmpakes",
+					"parentId": "_dlgzwwvpq",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "toggle",
+					"siblingId": "_0wqdo9vpx",
+					"dataType": 1,
+					"notes": "",
+					"id": "_4k9yf49pw",
+					"parentId": "_dlgzwwvpq",
+					"attributeType": 1
+				}
+			],
+			"specifications": [
+				{
+					"Errors": [],
+					"parentId": "_jkivk549r",
+					"id": "_h4irv0x5e",
+					"componentId": "_phq2hthii",
+					"instanceName": "source",
+					"numberOfInstances": 20
+				}
+			]
+		},
+		{
+			"Errors": [],
+			"parentId": "_jkivk549r",
+			"id": "_dqod3qwbz",
+			"name": "roomClimate",
+			"commands": [
+				{
+					"Errors": [],
+					"name": "visibleFb",
+					"siblingId": "_2tot4gfi9",
+					"dataType": 1,
+					"notes": "",
+					"id": "_4512r2id7",
+					"parentId": "_dqod3qwbz",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "toggleFb",
+					"siblingId": "_x1h7yruk2",
+					"dataType": 1,
+					"notes": "",
+					"id": "_n9hy6asoh",
+					"parentId": "_dqod3qwbz",
+					"attributeType": 0
+				}
+			],
+			"feedbacks": [
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_4512r2id7",
+					"dataType": 1,
+					"notes": "",
+					"id": "_2tot4gfi9",
+					"parentId": "_dqod3qwbz",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "toggle",
+					"siblingId": "_n9hy6asoh",
+					"dataType": 1,
+					"notes": "",
+					"id": "_x1h7yruk2",
+					"parentId": "_dqod3qwbz",
+					"attributeType": 1
+				}
+			],
+			"specifications": [
+				{
+					"Errors": [],
+					"parentId": "_jkivk549r",
+					"id": "_6iaoa90tk",
+					"componentId": "_cklvgymkh",
+					"instanceName": "zone",
+					"numberOfInstances": 5
+				}
+			]
+		},
+		{
+			"Errors": [],
+			"parentId": "_jkivk549r",
+			"id": "_gamh3wzky",
+			"name": "roomShading",
+			"commands": [
+				{
+					"Errors": [],
+					"name": "visibleFb",
+					"siblingId": "_p3ttce40n",
+					"dataType": 1,
+					"notes": "",
+					"id": "_7t73983ag",
+					"parentId": "_gamh3wzky",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "toggleFb",
+					"siblingId": "_yowqbpgsa",
+					"dataType": 1,
+					"notes": "",
+					"id": "_rrjf8e6e4",
+					"parentId": "_gamh3wzky",
+					"attributeType": 0
+				}
+			],
+			"feedbacks": [
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_7t73983ag",
+					"dataType": 1,
+					"notes": "",
+					"id": "_p3ttce40n",
+					"parentId": "_gamh3wzky",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "toggle",
+					"siblingId": "_rrjf8e6e4",
+					"dataType": 1,
+					"notes": "",
+					"id": "_yowqbpgsa",
+					"parentId": "_gamh3wzky",
+					"attributeType": 1
+				}
+			],
+			"specifications": [
+				{
+					"Errors": [],
+					"parentId": "_jkivk549r",
+					"id": "_wmplue8e0",
+					"componentId": "_phq2hthii",
+					"instanceName": "scene",
+					"numberOfInstances": 20
+				}
+			]
+		},
+		{
+			"Errors": [],
+			"parentId": "_jkivk549r",
+			"id": "_ik6rr7jil",
+			"name": "roomLighting",
+			"commands": [
+				{
+					"Errors": [],
+					"name": "visibleFb",
+					"siblingId": "_28dmhe8ub",
+					"dataType": 1,
+					"notes": "",
+					"id": "_h2scj6qm7",
+					"parentId": "_ik6rr7jil",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "toggleFb",
+					"siblingId": "_zr5jw9f5y",
+					"dataType": 1,
+					"notes": "",
+					"id": "_5m3dxy2qm",
+					"parentId": "_ik6rr7jil",
+					"attributeType": 0
+				}
+			],
+			"feedbacks": [
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_h2scj6qm7",
+					"dataType": 1,
+					"notes": "",
+					"id": "_28dmhe8ub",
+					"parentId": "_ik6rr7jil",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "toggle",
+					"siblingId": "_5m3dxy2qm",
+					"dataType": 1,
+					"notes": "",
+					"id": "_zr5jw9f5y",
+					"parentId": "_ik6rr7jil",
+					"attributeType": 1
+				}
+			],
+			"specifications": [
+				{
+					"Errors": [],
+					"parentId": "_jkivk549r",
+					"id": "_huqzh9iw4",
+					"componentId": "_phq2hthii",
+					"instanceName": "scene",
+					"numberOfInstances": 20
+				},
+				{
+					"Errors": [],
+					"parentId": "_jkivk549r",
+					"id": "_sn2anwrko",
+					"componentId": "_7y9dj8hjq",
+					"instanceName": "circuit",
+					"numberOfInstances": 30
+				}
+			]
+		},
+		{
+			"Errors": [],
+			"parentId": "_jkivk549r",
+			"id": "_7tqfzfo8l",
+			"name": "ui",
+			"commands": [
+				{
+					"Errors": [],
+					"name": "labelFb",
+					"siblingId": "_mofjd1p2f",
+					"dataType": 3,
+					"notes": "",
+					"id": "_hpsnfazl3",
+					"parentId": "_7tqfzfo8l",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "defaultRoomFb",
+					"siblingId": "_unpf1qj0v",
+					"dataType": 2,
+					"notes": "",
+					"id": "_ane1iu97m",
+					"parentId": "_7tqfzfo8l",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "defaultRoomGroupFb",
+					"siblingId": "_ylhsa4iyg",
+					"dataType": 2,
+					"notes": "",
+					"id": "_v817u17yl",
+					"parentId": "_7tqfzfo8l",
+					"attributeType": 0
+				}
+			],
+			"feedbacks": [
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_ane1iu97m",
+					"dataType": 2,
+					"notes": "",
+					"id": "_unpf1qj0v",
+					"parentId": "_7tqfzfo8l",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_hpsnfazl3",
+					"dataType": 3,
+					"notes": "",
+					"id": "_mofjd1p2f",
+					"parentId": "_7tqfzfo8l",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_v817u17yl",
+					"dataType": 2,
+					"notes": "",
+					"id": "_ylhsa4iyg",
+					"parentId": "_7tqfzfo8l",
+					"attributeType": 1
+				}
+			],
+			"specifications": []
+		}
+	],
+	"allComponentsForAllContracts": []
+}

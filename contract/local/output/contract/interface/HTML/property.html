@@ -1,0 +1,34 @@
+<template id="contract.property.property">
+	<div id="property.property">
+	 	<!--
+ 	 	 State: Name of the house 
+ 	 	-->
+ 		<span data-ch5-textcontent="property.labelFb">Label</span>
+	 	<div id="property.propertySecurity.security">
+	 		<ch5-button receiveStateSelected="property.security.visibleFb" disabled>
+        	</ch5-button>
+	 		<ch5-button receiveStateSelected="property.security.showCameras" disabled>
+        	</ch5-button>
+	 		<ch5-button receiveStateSelected="property.security.showTexecom" disabled>
+        	</ch5-button>
+	 	<ch5-list id="property.propertySecurity.itemCamera.cameras" indexId="idx3" size="30" orientation="horizontal">
+ 	 	 <template>
+ 	 	 <div class="horizontal-list-item">
+	 	<span data-ch5-textcontent="property.security.cameras[{{idx3}}].labelFb">Label</span>
+	 	<!--
+ 	 	 State: Must be HTTP 
+ 	 	-->
+ 		<span data-ch5-textcontent="property.security.cameras[{{idx3}}].urlFb">Label</span>
+	 	<span data-ch5-textcontent="property.security.cameras[{{idx3}}].iconFb">Label</span>
+	 	<span data-ch5-textcontent="property.security.cameras[{{idx3}}].textFb">Label</span>
+	 	 </div> 
+ 	 	</template>
+ 	</ch5-list>
+
+	 </div>
+	 	<div id="property.propertyClimate.climate">
+	 		<ch5-button receiveStateSelected="property.climate.visibleFb" disabled>
+        	</ch5-button>
+	 </div>
+	 </div>
+</template>

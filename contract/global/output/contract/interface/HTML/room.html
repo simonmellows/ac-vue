@@ -1,0 +1,217 @@
+<template id="contract.itemRoom.room">
+	<ch5-list id="itemRoom.room" indexId="idx1" size="5" orientation="horizontal">
+ 	 	 <template>
+ 	 	 <div class="horizontal-list-item">
+	 	<span data-ch5-textcontent="room[{{idx1}}].labelFb">Label</span>
+	 		<ch5-button receiveStateSelected="room[{{idx1}}].visibleFb" disabled>
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="room[{{idx1}}].favourite" receiveStateSelected="room[{{idx1}}].favouriteFb">
+        	</ch5-button>
+	 		<ch5-slider receiveStateValue="room[{{idx1}}].roomGroupFb" nohandle>
+        	</ch5-slider>
+	 		<ch5-button sendEventOnClick="room[{{idx1}}].power" receiveStateSelected="room[{{idx1}}].powerOnFb">
+        	</ch5-button>
+	 		<ch5-slider sendEventOnChange="room[{{idx1}}].volume" receiveStateValue="room[{{idx1}}].volumeFb">
+        	</ch5-slider>
+	 		<ch5-button sendEventOnClick="room[{{idx1}}].volumeRaise">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="room[{{idx1}}].volumeLower">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="room[{{idx1}}].volumeMute" receiveStateSelected="room[{{idx1}}].volumeMuteFb">
+        	</ch5-button>
+	 		<ch5-slider receiveStateValue="room[{{idx1}}].volumeTypeFb" nohandle>
+        	</ch5-slider>
+	 	<div id="itemRoom.roomLighting.lighting">
+	 		<ch5-button receiveStateSelected="room[{{idx1}}].lighting.visibleFb" disabled>
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="room[{{idx1}}].lighting.toggle" receiveStateSelected="room[{{idx1}}].lighting.toggleFb">
+        	</ch5-button>
+	 	<ch5-list id="itemRoom.roomLighting.itemButton.scene" indexId="idx3" size="20" orientation="horizontal">
+ 	 	 <template>
+ 	 	 <div class="horizontal-list-item">
+	 	<span data-ch5-textcontent="room[{{idx1}}].lighting.scene[{{idx3}}].labelFb">Label</span>
+	 	<span data-ch5-textcontent="room[{{idx1}}].lighting.scene[{{idx3}}].iconFb">Label</span>
+	 		<ch5-button receiveStateSelected="room[{{idx1}}].lighting.scene[{{idx3}}].visibleFb" disabled>
+        	</ch5-button>
+	 		<ch5-button receiveStateSelected="room[{{idx1}}].lighting.scene[{{idx3}}].enableFb" disabled>
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="room[{{idx1}}].lighting.scene[{{idx3}}].press" receiveStateSelected="room[{{idx1}}].lighting.scene[{{idx3}}].pressFb">
+        	</ch5-button>
+	 	 </div> 
+ 	 	</template>
+ 	</ch5-list>
+
+	 	<ch5-list id="itemRoom.roomLighting.itemLightingCircuit.circuit" indexId="idx3" size="30" orientation="horizontal">
+ 	 	 <template>
+ 	 	 <div class="horizontal-list-item">
+	 	<span data-ch5-textcontent="room[{{idx1}}].lighting.circuit[{{idx3}}].labelFb">Label</span>
+	 		<ch5-button receiveStateSelected="room[{{idx1}}].lighting.circuit[{{idx3}}].visibleFb" disabled>
+        	</ch5-button>
+	 		<ch5-slider receiveStateValue="room[{{idx1}}].lighting.circuit[{{idx3}}].typeFb" nohandle>
+        	</ch5-slider>
+	 		<ch5-button sendEventOnClick="room[{{idx1}}].lighting.circuit[{{idx3}}].press" receiveStateSelected="room[{{idx1}}].lighting.circuit[{{idx3}}].pressFb">
+        	</ch5-button>
+	 		<ch5-slider sendEventOnChange="room[{{idx1}}].lighting.circuit[{{idx3}}].level" receiveStateValue="room[{{idx1}}].lighting.circuit[{{idx3}}].levelFb">
+        	</ch5-slider>
+	 		<ch5-button sendEventOnClick="room[{{idx1}}].lighting.circuit[{{idx3}}].switchOn" receiveStateSelected="room[{{idx1}}].lighting.circuit[{{idx3}}].switchOnFb">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="room[{{idx1}}].lighting.circuit[{{idx3}}].switchOff" receiveStateSelected="room[{{idx1}}].lighting.circuit[{{idx3}}].switchOffFb">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="room[{{idx1}}].lighting.circuit[{{idx3}}].toggle">
+        	</ch5-button>
+	 		<ch5-slider sendEventOnChange="room[{{idx1}}].lighting.circuit[{{idx3}}].red" receiveStateValue="room[{{idx1}}].lighting.circuit[{{idx3}}].redFb">
+        	</ch5-slider>
+	 		<ch5-slider sendEventOnChange="room[{{idx1}}].lighting.circuit[{{idx3}}].green" receiveStateValue="room[{{idx1}}].lighting.circuit[{{idx3}}].greenFb">
+        	</ch5-slider>
+	 		<ch5-slider sendEventOnChange="room[{{idx1}}].lighting.circuit[{{idx3}}].blue" receiveStateValue="room[{{idx1}}].lighting.circuit[{{idx3}}].blueFb">
+        	</ch5-slider>
+	 		<ch5-slider sendEventOnChange="room[{{idx1}}].lighting.circuit[{{idx3}}].white" receiveStateValue="room[{{idx1}}].lighting.circuit[{{idx3}}].whiteFb">
+        	</ch5-slider>
+	 		<ch5-slider sendEventOnChange="room[{{idx1}}].lighting.circuit[{{idx3}}].warmWhite" receiveStateValue="room[{{idx1}}].lighting.circuit[{{idx3}}].warmWhiteFb">
+        	</ch5-slider>
+	 	 </div> 
+ 	 	</template>
+ 	</ch5-list>
+
+	 </div>
+	 	<div id="itemRoom.roomShading.shading">
+	 		<ch5-button receiveStateSelected="room[{{idx1}}].shading.visibleFb" disabled>
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="room[{{idx1}}].shading.toggle" receiveStateSelected="room[{{idx1}}].shading.toggleFb">
+        	</ch5-button>
+	 	<ch5-list id="itemRoom.roomShading.itemButton.scene" indexId="idx3" size="20" orientation="horizontal">
+ 	 	 <template>
+ 	 	 <div class="horizontal-list-item">
+	 	<span data-ch5-textcontent="room[{{idx1}}].shading.scene[{{idx3}}].labelFb">Label</span>
+	 	<span data-ch5-textcontent="room[{{idx1}}].shading.scene[{{idx3}}].iconFb">Label</span>
+	 		<ch5-button receiveStateSelected="room[{{idx1}}].shading.scene[{{idx3}}].visibleFb" disabled>
+        	</ch5-button>
+	 		<ch5-button receiveStateSelected="room[{{idx1}}].shading.scene[{{idx3}}].enableFb" disabled>
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="room[{{idx1}}].shading.scene[{{idx3}}].press" receiveStateSelected="room[{{idx1}}].shading.scene[{{idx3}}].pressFb">
+        	</ch5-button>
+	 	 </div> 
+ 	 	</template>
+ 	</ch5-list>
+
+	 </div>
+	 	<div id="itemRoom.roomClimate.climate">
+	 		<ch5-button receiveStateSelected="room[{{idx1}}].climate.visibleFb" disabled>
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="room[{{idx1}}].climate.toggle" receiveStateSelected="room[{{idx1}}].climate.toggleFb">
+        	</ch5-button>
+	 	<ch5-list id="itemRoom.roomClimate.itemClimateZone.zone" indexId="idx3" size="5" orientation="horizontal">
+ 	 	 <template>
+ 	 	 <div class="horizontal-list-item">
+	 	<span data-ch5-textcontent="room[{{idx1}}].climate.zone[{{idx3}}].labelFb">Label</span>
+	 		<ch5-button receiveStateSelected="room[{{idx1}}].climate.zone[{{idx3}}].visibleFb" disabled>
+        	</ch5-button>
+	 		<ch5-button receiveStateSelected="room[{{idx1}}].climate.zone[{{idx3}}].hasEnableFb" disabled>
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="room[{{idx1}}].climate.zone[{{idx3}}].enable" receiveStateSelected="room[{{idx1}}].climate.zone[{{idx3}}].enableFb">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="room[{{idx1}}].climate.zone[{{idx3}}].setpointRaise">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="room[{{idx1}}].climate.zone[{{idx3}}].setpointLower">
+        	</ch5-button>
+	 		<ch5-button receiveStateSelected="room[{{idx1}}].climate.zone[{{idx3}}].hasScheduleFb" disabled>
+        	</ch5-button>
+	 	<span data-ch5-textcontent="room[{{idx1}}].climate.zone[{{idx3}}].setpointFb">Label</span>
+	 	<span data-ch5-textcontent="room[{{idx1}}].climate.zone[{{idx3}}].temperatureFb">Label</span>
+	 	<ch5-list id="itemRoom.roomClimate.itemClimateZone.itemButton.mode" indexId="idx4" size="5" orientation="horizontal">
+ 	 	 <template>
+ 	 	 <div class="horizontal-list-item">
+	 	<span data-ch5-textcontent="room[{{idx1}}].climate.zone[{{idx3}}].mode[{{idx4}}].labelFb">Label</span>
+	 	<span data-ch5-textcontent="room[{{idx1}}].climate.zone[{{idx3}}].mode[{{idx4}}].iconFb">Label</span>
+	 		<ch5-button receiveStateSelected="room[{{idx1}}].climate.zone[{{idx3}}].mode[{{idx4}}].visibleFb" disabled>
+        	</ch5-button>
+	 		<ch5-button receiveStateSelected="room[{{idx1}}].climate.zone[{{idx3}}].mode[{{idx4}}].enableFb" disabled>
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="room[{{idx1}}].climate.zone[{{idx3}}].mode[{{idx4}}].press" receiveStateSelected="room[{{idx1}}].climate.zone[{{idx3}}].mode[{{idx4}}].pressFb">
+        	</ch5-button>
+	 	 </div> 
+ 	 	</template>
+ 	</ch5-list>
+
+	 	<ch5-list id="itemRoom.roomClimate.itemClimateZone.itemButton.fanSpeed" indexId="idx4" size="5" orientation="horizontal">
+ 	 	 <template>
+ 	 	 <div class="horizontal-list-item">
+	 	<span data-ch5-textcontent="room[{{idx1}}].climate.zone[{{idx3}}].fanSpeed[{{idx4}}].labelFb">Label</span>
+	 	<span data-ch5-textcontent="room[{{idx1}}].climate.zone[{{idx3}}].fanSpeed[{{idx4}}].iconFb">Label</span>
+	 		<ch5-button receiveStateSelected="room[{{idx1}}].climate.zone[{{idx3}}].fanSpeed[{{idx4}}].visibleFb" disabled>
+        	</ch5-button>
+	 		<ch5-button receiveStateSelected="room[{{idx1}}].climate.zone[{{idx3}}].fanSpeed[{{idx4}}].enableFb" disabled>
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="room[{{idx1}}].climate.zone[{{idx3}}].fanSpeed[{{idx4}}].press" receiveStateSelected="room[{{idx1}}].climate.zone[{{idx3}}].fanSpeed[{{idx4}}].pressFb">
+        	</ch5-button>
+	 	 </div> 
+ 	 	</template>
+ 	</ch5-list>
+
+	 	<ch5-list id="itemRoom.roomClimate.itemClimateZone.itemButton.toggle" indexId="idx4" size="3" orientation="horizontal">
+ 	 	 <template>
+ 	 	 <div class="horizontal-list-item">
+	 	<span data-ch5-textcontent="room[{{idx1}}].climate.zone[{{idx3}}].toggle[{{idx4}}].labelFb">Label</span>
+	 	<span data-ch5-textcontent="room[{{idx1}}].climate.zone[{{idx3}}].toggle[{{idx4}}].iconFb">Label</span>
+	 		<ch5-button receiveStateSelected="room[{{idx1}}].climate.zone[{{idx3}}].toggle[{{idx4}}].visibleFb" disabled>
+        	</ch5-button>
+	 		<ch5-button receiveStateSelected="room[{{idx1}}].climate.zone[{{idx3}}].toggle[{{idx4}}].enableFb" disabled>
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="room[{{idx1}}].climate.zone[{{idx3}}].toggle[{{idx4}}].press" receiveStateSelected="room[{{idx1}}].climate.zone[{{idx3}}].toggle[{{idx4}}].pressFb">
+        	</ch5-button>
+	 	 </div> 
+ 	 	</template>
+ 	</ch5-list>
+
+	 	 </div> 
+ 	 	</template>
+ 	</ch5-list>
+
+	 </div>
+	 	<div id="itemRoom.roomWatch.watch">
+	 		<ch5-button receiveStateSelected="room[{{idx1}}].watch.visibleFb" disabled>
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="room[{{idx1}}].watch.toggle" receiveStateSelected="room[{{idx1}}].watch.toggleFb">
+        	</ch5-button>
+	 	<ch5-list id="itemRoom.roomWatch.itemButton.source" indexId="idx3" size="20" orientation="horizontal">
+ 	 	 <template>
+ 	 	 <div class="horizontal-list-item">
+	 	<span data-ch5-textcontent="room[{{idx1}}].watch.source[{{idx3}}].labelFb">Label</span>
+	 	<span data-ch5-textcontent="room[{{idx1}}].watch.source[{{idx3}}].iconFb">Label</span>
+	 		<ch5-button receiveStateSelected="room[{{idx1}}].watch.source[{{idx3}}].visibleFb" disabled>
+        	</ch5-button>
+	 		<ch5-button receiveStateSelected="room[{{idx1}}].watch.source[{{idx3}}].enableFb" disabled>
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="room[{{idx1}}].watch.source[{{idx3}}].press" receiveStateSelected="room[{{idx1}}].watch.source[{{idx3}}].pressFb">
+        	</ch5-button>
+	 	 </div> 
+ 	 	</template>
+ 	</ch5-list>
+
+	 </div>
+	 	<div id="itemRoom.roomListen.listen">
+	 		<ch5-button receiveStateSelected="room[{{idx1}}].listen.visibleFb" disabled>
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="room[{{idx1}}].listen.toggle" receiveStateSelected="room[{{idx1}}].listen.toggleFb">
+        	</ch5-button>
+	 	<ch5-list id="itemRoom.roomListen.itemButton.source" indexId="idx3" size="20" orientation="horizontal">
+ 	 	 <template>
+ 	 	 <div class="horizontal-list-item">
+	 	<span data-ch5-textcontent="room[{{idx1}}].listen.source[{{idx3}}].labelFb">Label</span>
+	 	<span data-ch5-textcontent="room[{{idx1}}].listen.source[{{idx3}}].iconFb">Label</span>
+	 		<ch5-button receiveStateSelected="room[{{idx1}}].listen.source[{{idx3}}].visibleFb" disabled>
+        	</ch5-button>
+	 		<ch5-button receiveStateSelected="room[{{idx1}}].listen.source[{{idx3}}].enableFb" disabled>
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="room[{{idx1}}].listen.source[{{idx3}}].press" receiveStateSelected="room[{{idx1}}].listen.source[{{idx3}}].pressFb">
+        	</ch5-button>
+	 	 </div> 
+ 	 	</template>
+ 	</ch5-list>
+
+	 </div>
+	 	 </div> 
+ 	 	</template>
+ 	</ch5-list>
+
+</template>

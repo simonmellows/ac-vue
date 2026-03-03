@@ -1,0 +1,4292 @@
+{
+	"name": "contract",
+	"timestamp": "2025-10-03 15:27:27.617",
+	"version": "1.0.0.0",
+	"schema_version": 1,
+	"extra_value": "",
+	"signals": {
+		"states": {
+			"boolean": {
+				"1": {
+					"1": "ui.hideFloorplanView",
+					"2": "ui.hideRoomGroupAll",
+					"3": "ui.hideRoomGroupFavourites",
+					"4": "ui.readyFb"
+				},
+				"2": {
+					"1": "rooms[0].visibleFb",
+					"2": "rooms[0].favouriteFb",
+					"3": "rooms[0].pressFb"
+				},
+				"3": {
+					"1": "rooms[1].visibleFb",
+					"2": "rooms[1].favouriteFb",
+					"3": "rooms[1].pressFb"
+				},
+				"4": {
+					"1": "rooms[2].visibleFb",
+					"2": "rooms[2].favouriteFb",
+					"3": "rooms[2].pressFb"
+				},
+				"5": {
+					"1": "rooms[3].visibleFb",
+					"2": "rooms[3].favouriteFb",
+					"3": "rooms[3].pressFb"
+				},
+				"6": {
+					"1": "rooms[4].visibleFb",
+					"2": "rooms[4].favouriteFb",
+					"3": "rooms[4].pressFb"
+				},
+				"7": {
+					"1": "roomGroups[0].visibleFb"
+				},
+				"8": {
+					"1": "roomGroups[1].visibleFb"
+				},
+				"9": {
+					"1": "roomGroups[2].visibleFb"
+				},
+				"10": {
+					"1": "roomGroups[3].visibleFb"
+				},
+				"11": {
+					"1": "roomGroups[4].visibleFb"
+				},
+				"12": {
+					"1": "currentRoom.powerOnFb",
+					"4": "currentRoom.volumeMuteFb"
+				},
+				"13": {
+					"1": "currentRoom.lighting.visibleFb",
+					"2": "currentRoom.lighting.toggleFb"
+				},
+				"14": {
+					"1": "currentRoom.shading.visibleFb",
+					"2": "currentRoom.shading.toggleFb"
+				},
+				"15": {
+					"1": "currentRoom.climate.visibleFb",
+					"2": "currentRoom.climate.toggleFb"
+				},
+				"16": {
+					"1": "currentRoom.watch.visibleFb",
+					"2": "currentRoom.watch.toggleFb"
+				},
+				"17": {
+					"1": "currentRoom.listen.visibleFb",
+					"2": "currentRoom.listen.toggleFb"
+				},
+				"18": {
+					"1": "currentRoom.lighting.scenes[0].visibleFb",
+					"2": "currentRoom.lighting.scenes[0].enableFb",
+					"3": "currentRoom.lighting.scenes[0].pressFb"
+				},
+				"19": {
+					"1": "currentRoom.lighting.scenes[1].visibleFb",
+					"2": "currentRoom.lighting.scenes[1].enableFb",
+					"3": "currentRoom.lighting.scenes[1].pressFb"
+				},
+				"20": {
+					"1": "currentRoom.lighting.scenes[2].visibleFb",
+					"2": "currentRoom.lighting.scenes[2].enableFb",
+					"3": "currentRoom.lighting.scenes[2].pressFb"
+				},
+				"21": {
+					"1": "currentRoom.lighting.scenes[3].visibleFb",
+					"2": "currentRoom.lighting.scenes[3].enableFb",
+					"3": "currentRoom.lighting.scenes[3].pressFb"
+				},
+				"22": {
+					"1": "currentRoom.lighting.scenes[4].visibleFb",
+					"2": "currentRoom.lighting.scenes[4].enableFb",
+					"3": "currentRoom.lighting.scenes[4].pressFb"
+				},
+				"23": {
+					"1": "currentRoom.lighting.scenes[5].visibleFb",
+					"2": "currentRoom.lighting.scenes[5].enableFb",
+					"3": "currentRoom.lighting.scenes[5].pressFb"
+				},
+				"24": {
+					"1": "currentRoom.lighting.scenes[6].visibleFb",
+					"2": "currentRoom.lighting.scenes[6].enableFb",
+					"3": "currentRoom.lighting.scenes[6].pressFb"
+				},
+				"25": {
+					"1": "currentRoom.lighting.scenes[7].visibleFb",
+					"2": "currentRoom.lighting.scenes[7].enableFb",
+					"3": "currentRoom.lighting.scenes[7].pressFb"
+				},
+				"26": {
+					"1": "currentRoom.lighting.scenes[8].visibleFb",
+					"2": "currentRoom.lighting.scenes[8].enableFb",
+					"3": "currentRoom.lighting.scenes[8].pressFb"
+				},
+				"27": {
+					"1": "currentRoom.lighting.scenes[9].visibleFb",
+					"2": "currentRoom.lighting.scenes[9].enableFb",
+					"3": "currentRoom.lighting.scenes[9].pressFb"
+				},
+				"28": {
+					"1": "currentRoom.lighting.scenes[10].visibleFb",
+					"2": "currentRoom.lighting.scenes[10].enableFb",
+					"3": "currentRoom.lighting.scenes[10].pressFb"
+				},
+				"29": {
+					"1": "currentRoom.lighting.scenes[11].visibleFb",
+					"2": "currentRoom.lighting.scenes[11].enableFb",
+					"3": "currentRoom.lighting.scenes[11].pressFb"
+				},
+				"30": {
+					"1": "currentRoom.lighting.scenes[12].visibleFb",
+					"2": "currentRoom.lighting.scenes[12].enableFb",
+					"3": "currentRoom.lighting.scenes[12].pressFb"
+				},
+				"31": {
+					"1": "currentRoom.lighting.scenes[13].visibleFb",
+					"2": "currentRoom.lighting.scenes[13].enableFb",
+					"3": "currentRoom.lighting.scenes[13].pressFb"
+				},
+				"32": {
+					"1": "currentRoom.lighting.scenes[14].visibleFb",
+					"2": "currentRoom.lighting.scenes[14].enableFb",
+					"3": "currentRoom.lighting.scenes[14].pressFb"
+				},
+				"33": {
+					"1": "currentRoom.lighting.scenes[15].visibleFb",
+					"2": "currentRoom.lighting.scenes[15].enableFb",
+					"3": "currentRoom.lighting.scenes[15].pressFb"
+				},
+				"34": {
+					"1": "currentRoom.lighting.scenes[16].visibleFb",
+					"2": "currentRoom.lighting.scenes[16].enableFb",
+					"3": "currentRoom.lighting.scenes[16].pressFb"
+				},
+				"35": {
+					"1": "currentRoom.lighting.scenes[17].visibleFb",
+					"2": "currentRoom.lighting.scenes[17].enableFb",
+					"3": "currentRoom.lighting.scenes[17].pressFb"
+				},
+				"36": {
+					"1": "currentRoom.lighting.scenes[18].visibleFb",
+					"2": "currentRoom.lighting.scenes[18].enableFb",
+					"3": "currentRoom.lighting.scenes[18].pressFb"
+				},
+				"37": {
+					"1": "currentRoom.lighting.scenes[19].visibleFb",
+					"2": "currentRoom.lighting.scenes[19].enableFb",
+					"3": "currentRoom.lighting.scenes[19].pressFb"
+				},
+				"38": {
+					"1": "currentRoom.lighting.circuits[0].visibleFb",
+					"3": "currentRoom.lighting.circuits[0].switchOnFb",
+					"4": "currentRoom.lighting.circuits[0].switchOffFb"
+				},
+				"39": {
+					"1": "currentRoom.lighting.circuits[1].visibleFb",
+					"3": "currentRoom.lighting.circuits[1].switchOnFb",
+					"4": "currentRoom.lighting.circuits[1].switchOffFb"
+				},
+				"40": {
+					"1": "currentRoom.lighting.circuits[2].visibleFb",
+					"3": "currentRoom.lighting.circuits[2].switchOnFb",
+					"4": "currentRoom.lighting.circuits[2].switchOffFb"
+				},
+				"41": {
+					"1": "currentRoom.lighting.circuits[3].visibleFb",
+					"3": "currentRoom.lighting.circuits[3].switchOnFb",
+					"4": "currentRoom.lighting.circuits[3].switchOffFb"
+				},
+				"42": {
+					"1": "currentRoom.lighting.circuits[4].visibleFb",
+					"3": "currentRoom.lighting.circuits[4].switchOnFb",
+					"4": "currentRoom.lighting.circuits[4].switchOffFb"
+				},
+				"43": {
+					"1": "currentRoom.lighting.circuits[5].visibleFb",
+					"3": "currentRoom.lighting.circuits[5].switchOnFb",
+					"4": "currentRoom.lighting.circuits[5].switchOffFb"
+				},
+				"44": {
+					"1": "currentRoom.lighting.circuits[6].visibleFb",
+					"3": "currentRoom.lighting.circuits[6].switchOnFb",
+					"4": "currentRoom.lighting.circuits[6].switchOffFb"
+				},
+				"45": {
+					"1": "currentRoom.lighting.circuits[7].visibleFb",
+					"3": "currentRoom.lighting.circuits[7].switchOnFb",
+					"4": "currentRoom.lighting.circuits[7].switchOffFb"
+				},
+				"46": {
+					"1": "currentRoom.lighting.circuits[8].visibleFb",
+					"3": "currentRoom.lighting.circuits[8].switchOnFb",
+					"4": "currentRoom.lighting.circuits[8].switchOffFb"
+				},
+				"47": {
+					"1": "currentRoom.lighting.circuits[9].visibleFb",
+					"3": "currentRoom.lighting.circuits[9].switchOnFb",
+					"4": "currentRoom.lighting.circuits[9].switchOffFb"
+				},
+				"48": {
+					"1": "currentRoom.lighting.circuits[10].visibleFb",
+					"3": "currentRoom.lighting.circuits[10].switchOnFb",
+					"4": "currentRoom.lighting.circuits[10].switchOffFb"
+				},
+				"49": {
+					"1": "currentRoom.lighting.circuits[11].visibleFb",
+					"3": "currentRoom.lighting.circuits[11].switchOnFb",
+					"4": "currentRoom.lighting.circuits[11].switchOffFb"
+				},
+				"50": {
+					"1": "currentRoom.lighting.circuits[12].visibleFb",
+					"3": "currentRoom.lighting.circuits[12].switchOnFb",
+					"4": "currentRoom.lighting.circuits[12].switchOffFb"
+				},
+				"51": {
+					"1": "currentRoom.lighting.circuits[13].visibleFb",
+					"3": "currentRoom.lighting.circuits[13].switchOnFb",
+					"4": "currentRoom.lighting.circuits[13].switchOffFb"
+				},
+				"52": {
+					"1": "currentRoom.lighting.circuits[14].visibleFb",
+					"3": "currentRoom.lighting.circuits[14].switchOnFb",
+					"4": "currentRoom.lighting.circuits[14].switchOffFb"
+				},
+				"53": {
+					"1": "currentRoom.lighting.circuits[15].visibleFb",
+					"3": "currentRoom.lighting.circuits[15].switchOnFb",
+					"4": "currentRoom.lighting.circuits[15].switchOffFb"
+				},
+				"54": {
+					"1": "currentRoom.lighting.circuits[16].visibleFb",
+					"3": "currentRoom.lighting.circuits[16].switchOnFb",
+					"4": "currentRoom.lighting.circuits[16].switchOffFb"
+				},
+				"55": {
+					"1": "currentRoom.lighting.circuits[17].visibleFb",
+					"3": "currentRoom.lighting.circuits[17].switchOnFb",
+					"4": "currentRoom.lighting.circuits[17].switchOffFb"
+				},
+				"56": {
+					"1": "currentRoom.lighting.circuits[18].visibleFb",
+					"3": "currentRoom.lighting.circuits[18].switchOnFb",
+					"4": "currentRoom.lighting.circuits[18].switchOffFb"
+				},
+				"57": {
+					"1": "currentRoom.lighting.circuits[19].visibleFb",
+					"3": "currentRoom.lighting.circuits[19].switchOnFb",
+					"4": "currentRoom.lighting.circuits[19].switchOffFb"
+				},
+				"58": {
+					"1": "currentRoom.lighting.circuits[20].visibleFb",
+					"3": "currentRoom.lighting.circuits[20].switchOnFb",
+					"4": "currentRoom.lighting.circuits[20].switchOffFb"
+				},
+				"59": {
+					"1": "currentRoom.lighting.circuits[21].visibleFb",
+					"3": "currentRoom.lighting.circuits[21].switchOnFb",
+					"4": "currentRoom.lighting.circuits[21].switchOffFb"
+				},
+				"60": {
+					"1": "currentRoom.lighting.circuits[22].visibleFb",
+					"3": "currentRoom.lighting.circuits[22].switchOnFb",
+					"4": "currentRoom.lighting.circuits[22].switchOffFb"
+				},
+				"61": {
+					"1": "currentRoom.lighting.circuits[23].visibleFb",
+					"3": "currentRoom.lighting.circuits[23].switchOnFb",
+					"4": "currentRoom.lighting.circuits[23].switchOffFb"
+				},
+				"62": {
+					"1": "currentRoom.lighting.circuits[24].visibleFb",
+					"3": "currentRoom.lighting.circuits[24].switchOnFb",
+					"4": "currentRoom.lighting.circuits[24].switchOffFb"
+				},
+				"63": {
+					"1": "currentRoom.lighting.circuits[25].visibleFb",
+					"3": "currentRoom.lighting.circuits[25].switchOnFb",
+					"4": "currentRoom.lighting.circuits[25].switchOffFb"
+				},
+				"64": {
+					"1": "currentRoom.lighting.circuits[26].visibleFb",
+					"3": "currentRoom.lighting.circuits[26].switchOnFb",
+					"4": "currentRoom.lighting.circuits[26].switchOffFb"
+				},
+				"65": {
+					"1": "currentRoom.lighting.circuits[27].visibleFb",
+					"3": "currentRoom.lighting.circuits[27].switchOnFb",
+					"4": "currentRoom.lighting.circuits[27].switchOffFb"
+				},
+				"66": {
+					"1": "currentRoom.lighting.circuits[28].visibleFb",
+					"3": "currentRoom.lighting.circuits[28].switchOnFb",
+					"4": "currentRoom.lighting.circuits[28].switchOffFb"
+				},
+				"67": {
+					"1": "currentRoom.lighting.circuits[29].visibleFb",
+					"3": "currentRoom.lighting.circuits[29].switchOnFb",
+					"4": "currentRoom.lighting.circuits[29].switchOffFb"
+				},
+				"68": {
+					"1": "currentRoom.shading.scenes[0].visibleFb",
+					"2": "currentRoom.shading.scenes[0].enableFb",
+					"3": "currentRoom.shading.scenes[0].pressFb"
+				},
+				"69": {
+					"1": "currentRoom.shading.scenes[1].visibleFb",
+					"2": "currentRoom.shading.scenes[1].enableFb",
+					"3": "currentRoom.shading.scenes[1].pressFb"
+				},
+				"70": {
+					"1": "currentRoom.shading.scenes[2].visibleFb",
+					"2": "currentRoom.shading.scenes[2].enableFb",
+					"3": "currentRoom.shading.scenes[2].pressFb"
+				},
+				"71": {
+					"1": "currentRoom.shading.scenes[3].visibleFb",
+					"2": "currentRoom.shading.scenes[3].enableFb",
+					"3": "currentRoom.shading.scenes[3].pressFb"
+				},
+				"72": {
+					"1": "currentRoom.shading.scenes[4].visibleFb",
+					"2": "currentRoom.shading.scenes[4].enableFb",
+					"3": "currentRoom.shading.scenes[4].pressFb"
+				},
+				"73": {
+					"1": "currentRoom.shading.scenes[5].visibleFb",
+					"2": "currentRoom.shading.scenes[5].enableFb",
+					"3": "currentRoom.shading.scenes[5].pressFb"
+				},
+				"74": {
+					"1": "currentRoom.shading.scenes[6].visibleFb",
+					"2": "currentRoom.shading.scenes[6].enableFb",
+					"3": "currentRoom.shading.scenes[6].pressFb"
+				},
+				"75": {
+					"1": "currentRoom.shading.scenes[7].visibleFb",
+					"2": "currentRoom.shading.scenes[7].enableFb",
+					"3": "currentRoom.shading.scenes[7].pressFb"
+				},
+				"76": {
+					"1": "currentRoom.shading.scenes[8].visibleFb",
+					"2": "currentRoom.shading.scenes[8].enableFb",
+					"3": "currentRoom.shading.scenes[8].pressFb"
+				},
+				"77": {
+					"1": "currentRoom.shading.scenes[9].visibleFb",
+					"2": "currentRoom.shading.scenes[9].enableFb",
+					"3": "currentRoom.shading.scenes[9].pressFb"
+				},
+				"78": {
+					"1": "currentRoom.shading.scenes[10].visibleFb",
+					"2": "currentRoom.shading.scenes[10].enableFb",
+					"3": "currentRoom.shading.scenes[10].pressFb"
+				},
+				"79": {
+					"1": "currentRoom.shading.scenes[11].visibleFb",
+					"2": "currentRoom.shading.scenes[11].enableFb",
+					"3": "currentRoom.shading.scenes[11].pressFb"
+				},
+				"80": {
+					"1": "currentRoom.shading.scenes[12].visibleFb",
+					"2": "currentRoom.shading.scenes[12].enableFb",
+					"3": "currentRoom.shading.scenes[12].pressFb"
+				},
+				"81": {
+					"1": "currentRoom.shading.scenes[13].visibleFb",
+					"2": "currentRoom.shading.scenes[13].enableFb",
+					"3": "currentRoom.shading.scenes[13].pressFb"
+				},
+				"82": {
+					"1": "currentRoom.shading.scenes[14].visibleFb",
+					"2": "currentRoom.shading.scenes[14].enableFb",
+					"3": "currentRoom.shading.scenes[14].pressFb"
+				},
+				"83": {
+					"1": "currentRoom.shading.scenes[15].visibleFb",
+					"2": "currentRoom.shading.scenes[15].enableFb",
+					"3": "currentRoom.shading.scenes[15].pressFb"
+				},
+				"84": {
+					"1": "currentRoom.shading.scenes[16].visibleFb",
+					"2": "currentRoom.shading.scenes[16].enableFb",
+					"3": "currentRoom.shading.scenes[16].pressFb"
+				},
+				"85": {
+					"1": "currentRoom.shading.scenes[17].visibleFb",
+					"2": "currentRoom.shading.scenes[17].enableFb",
+					"3": "currentRoom.shading.scenes[17].pressFb"
+				},
+				"86": {
+					"1": "currentRoom.shading.scenes[18].visibleFb",
+					"2": "currentRoom.shading.scenes[18].enableFb",
+					"3": "currentRoom.shading.scenes[18].pressFb"
+				},
+				"87": {
+					"1": "currentRoom.shading.scenes[19].visibleFb",
+					"2": "currentRoom.shading.scenes[19].enableFb",
+					"3": "currentRoom.shading.scenes[19].pressFb"
+				},
+				"88": {
+					"1": "currentRoom.climate.zones[0].visibleFb",
+					"2": "currentRoom.climate.zones[0].hasEnableFb",
+					"3": "currentRoom.climate.zones[0].enableFb",
+					"6": "currentRoom.climate.zones[0].hasScheduleFb"
+				},
+				"89": {
+					"1": "currentRoom.climate.zones[1].visibleFb",
+					"2": "currentRoom.climate.zones[1].hasEnableFb",
+					"3": "currentRoom.climate.zones[1].enableFb",
+					"6": "currentRoom.climate.zones[1].hasScheduleFb"
+				},
+				"90": {
+					"1": "currentRoom.climate.zones[2].visibleFb",
+					"2": "currentRoom.climate.zones[2].hasEnableFb",
+					"3": "currentRoom.climate.zones[2].enableFb",
+					"6": "currentRoom.climate.zones[2].hasScheduleFb"
+				},
+				"91": {
+					"1": "currentRoom.climate.zones[3].visibleFb",
+					"2": "currentRoom.climate.zones[3].hasEnableFb",
+					"3": "currentRoom.climate.zones[3].enableFb",
+					"6": "currentRoom.climate.zones[3].hasScheduleFb"
+				},
+				"92": {
+					"1": "currentRoom.climate.zones[4].visibleFb",
+					"2": "currentRoom.climate.zones[4].hasEnableFb",
+					"3": "currentRoom.climate.zones[4].enableFb",
+					"6": "currentRoom.climate.zones[4].hasScheduleFb"
+				},
+				"93": {
+					"1": "currentRoom.watch.sources[0].visibleFb",
+					"2": "currentRoom.watch.sources[0].enableFb",
+					"3": "currentRoom.watch.sources[0].pressFb",
+					"4": "currentRoom.watch.sources[0].inUseFb"
+				},
+				"94": {
+					"1": "currentRoom.watch.sources[1].visibleFb",
+					"2": "currentRoom.watch.sources[1].enableFb",
+					"3": "currentRoom.watch.sources[1].pressFb",
+					"4": "currentRoom.watch.sources[1].inUseFb"
+				},
+				"95": {
+					"1": "currentRoom.watch.sources[2].visibleFb",
+					"2": "currentRoom.watch.sources[2].enableFb",
+					"3": "currentRoom.watch.sources[2].pressFb",
+					"4": "currentRoom.watch.sources[2].inUseFb"
+				},
+				"96": {
+					"1": "currentRoom.watch.sources[3].visibleFb",
+					"2": "currentRoom.watch.sources[3].enableFb",
+					"3": "currentRoom.watch.sources[3].pressFb",
+					"4": "currentRoom.watch.sources[3].inUseFb"
+				},
+				"97": {
+					"1": "currentRoom.watch.sources[4].visibleFb",
+					"2": "currentRoom.watch.sources[4].enableFb",
+					"3": "currentRoom.watch.sources[4].pressFb",
+					"4": "currentRoom.watch.sources[4].inUseFb"
+				},
+				"98": {
+					"1": "currentRoom.watch.sources[5].visibleFb",
+					"2": "currentRoom.watch.sources[5].enableFb",
+					"3": "currentRoom.watch.sources[5].pressFb",
+					"4": "currentRoom.watch.sources[5].inUseFb"
+				},
+				"99": {
+					"1": "currentRoom.watch.sources[6].visibleFb",
+					"2": "currentRoom.watch.sources[6].enableFb",
+					"3": "currentRoom.watch.sources[6].pressFb",
+					"4": "currentRoom.watch.sources[6].inUseFb"
+				},
+				"100": {
+					"1": "currentRoom.watch.sources[7].visibleFb",
+					"2": "currentRoom.watch.sources[7].enableFb",
+					"3": "currentRoom.watch.sources[7].pressFb",
+					"4": "currentRoom.watch.sources[7].inUseFb"
+				},
+				"101": {
+					"1": "currentRoom.watch.sources[8].visibleFb",
+					"2": "currentRoom.watch.sources[8].enableFb",
+					"3": "currentRoom.watch.sources[8].pressFb",
+					"4": "currentRoom.watch.sources[8].inUseFb"
+				},
+				"102": {
+					"1": "currentRoom.watch.sources[9].visibleFb",
+					"2": "currentRoom.watch.sources[9].enableFb",
+					"3": "currentRoom.watch.sources[9].pressFb",
+					"4": "currentRoom.watch.sources[9].inUseFb"
+				},
+				"103": {
+					"1": "currentRoom.watch.sources[10].visibleFb",
+					"2": "currentRoom.watch.sources[10].enableFb",
+					"3": "currentRoom.watch.sources[10].pressFb",
+					"4": "currentRoom.watch.sources[10].inUseFb"
+				},
+				"104": {
+					"1": "currentRoom.watch.sources[11].visibleFb",
+					"2": "currentRoom.watch.sources[11].enableFb",
+					"3": "currentRoom.watch.sources[11].pressFb",
+					"4": "currentRoom.watch.sources[11].inUseFb"
+				},
+				"105": {
+					"1": "currentRoom.watch.sources[12].visibleFb",
+					"2": "currentRoom.watch.sources[12].enableFb",
+					"3": "currentRoom.watch.sources[12].pressFb",
+					"4": "currentRoom.watch.sources[12].inUseFb"
+				},
+				"106": {
+					"1": "currentRoom.watch.sources[13].visibleFb",
+					"2": "currentRoom.watch.sources[13].enableFb",
+					"3": "currentRoom.watch.sources[13].pressFb",
+					"4": "currentRoom.watch.sources[13].inUseFb"
+				},
+				"107": {
+					"1": "currentRoom.watch.sources[14].visibleFb",
+					"2": "currentRoom.watch.sources[14].enableFb",
+					"3": "currentRoom.watch.sources[14].pressFb",
+					"4": "currentRoom.watch.sources[14].inUseFb"
+				},
+				"108": {
+					"1": "currentRoom.watch.sources[15].visibleFb",
+					"2": "currentRoom.watch.sources[15].enableFb",
+					"3": "currentRoom.watch.sources[15].pressFb",
+					"4": "currentRoom.watch.sources[15].inUseFb"
+				},
+				"109": {
+					"1": "currentRoom.watch.sources[16].visibleFb",
+					"2": "currentRoom.watch.sources[16].enableFb",
+					"3": "currentRoom.watch.sources[16].pressFb",
+					"4": "currentRoom.watch.sources[16].inUseFb"
+				},
+				"110": {
+					"1": "currentRoom.watch.sources[17].visibleFb",
+					"2": "currentRoom.watch.sources[17].enableFb",
+					"3": "currentRoom.watch.sources[17].pressFb",
+					"4": "currentRoom.watch.sources[17].inUseFb"
+				},
+				"111": {
+					"1": "currentRoom.watch.sources[18].visibleFb",
+					"2": "currentRoom.watch.sources[18].enableFb",
+					"3": "currentRoom.watch.sources[18].pressFb",
+					"4": "currentRoom.watch.sources[18].inUseFb"
+				},
+				"112": {
+					"1": "currentRoom.watch.sources[19].visibleFb",
+					"2": "currentRoom.watch.sources[19].enableFb",
+					"3": "currentRoom.watch.sources[19].pressFb",
+					"4": "currentRoom.watch.sources[19].inUseFb"
+				},
+				"113": {
+					"1": "currentRoom.listen.sources[0].visibleFb",
+					"2": "currentRoom.listen.sources[0].enableFb",
+					"3": "currentRoom.listen.sources[0].pressFb",
+					"4": "currentRoom.listen.sources[0].inUseFb"
+				},
+				"114": {
+					"1": "currentRoom.listen.sources[1].visibleFb",
+					"2": "currentRoom.listen.sources[1].enableFb",
+					"3": "currentRoom.listen.sources[1].pressFb",
+					"4": "currentRoom.listen.sources[1].inUseFb"
+				},
+				"115": {
+					"1": "currentRoom.listen.sources[2].visibleFb",
+					"2": "currentRoom.listen.sources[2].enableFb",
+					"3": "currentRoom.listen.sources[2].pressFb",
+					"4": "currentRoom.listen.sources[2].inUseFb"
+				},
+				"116": {
+					"1": "currentRoom.listen.sources[3].visibleFb",
+					"2": "currentRoom.listen.sources[3].enableFb",
+					"3": "currentRoom.listen.sources[3].pressFb",
+					"4": "currentRoom.listen.sources[3].inUseFb"
+				},
+				"117": {
+					"1": "currentRoom.listen.sources[4].visibleFb",
+					"2": "currentRoom.listen.sources[4].enableFb",
+					"3": "currentRoom.listen.sources[4].pressFb",
+					"4": "currentRoom.listen.sources[4].inUseFb"
+				},
+				"118": {
+					"1": "currentRoom.listen.sources[5].visibleFb",
+					"2": "currentRoom.listen.sources[5].enableFb",
+					"3": "currentRoom.listen.sources[5].pressFb",
+					"4": "currentRoom.listen.sources[5].inUseFb"
+				},
+				"119": {
+					"1": "currentRoom.listen.sources[6].visibleFb",
+					"2": "currentRoom.listen.sources[6].enableFb",
+					"3": "currentRoom.listen.sources[6].pressFb",
+					"4": "currentRoom.listen.sources[6].inUseFb"
+				},
+				"120": {
+					"1": "currentRoom.listen.sources[7].visibleFb",
+					"2": "currentRoom.listen.sources[7].enableFb",
+					"3": "currentRoom.listen.sources[7].pressFb",
+					"4": "currentRoom.listen.sources[7].inUseFb"
+				},
+				"121": {
+					"1": "currentRoom.listen.sources[8].visibleFb",
+					"2": "currentRoom.listen.sources[8].enableFb",
+					"3": "currentRoom.listen.sources[8].pressFb",
+					"4": "currentRoom.listen.sources[8].inUseFb"
+				},
+				"122": {
+					"1": "currentRoom.listen.sources[9].visibleFb",
+					"2": "currentRoom.listen.sources[9].enableFb",
+					"3": "currentRoom.listen.sources[9].pressFb",
+					"4": "currentRoom.listen.sources[9].inUseFb"
+				},
+				"123": {
+					"1": "currentRoom.listen.sources[10].visibleFb",
+					"2": "currentRoom.listen.sources[10].enableFb",
+					"3": "currentRoom.listen.sources[10].pressFb",
+					"4": "currentRoom.listen.sources[10].inUseFb"
+				},
+				"124": {
+					"1": "currentRoom.listen.sources[11].visibleFb",
+					"2": "currentRoom.listen.sources[11].enableFb",
+					"3": "currentRoom.listen.sources[11].pressFb",
+					"4": "currentRoom.listen.sources[11].inUseFb"
+				},
+				"125": {
+					"1": "currentRoom.listen.sources[12].visibleFb",
+					"2": "currentRoom.listen.sources[12].enableFb",
+					"3": "currentRoom.listen.sources[12].pressFb",
+					"4": "currentRoom.listen.sources[12].inUseFb"
+				},
+				"126": {
+					"1": "currentRoom.listen.sources[13].visibleFb",
+					"2": "currentRoom.listen.sources[13].enableFb",
+					"3": "currentRoom.listen.sources[13].pressFb",
+					"4": "currentRoom.listen.sources[13].inUseFb"
+				},
+				"127": {
+					"1": "currentRoom.listen.sources[14].visibleFb",
+					"2": "currentRoom.listen.sources[14].enableFb",
+					"3": "currentRoom.listen.sources[14].pressFb",
+					"4": "currentRoom.listen.sources[14].inUseFb"
+				},
+				"128": {
+					"1": "currentRoom.listen.sources[15].visibleFb",
+					"2": "currentRoom.listen.sources[15].enableFb",
+					"3": "currentRoom.listen.sources[15].pressFb",
+					"4": "currentRoom.listen.sources[15].inUseFb"
+				},
+				"129": {
+					"1": "currentRoom.listen.sources[16].visibleFb",
+					"2": "currentRoom.listen.sources[16].enableFb",
+					"3": "currentRoom.listen.sources[16].pressFb",
+					"4": "currentRoom.listen.sources[16].inUseFb"
+				},
+				"130": {
+					"1": "currentRoom.listen.sources[17].visibleFb",
+					"2": "currentRoom.listen.sources[17].enableFb",
+					"3": "currentRoom.listen.sources[17].pressFb",
+					"4": "currentRoom.listen.sources[17].inUseFb"
+				},
+				"131": {
+					"1": "currentRoom.listen.sources[18].visibleFb",
+					"2": "currentRoom.listen.sources[18].enableFb",
+					"3": "currentRoom.listen.sources[18].pressFb",
+					"4": "currentRoom.listen.sources[18].inUseFb"
+				},
+				"132": {
+					"1": "currentRoom.listen.sources[19].visibleFb",
+					"2": "currentRoom.listen.sources[19].enableFb",
+					"3": "currentRoom.listen.sources[19].pressFb",
+					"4": "currentRoom.listen.sources[19].inUseFb"
+				},
+				"133": {
+					"1": "currentRoom.climate.zones[0].modes[0].visibleFb",
+					"2": "currentRoom.climate.zones[0].modes[0].enableFb",
+					"3": "currentRoom.climate.zones[0].modes[0].pressFb"
+				},
+				"134": {
+					"1": "currentRoom.climate.zones[0].modes[1].visibleFb",
+					"2": "currentRoom.climate.zones[0].modes[1].enableFb",
+					"3": "currentRoom.climate.zones[0].modes[1].pressFb"
+				},
+				"135": {
+					"1": "currentRoom.climate.zones[0].modes[2].visibleFb",
+					"2": "currentRoom.climate.zones[0].modes[2].enableFb",
+					"3": "currentRoom.climate.zones[0].modes[2].pressFb"
+				},
+				"136": {
+					"1": "currentRoom.climate.zones[0].modes[3].visibleFb",
+					"2": "currentRoom.climate.zones[0].modes[3].enableFb",
+					"3": "currentRoom.climate.zones[0].modes[3].pressFb"
+				},
+				"137": {
+					"1": "currentRoom.climate.zones[0].modes[4].visibleFb",
+					"2": "currentRoom.climate.zones[0].modes[4].enableFb",
+					"3": "currentRoom.climate.zones[0].modes[4].pressFb"
+				},
+				"138": {
+					"1": "currentRoom.climate.zones[0].fanSpeeds[0].visibleFb",
+					"2": "currentRoom.climate.zones[0].fanSpeeds[0].enableFb",
+					"3": "currentRoom.climate.zones[0].fanSpeeds[0].pressFb"
+				},
+				"139": {
+					"1": "currentRoom.climate.zones[0].fanSpeeds[1].visibleFb",
+					"2": "currentRoom.climate.zones[0].fanSpeeds[1].enableFb",
+					"3": "currentRoom.climate.zones[0].fanSpeeds[1].pressFb"
+				},
+				"140": {
+					"1": "currentRoom.climate.zones[0].fanSpeeds[2].visibleFb",
+					"2": "currentRoom.climate.zones[0].fanSpeeds[2].enableFb",
+					"3": "currentRoom.climate.zones[0].fanSpeeds[2].pressFb"
+				},
+				"141": {
+					"1": "currentRoom.climate.zones[0].fanSpeeds[3].visibleFb",
+					"2": "currentRoom.climate.zones[0].fanSpeeds[3].enableFb",
+					"3": "currentRoom.climate.zones[0].fanSpeeds[3].pressFb"
+				},
+				"142": {
+					"1": "currentRoom.climate.zones[0].fanSpeeds[4].visibleFb",
+					"2": "currentRoom.climate.zones[0].fanSpeeds[4].enableFb",
+					"3": "currentRoom.climate.zones[0].fanSpeeds[4].pressFb"
+				},
+				"143": {
+					"1": "currentRoom.climate.zones[0].toggles[0].visibleFb",
+					"2": "currentRoom.climate.zones[0].toggles[0].enableFb",
+					"3": "currentRoom.climate.zones[0].toggles[0].pressFb"
+				},
+				"144": {
+					"1": "currentRoom.climate.zones[0].toggles[1].visibleFb",
+					"2": "currentRoom.climate.zones[0].toggles[1].enableFb",
+					"3": "currentRoom.climate.zones[0].toggles[1].pressFb"
+				},
+				"145": {
+					"1": "currentRoom.climate.zones[0].toggles[2].visibleFb",
+					"2": "currentRoom.climate.zones[0].toggles[2].enableFb",
+					"3": "currentRoom.climate.zones[0].toggles[2].pressFb"
+				},
+				"146": {
+					"1": "currentRoom.climate.zones[1].modes[0].visibleFb",
+					"2": "currentRoom.climate.zones[1].modes[0].enableFb",
+					"3": "currentRoom.climate.zones[1].modes[0].pressFb"
+				},
+				"147": {
+					"1": "currentRoom.climate.zones[1].modes[1].visibleFb",
+					"2": "currentRoom.climate.zones[1].modes[1].enableFb",
+					"3": "currentRoom.climate.zones[1].modes[1].pressFb"
+				},
+				"148": {
+					"1": "currentRoom.climate.zones[1].modes[2].visibleFb",
+					"2": "currentRoom.climate.zones[1].modes[2].enableFb",
+					"3": "currentRoom.climate.zones[1].modes[2].pressFb"
+				},
+				"149": {
+					"1": "currentRoom.climate.zones[1].modes[3].visibleFb",
+					"2": "currentRoom.climate.zones[1].modes[3].enableFb",
+					"3": "currentRoom.climate.zones[1].modes[3].pressFb"
+				},
+				"150": {
+					"1": "currentRoom.climate.zones[1].modes[4].visibleFb",
+					"2": "currentRoom.climate.zones[1].modes[4].enableFb",
+					"3": "currentRoom.climate.zones[1].modes[4].pressFb"
+				},
+				"151": {
+					"1": "currentRoom.climate.zones[1].fanSpeeds[0].visibleFb",
+					"2": "currentRoom.climate.zones[1].fanSpeeds[0].enableFb",
+					"3": "currentRoom.climate.zones[1].fanSpeeds[0].pressFb"
+				},
+				"152": {
+					"1": "currentRoom.climate.zones[1].fanSpeeds[1].visibleFb",
+					"2": "currentRoom.climate.zones[1].fanSpeeds[1].enableFb",
+					"3": "currentRoom.climate.zones[1].fanSpeeds[1].pressFb"
+				},
+				"153": {
+					"1": "currentRoom.climate.zones[1].fanSpeeds[2].visibleFb",
+					"2": "currentRoom.climate.zones[1].fanSpeeds[2].enableFb",
+					"3": "currentRoom.climate.zones[1].fanSpeeds[2].pressFb"
+				},
+				"154": {
+					"1": "currentRoom.climate.zones[1].fanSpeeds[3].visibleFb",
+					"2": "currentRoom.climate.zones[1].fanSpeeds[3].enableFb",
+					"3": "currentRoom.climate.zones[1].fanSpeeds[3].pressFb"
+				},
+				"155": {
+					"1": "currentRoom.climate.zones[1].fanSpeeds[4].visibleFb",
+					"2": "currentRoom.climate.zones[1].fanSpeeds[4].enableFb",
+					"3": "currentRoom.climate.zones[1].fanSpeeds[4].pressFb"
+				},
+				"156": {
+					"1": "currentRoom.climate.zones[1].toggles[0].visibleFb",
+					"2": "currentRoom.climate.zones[1].toggles[0].enableFb",
+					"3": "currentRoom.climate.zones[1].toggles[0].pressFb"
+				},
+				"157": {
+					"1": "currentRoom.climate.zones[1].toggles[1].visibleFb",
+					"2": "currentRoom.climate.zones[1].toggles[1].enableFb",
+					"3": "currentRoom.climate.zones[1].toggles[1].pressFb"
+				},
+				"158": {
+					"1": "currentRoom.climate.zones[1].toggles[2].visibleFb",
+					"2": "currentRoom.climate.zones[1].toggles[2].enableFb",
+					"3": "currentRoom.climate.zones[1].toggles[2].pressFb"
+				},
+				"159": {
+					"1": "currentRoom.climate.zones[2].modes[0].visibleFb",
+					"2": "currentRoom.climate.zones[2].modes[0].enableFb",
+					"3": "currentRoom.climate.zones[2].modes[0].pressFb"
+				},
+				"160": {
+					"1": "currentRoom.climate.zones[2].modes[1].visibleFb",
+					"2": "currentRoom.climate.zones[2].modes[1].enableFb",
+					"3": "currentRoom.climate.zones[2].modes[1].pressFb"
+				},
+				"161": {
+					"1": "currentRoom.climate.zones[2].modes[2].visibleFb",
+					"2": "currentRoom.climate.zones[2].modes[2].enableFb",
+					"3": "currentRoom.climate.zones[2].modes[2].pressFb"
+				},
+				"162": {
+					"1": "currentRoom.climate.zones[2].modes[3].visibleFb",
+					"2": "currentRoom.climate.zones[2].modes[3].enableFb",
+					"3": "currentRoom.climate.zones[2].modes[3].pressFb"
+				},
+				"163": {
+					"1": "currentRoom.climate.zones[2].modes[4].visibleFb",
+					"2": "currentRoom.climate.zones[2].modes[4].enableFb",
+					"3": "currentRoom.climate.zones[2].modes[4].pressFb"
+				},
+				"164": {
+					"1": "currentRoom.climate.zones[2].fanSpeeds[0].visibleFb",
+					"2": "currentRoom.climate.zones[2].fanSpeeds[0].enableFb",
+					"3": "currentRoom.climate.zones[2].fanSpeeds[0].pressFb"
+				},
+				"165": {
+					"1": "currentRoom.climate.zones[2].fanSpeeds[1].visibleFb",
+					"2": "currentRoom.climate.zones[2].fanSpeeds[1].enableFb",
+					"3": "currentRoom.climate.zones[2].fanSpeeds[1].pressFb"
+				},
+				"166": {
+					"1": "currentRoom.climate.zones[2].fanSpeeds[2].visibleFb",
+					"2": "currentRoom.climate.zones[2].fanSpeeds[2].enableFb",
+					"3": "currentRoom.climate.zones[2].fanSpeeds[2].pressFb"
+				},
+				"167": {
+					"1": "currentRoom.climate.zones[2].fanSpeeds[3].visibleFb",
+					"2": "currentRoom.climate.zones[2].fanSpeeds[3].enableFb",
+					"3": "currentRoom.climate.zones[2].fanSpeeds[3].pressFb"
+				},
+				"168": {
+					"1": "currentRoom.climate.zones[2].fanSpeeds[4].visibleFb",
+					"2": "currentRoom.climate.zones[2].fanSpeeds[4].enableFb",
+					"3": "currentRoom.climate.zones[2].fanSpeeds[4].pressFb"
+				},
+				"169": {
+					"1": "currentRoom.climate.zones[2].toggles[0].visibleFb",
+					"2": "currentRoom.climate.zones[2].toggles[0].enableFb",
+					"3": "currentRoom.climate.zones[2].toggles[0].pressFb"
+				},
+				"170": {
+					"1": "currentRoom.climate.zones[2].toggles[1].visibleFb",
+					"2": "currentRoom.climate.zones[2].toggles[1].enableFb",
+					"3": "currentRoom.climate.zones[2].toggles[1].pressFb"
+				},
+				"171": {
+					"1": "currentRoom.climate.zones[2].toggles[2].visibleFb",
+					"2": "currentRoom.climate.zones[2].toggles[2].enableFb",
+					"3": "currentRoom.climate.zones[2].toggles[2].pressFb"
+				},
+				"172": {
+					"1": "currentRoom.climate.zones[3].modes[0].visibleFb",
+					"2": "currentRoom.climate.zones[3].modes[0].enableFb",
+					"3": "currentRoom.climate.zones[3].modes[0].pressFb"
+				},
+				"173": {
+					"1": "currentRoom.climate.zones[3].modes[1].visibleFb",
+					"2": "currentRoom.climate.zones[3].modes[1].enableFb",
+					"3": "currentRoom.climate.zones[3].modes[1].pressFb"
+				},
+				"174": {
+					"1": "currentRoom.climate.zones[3].modes[2].visibleFb",
+					"2": "currentRoom.climate.zones[3].modes[2].enableFb",
+					"3": "currentRoom.climate.zones[3].modes[2].pressFb"
+				},
+				"175": {
+					"1": "currentRoom.climate.zones[3].modes[3].visibleFb",
+					"2": "currentRoom.climate.zones[3].modes[3].enableFb",
+					"3": "currentRoom.climate.zones[3].modes[3].pressFb"
+				},
+				"176": {
+					"1": "currentRoom.climate.zones[3].modes[4].visibleFb",
+					"2": "currentRoom.climate.zones[3].modes[4].enableFb",
+					"3": "currentRoom.climate.zones[3].modes[4].pressFb"
+				},
+				"177": {
+					"1": "currentRoom.climate.zones[3].fanSpeeds[0].visibleFb",
+					"2": "currentRoom.climate.zones[3].fanSpeeds[0].enableFb",
+					"3": "currentRoom.climate.zones[3].fanSpeeds[0].pressFb"
+				},
+				"178": {
+					"1": "currentRoom.climate.zones[3].fanSpeeds[1].visibleFb",
+					"2": "currentRoom.climate.zones[3].fanSpeeds[1].enableFb",
+					"3": "currentRoom.climate.zones[3].fanSpeeds[1].pressFb"
+				},
+				"179": {
+					"1": "currentRoom.climate.zones[3].fanSpeeds[2].visibleFb",
+					"2": "currentRoom.climate.zones[3].fanSpeeds[2].enableFb",
+					"3": "currentRoom.climate.zones[3].fanSpeeds[2].pressFb"
+				},
+				"180": {
+					"1": "currentRoom.climate.zones[3].fanSpeeds[3].visibleFb",
+					"2": "currentRoom.climate.zones[3].fanSpeeds[3].enableFb",
+					"3": "currentRoom.climate.zones[3].fanSpeeds[3].pressFb"
+				},
+				"181": {
+					"1": "currentRoom.climate.zones[3].fanSpeeds[4].visibleFb",
+					"2": "currentRoom.climate.zones[3].fanSpeeds[4].enableFb",
+					"3": "currentRoom.climate.zones[3].fanSpeeds[4].pressFb"
+				},
+				"182": {
+					"1": "currentRoom.climate.zones[3].toggles[0].visibleFb",
+					"2": "currentRoom.climate.zones[3].toggles[0].enableFb",
+					"3": "currentRoom.climate.zones[3].toggles[0].pressFb"
+				},
+				"183": {
+					"1": "currentRoom.climate.zones[3].toggles[1].visibleFb",
+					"2": "currentRoom.climate.zones[3].toggles[1].enableFb",
+					"3": "currentRoom.climate.zones[3].toggles[1].pressFb"
+				},
+				"184": {
+					"1": "currentRoom.climate.zones[3].toggles[2].visibleFb",
+					"2": "currentRoom.climate.zones[3].toggles[2].enableFb",
+					"3": "currentRoom.climate.zones[3].toggles[2].pressFb"
+				},
+				"185": {
+					"1": "currentRoom.climate.zones[4].modes[0].visibleFb",
+					"2": "currentRoom.climate.zones[4].modes[0].enableFb",
+					"3": "currentRoom.climate.zones[4].modes[0].pressFb"
+				},
+				"186": {
+					"1": "currentRoom.climate.zones[4].modes[1].visibleFb",
+					"2": "currentRoom.climate.zones[4].modes[1].enableFb",
+					"3": "currentRoom.climate.zones[4].modes[1].pressFb"
+				},
+				"187": {
+					"1": "currentRoom.climate.zones[4].modes[2].visibleFb",
+					"2": "currentRoom.climate.zones[4].modes[2].enableFb",
+					"3": "currentRoom.climate.zones[4].modes[2].pressFb"
+				},
+				"188": {
+					"1": "currentRoom.climate.zones[4].modes[3].visibleFb",
+					"2": "currentRoom.climate.zones[4].modes[3].enableFb",
+					"3": "currentRoom.climate.zones[4].modes[3].pressFb"
+				},
+				"189": {
+					"1": "currentRoom.climate.zones[4].modes[4].visibleFb",
+					"2": "currentRoom.climate.zones[4].modes[4].enableFb",
+					"3": "currentRoom.climate.zones[4].modes[4].pressFb"
+				},
+				"190": {
+					"1": "currentRoom.climate.zones[4].fanSpeeds[0].visibleFb",
+					"2": "currentRoom.climate.zones[4].fanSpeeds[0].enableFb",
+					"3": "currentRoom.climate.zones[4].fanSpeeds[0].pressFb"
+				},
+				"191": {
+					"1": "currentRoom.climate.zones[4].fanSpeeds[1].visibleFb",
+					"2": "currentRoom.climate.zones[4].fanSpeeds[1].enableFb",
+					"3": "currentRoom.climate.zones[4].fanSpeeds[1].pressFb"
+				},
+				"192": {
+					"1": "currentRoom.climate.zones[4].fanSpeeds[2].visibleFb",
+					"2": "currentRoom.climate.zones[4].fanSpeeds[2].enableFb",
+					"3": "currentRoom.climate.zones[4].fanSpeeds[2].pressFb"
+				},
+				"193": {
+					"1": "currentRoom.climate.zones[4].fanSpeeds[3].visibleFb",
+					"2": "currentRoom.climate.zones[4].fanSpeeds[3].enableFb",
+					"3": "currentRoom.climate.zones[4].fanSpeeds[3].pressFb"
+				},
+				"194": {
+					"1": "currentRoom.climate.zones[4].fanSpeeds[4].visibleFb",
+					"2": "currentRoom.climate.zones[4].fanSpeeds[4].enableFb",
+					"3": "currentRoom.climate.zones[4].fanSpeeds[4].pressFb"
+				},
+				"195": {
+					"1": "currentRoom.climate.zones[4].toggles[0].visibleFb",
+					"2": "currentRoom.climate.zones[4].toggles[0].enableFb",
+					"3": "currentRoom.climate.zones[4].toggles[0].pressFb"
+				},
+				"196": {
+					"1": "currentRoom.climate.zones[4].toggles[1].visibleFb",
+					"2": "currentRoom.climate.zones[4].toggles[1].enableFb",
+					"3": "currentRoom.climate.zones[4].toggles[1].pressFb"
+				},
+				"197": {
+					"1": "currentRoom.climate.zones[4].toggles[2].visibleFb",
+					"2": "currentRoom.climate.zones[4].toggles[2].enableFb",
+					"3": "currentRoom.climate.zones[4].toggles[2].pressFb"
+				},
+				"198": {
+					"1": "currentSourceWatch.playFb",
+					"2": "currentSourceWatch.stopFb",
+					"3": "currentSourceWatch.pauseFb"
+				},
+				"199": {
+					"1": "currentSourceListen.playFb",
+					"2": "currentSourceListen.stopFb",
+					"3": "currentSourceListen.pauseFb"
+				},
+				"201": {
+					"1": "property.climate.visibleFb"
+				},
+				"202": {
+					"1": "property.security.visibleFb",
+					"2": "property.security.showCameras",
+					"3": "property.security.showTexecom"
+				}
+			},
+			"numeric": {
+				"1": {
+					"1": "ui.defaultRoomFb",
+					"2": "ui.defaultRoomGroupFb"
+				},
+				"2": {
+					"1": "rooms[0].roomGroupFb",
+					"2": "rooms[0].sourceWatchFb",
+					"3": "rooms[0].sourceListenFb"
+				},
+				"3": {
+					"1": "rooms[1].roomGroupFb",
+					"2": "rooms[1].sourceWatchFb",
+					"3": "rooms[1].sourceListenFb"
+				},
+				"4": {
+					"1": "rooms[2].roomGroupFb",
+					"2": "rooms[2].sourceWatchFb",
+					"3": "rooms[2].sourceListenFb"
+				},
+				"5": {
+					"1": "rooms[3].roomGroupFb",
+					"2": "rooms[3].sourceWatchFb",
+					"3": "rooms[3].sourceListenFb"
+				},
+				"6": {
+					"1": "rooms[4].roomGroupFb",
+					"2": "rooms[4].sourceWatchFb",
+					"3": "rooms[4].sourceListenFb"
+				},
+				"12": {
+					"1": "currentRoom.volumeLevelFb",
+					"2": "currentRoom.volumeTypeFb"
+				},
+				"38": {
+					"1": "currentRoom.lighting.circuits[0].typeFb",
+					"2": "currentRoom.lighting.circuits[0].levelFb",
+					"3": "currentRoom.lighting.circuits[0].redFb",
+					"4": "currentRoom.lighting.circuits[0].greenFb",
+					"5": "currentRoom.lighting.circuits[0].blueFb",
+					"6": "currentRoom.lighting.circuits[0].whiteFb",
+					"7": "currentRoom.lighting.circuits[0].warmWhiteFb"
+				},
+				"39": {
+					"1": "currentRoom.lighting.circuits[1].typeFb",
+					"2": "currentRoom.lighting.circuits[1].levelFb",
+					"3": "currentRoom.lighting.circuits[1].redFb",
+					"4": "currentRoom.lighting.circuits[1].greenFb",
+					"5": "currentRoom.lighting.circuits[1].blueFb",
+					"6": "currentRoom.lighting.circuits[1].whiteFb",
+					"7": "currentRoom.lighting.circuits[1].warmWhiteFb"
+				},
+				"40": {
+					"1": "currentRoom.lighting.circuits[2].typeFb",
+					"2": "currentRoom.lighting.circuits[2].levelFb",
+					"3": "currentRoom.lighting.circuits[2].redFb",
+					"4": "currentRoom.lighting.circuits[2].greenFb",
+					"5": "currentRoom.lighting.circuits[2].blueFb",
+					"6": "currentRoom.lighting.circuits[2].whiteFb",
+					"7": "currentRoom.lighting.circuits[2].warmWhiteFb"
+				},
+				"41": {
+					"1": "currentRoom.lighting.circuits[3].typeFb",
+					"2": "currentRoom.lighting.circuits[3].levelFb",
+					"3": "currentRoom.lighting.circuits[3].redFb",
+					"4": "currentRoom.lighting.circuits[3].greenFb",
+					"5": "currentRoom.lighting.circuits[3].blueFb",
+					"6": "currentRoom.lighting.circuits[3].whiteFb",
+					"7": "currentRoom.lighting.circuits[3].warmWhiteFb"
+				},
+				"42": {
+					"1": "currentRoom.lighting.circuits[4].typeFb",
+					"2": "currentRoom.lighting.circuits[4].levelFb",
+					"3": "currentRoom.lighting.circuits[4].redFb",
+					"4": "currentRoom.lighting.circuits[4].greenFb",
+					"5": "currentRoom.lighting.circuits[4].blueFb",
+					"6": "currentRoom.lighting.circuits[4].whiteFb",
+					"7": "currentRoom.lighting.circuits[4].warmWhiteFb"
+				},
+				"43": {
+					"1": "currentRoom.lighting.circuits[5].typeFb",
+					"2": "currentRoom.lighting.circuits[5].levelFb",
+					"3": "currentRoom.lighting.circuits[5].redFb",
+					"4": "currentRoom.lighting.circuits[5].greenFb",
+					"5": "currentRoom.lighting.circuits[5].blueFb",
+					"6": "currentRoom.lighting.circuits[5].whiteFb",
+					"7": "currentRoom.lighting.circuits[5].warmWhiteFb"
+				},
+				"44": {
+					"1": "currentRoom.lighting.circuits[6].typeFb",
+					"2": "currentRoom.lighting.circuits[6].levelFb",
+					"3": "currentRoom.lighting.circuits[6].redFb",
+					"4": "currentRoom.lighting.circuits[6].greenFb",
+					"5": "currentRoom.lighting.circuits[6].blueFb",
+					"6": "currentRoom.lighting.circuits[6].whiteFb",
+					"7": "currentRoom.lighting.circuits[6].warmWhiteFb"
+				},
+				"45": {
+					"1": "currentRoom.lighting.circuits[7].typeFb",
+					"2": "currentRoom.lighting.circuits[7].levelFb",
+					"3": "currentRoom.lighting.circuits[7].redFb",
+					"4": "currentRoom.lighting.circuits[7].greenFb",
+					"5": "currentRoom.lighting.circuits[7].blueFb",
+					"6": "currentRoom.lighting.circuits[7].whiteFb",
+					"7": "currentRoom.lighting.circuits[7].warmWhiteFb"
+				},
+				"46": {
+					"1": "currentRoom.lighting.circuits[8].typeFb",
+					"2": "currentRoom.lighting.circuits[8].levelFb",
+					"3": "currentRoom.lighting.circuits[8].redFb",
+					"4": "currentRoom.lighting.circuits[8].greenFb",
+					"5": "currentRoom.lighting.circuits[8].blueFb",
+					"6": "currentRoom.lighting.circuits[8].whiteFb",
+					"7": "currentRoom.lighting.circuits[8].warmWhiteFb"
+				},
+				"47": {
+					"1": "currentRoom.lighting.circuits[9].typeFb",
+					"2": "currentRoom.lighting.circuits[9].levelFb",
+					"3": "currentRoom.lighting.circuits[9].redFb",
+					"4": "currentRoom.lighting.circuits[9].greenFb",
+					"5": "currentRoom.lighting.circuits[9].blueFb",
+					"6": "currentRoom.lighting.circuits[9].whiteFb",
+					"7": "currentRoom.lighting.circuits[9].warmWhiteFb"
+				},
+				"48": {
+					"1": "currentRoom.lighting.circuits[10].typeFb",
+					"2": "currentRoom.lighting.circuits[10].levelFb",
+					"3": "currentRoom.lighting.circuits[10].redFb",
+					"4": "currentRoom.lighting.circuits[10].greenFb",
+					"5": "currentRoom.lighting.circuits[10].blueFb",
+					"6": "currentRoom.lighting.circuits[10].whiteFb",
+					"7": "currentRoom.lighting.circuits[10].warmWhiteFb"
+				},
+				"49": {
+					"1": "currentRoom.lighting.circuits[11].typeFb",
+					"2": "currentRoom.lighting.circuits[11].levelFb",
+					"3": "currentRoom.lighting.circuits[11].redFb",
+					"4": "currentRoom.lighting.circuits[11].greenFb",
+					"5": "currentRoom.lighting.circuits[11].blueFb",
+					"6": "currentRoom.lighting.circuits[11].whiteFb",
+					"7": "currentRoom.lighting.circuits[11].warmWhiteFb"
+				},
+				"50": {
+					"1": "currentRoom.lighting.circuits[12].typeFb",
+					"2": "currentRoom.lighting.circuits[12].levelFb",
+					"3": "currentRoom.lighting.circuits[12].redFb",
+					"4": "currentRoom.lighting.circuits[12].greenFb",
+					"5": "currentRoom.lighting.circuits[12].blueFb",
+					"6": "currentRoom.lighting.circuits[12].whiteFb",
+					"7": "currentRoom.lighting.circuits[12].warmWhiteFb"
+				},
+				"51": {
+					"1": "currentRoom.lighting.circuits[13].typeFb",
+					"2": "currentRoom.lighting.circuits[13].levelFb",
+					"3": "currentRoom.lighting.circuits[13].redFb",
+					"4": "currentRoom.lighting.circuits[13].greenFb",
+					"5": "currentRoom.lighting.circuits[13].blueFb",
+					"6": "currentRoom.lighting.circuits[13].whiteFb",
+					"7": "currentRoom.lighting.circuits[13].warmWhiteFb"
+				},
+				"52": {
+					"1": "currentRoom.lighting.circuits[14].typeFb",
+					"2": "currentRoom.lighting.circuits[14].levelFb",
+					"3": "currentRoom.lighting.circuits[14].redFb",
+					"4": "currentRoom.lighting.circuits[14].greenFb",
+					"5": "currentRoom.lighting.circuits[14].blueFb",
+					"6": "currentRoom.lighting.circuits[14].whiteFb",
+					"7": "currentRoom.lighting.circuits[14].warmWhiteFb"
+				},
+				"53": {
+					"1": "currentRoom.lighting.circuits[15].typeFb",
+					"2": "currentRoom.lighting.circuits[15].levelFb",
+					"3": "currentRoom.lighting.circuits[15].redFb",
+					"4": "currentRoom.lighting.circuits[15].greenFb",
+					"5": "currentRoom.lighting.circuits[15].blueFb",
+					"6": "currentRoom.lighting.circuits[15].whiteFb",
+					"7": "currentRoom.lighting.circuits[15].warmWhiteFb"
+				},
+				"54": {
+					"1": "currentRoom.lighting.circuits[16].typeFb",
+					"2": "currentRoom.lighting.circuits[16].levelFb",
+					"3": "currentRoom.lighting.circuits[16].redFb",
+					"4": "currentRoom.lighting.circuits[16].greenFb",
+					"5": "currentRoom.lighting.circuits[16].blueFb",
+					"6": "currentRoom.lighting.circuits[16].whiteFb",
+					"7": "currentRoom.lighting.circuits[16].warmWhiteFb"
+				},
+				"55": {
+					"1": "currentRoom.lighting.circuits[17].typeFb",
+					"2": "currentRoom.lighting.circuits[17].levelFb",
+					"3": "currentRoom.lighting.circuits[17].redFb",
+					"4": "currentRoom.lighting.circuits[17].greenFb",
+					"5": "currentRoom.lighting.circuits[17].blueFb",
+					"6": "currentRoom.lighting.circuits[17].whiteFb",
+					"7": "currentRoom.lighting.circuits[17].warmWhiteFb"
+				},
+				"56": {
+					"1": "currentRoom.lighting.circuits[18].typeFb",
+					"2": "currentRoom.lighting.circuits[18].levelFb",
+					"3": "currentRoom.lighting.circuits[18].redFb",
+					"4": "currentRoom.lighting.circuits[18].greenFb",
+					"5": "currentRoom.lighting.circuits[18].blueFb",
+					"6": "currentRoom.lighting.circuits[18].whiteFb",
+					"7": "currentRoom.lighting.circuits[18].warmWhiteFb"
+				},
+				"57": {
+					"1": "currentRoom.lighting.circuits[19].typeFb",
+					"2": "currentRoom.lighting.circuits[19].levelFb",
+					"3": "currentRoom.lighting.circuits[19].redFb",
+					"4": "currentRoom.lighting.circuits[19].greenFb",
+					"5": "currentRoom.lighting.circuits[19].blueFb",
+					"6": "currentRoom.lighting.circuits[19].whiteFb",
+					"7": "currentRoom.lighting.circuits[19].warmWhiteFb"
+				},
+				"58": {
+					"1": "currentRoom.lighting.circuits[20].typeFb",
+					"2": "currentRoom.lighting.circuits[20].levelFb",
+					"3": "currentRoom.lighting.circuits[20].redFb",
+					"4": "currentRoom.lighting.circuits[20].greenFb",
+					"5": "currentRoom.lighting.circuits[20].blueFb",
+					"6": "currentRoom.lighting.circuits[20].whiteFb",
+					"7": "currentRoom.lighting.circuits[20].warmWhiteFb"
+				},
+				"59": {
+					"1": "currentRoom.lighting.circuits[21].typeFb",
+					"2": "currentRoom.lighting.circuits[21].levelFb",
+					"3": "currentRoom.lighting.circuits[21].redFb",
+					"4": "currentRoom.lighting.circuits[21].greenFb",
+					"5": "currentRoom.lighting.circuits[21].blueFb",
+					"6": "currentRoom.lighting.circuits[21].whiteFb",
+					"7": "currentRoom.lighting.circuits[21].warmWhiteFb"
+				},
+				"60": {
+					"1": "currentRoom.lighting.circuits[22].typeFb",
+					"2": "currentRoom.lighting.circuits[22].levelFb",
+					"3": "currentRoom.lighting.circuits[22].redFb",
+					"4": "currentRoom.lighting.circuits[22].greenFb",
+					"5": "currentRoom.lighting.circuits[22].blueFb",
+					"6": "currentRoom.lighting.circuits[22].whiteFb",
+					"7": "currentRoom.lighting.circuits[22].warmWhiteFb"
+				},
+				"61": {
+					"1": "currentRoom.lighting.circuits[23].typeFb",
+					"2": "currentRoom.lighting.circuits[23].levelFb",
+					"3": "currentRoom.lighting.circuits[23].redFb",
+					"4": "currentRoom.lighting.circuits[23].greenFb",
+					"5": "currentRoom.lighting.circuits[23].blueFb",
+					"6": "currentRoom.lighting.circuits[23].whiteFb",
+					"7": "currentRoom.lighting.circuits[23].warmWhiteFb"
+				},
+				"62": {
+					"1": "currentRoom.lighting.circuits[24].typeFb",
+					"2": "currentRoom.lighting.circuits[24].levelFb",
+					"3": "currentRoom.lighting.circuits[24].redFb",
+					"4": "currentRoom.lighting.circuits[24].greenFb",
+					"5": "currentRoom.lighting.circuits[24].blueFb",
+					"6": "currentRoom.lighting.circuits[24].whiteFb",
+					"7": "currentRoom.lighting.circuits[24].warmWhiteFb"
+				},
+				"63": {
+					"1": "currentRoom.lighting.circuits[25].typeFb",
+					"2": "currentRoom.lighting.circuits[25].levelFb",
+					"3": "currentRoom.lighting.circuits[25].redFb",
+					"4": "currentRoom.lighting.circuits[25].greenFb",
+					"5": "currentRoom.lighting.circuits[25].blueFb",
+					"6": "currentRoom.lighting.circuits[25].whiteFb",
+					"7": "currentRoom.lighting.circuits[25].warmWhiteFb"
+				},
+				"64": {
+					"1": "currentRoom.lighting.circuits[26].typeFb",
+					"2": "currentRoom.lighting.circuits[26].levelFb",
+					"3": "currentRoom.lighting.circuits[26].redFb",
+					"4": "currentRoom.lighting.circuits[26].greenFb",
+					"5": "currentRoom.lighting.circuits[26].blueFb",
+					"6": "currentRoom.lighting.circuits[26].whiteFb",
+					"7": "currentRoom.lighting.circuits[26].warmWhiteFb"
+				},
+				"65": {
+					"1": "currentRoom.lighting.circuits[27].typeFb",
+					"2": "currentRoom.lighting.circuits[27].levelFb",
+					"3": "currentRoom.lighting.circuits[27].redFb",
+					"4": "currentRoom.lighting.circuits[27].greenFb",
+					"5": "currentRoom.lighting.circuits[27].blueFb",
+					"6": "currentRoom.lighting.circuits[27].whiteFb",
+					"7": "currentRoom.lighting.circuits[27].warmWhiteFb"
+				},
+				"66": {
+					"1": "currentRoom.lighting.circuits[28].typeFb",
+					"2": "currentRoom.lighting.circuits[28].levelFb",
+					"3": "currentRoom.lighting.circuits[28].redFb",
+					"4": "currentRoom.lighting.circuits[28].greenFb",
+					"5": "currentRoom.lighting.circuits[28].blueFb",
+					"6": "currentRoom.lighting.circuits[28].whiteFb",
+					"7": "currentRoom.lighting.circuits[28].warmWhiteFb"
+				},
+				"67": {
+					"1": "currentRoom.lighting.circuits[29].typeFb",
+					"2": "currentRoom.lighting.circuits[29].levelFb",
+					"3": "currentRoom.lighting.circuits[29].redFb",
+					"4": "currentRoom.lighting.circuits[29].greenFb",
+					"5": "currentRoom.lighting.circuits[29].blueFb",
+					"6": "currentRoom.lighting.circuits[29].whiteFb",
+					"7": "currentRoom.lighting.circuits[29].warmWhiteFb"
+				}
+			},
+			"string": {
+				"1": {
+					"1": "ui.labelFb"
+				},
+				"2": {
+					"1": "rooms[0].labelFb"
+				},
+				"3": {
+					"1": "rooms[1].labelFb"
+				},
+				"4": {
+					"1": "rooms[2].labelFb"
+				},
+				"5": {
+					"1": "rooms[3].labelFb"
+				},
+				"6": {
+					"1": "rooms[4].labelFb"
+				},
+				"7": {
+					"1": "roomGroups[0].labelFb",
+					"2": "roomGroups[0].floorplanFileNameFb"
+				},
+				"8": {
+					"1": "roomGroups[1].labelFb",
+					"2": "roomGroups[1].floorplanFileNameFb"
+				},
+				"9": {
+					"1": "roomGroups[2].labelFb",
+					"2": "roomGroups[2].floorplanFileNameFb"
+				},
+				"10": {
+					"1": "roomGroups[3].labelFb",
+					"2": "roomGroups[3].floorplanFileNameFb"
+				},
+				"11": {
+					"1": "roomGroups[4].labelFb",
+					"2": "roomGroups[4].floorplanFileNameFb"
+				},
+				"12": {
+					"1": "currentRoom.labelFb"
+				},
+				"18": {
+					"1": "currentRoom.lighting.scenes[0].labelFb",
+					"2": "currentRoom.lighting.scenes[0].iconFb"
+				},
+				"19": {
+					"1": "currentRoom.lighting.scenes[1].labelFb",
+					"2": "currentRoom.lighting.scenes[1].iconFb"
+				},
+				"20": {
+					"1": "currentRoom.lighting.scenes[2].labelFb",
+					"2": "currentRoom.lighting.scenes[2].iconFb"
+				},
+				"21": {
+					"1": "currentRoom.lighting.scenes[3].labelFb",
+					"2": "currentRoom.lighting.scenes[3].iconFb"
+				},
+				"22": {
+					"1": "currentRoom.lighting.scenes[4].labelFb",
+					"2": "currentRoom.lighting.scenes[4].iconFb"
+				},
+				"23": {
+					"1": "currentRoom.lighting.scenes[5].labelFb",
+					"2": "currentRoom.lighting.scenes[5].iconFb"
+				},
+				"24": {
+					"1": "currentRoom.lighting.scenes[6].labelFb",
+					"2": "currentRoom.lighting.scenes[6].iconFb"
+				},
+				"25": {
+					"1": "currentRoom.lighting.scenes[7].labelFb",
+					"2": "currentRoom.lighting.scenes[7].iconFb"
+				},
+				"26": {
+					"1": "currentRoom.lighting.scenes[8].labelFb",
+					"2": "currentRoom.lighting.scenes[8].iconFb"
+				},
+				"27": {
+					"1": "currentRoom.lighting.scenes[9].labelFb",
+					"2": "currentRoom.lighting.scenes[9].iconFb"
+				},
+				"28": {
+					"1": "currentRoom.lighting.scenes[10].labelFb",
+					"2": "currentRoom.lighting.scenes[10].iconFb"
+				},
+				"29": {
+					"1": "currentRoom.lighting.scenes[11].labelFb",
+					"2": "currentRoom.lighting.scenes[11].iconFb"
+				},
+				"30": {
+					"1": "currentRoom.lighting.scenes[12].labelFb",
+					"2": "currentRoom.lighting.scenes[12].iconFb"
+				},
+				"31": {
+					"1": "currentRoom.lighting.scenes[13].labelFb",
+					"2": "currentRoom.lighting.scenes[13].iconFb"
+				},
+				"32": {
+					"1": "currentRoom.lighting.scenes[14].labelFb",
+					"2": "currentRoom.lighting.scenes[14].iconFb"
+				},
+				"33": {
+					"1": "currentRoom.lighting.scenes[15].labelFb",
+					"2": "currentRoom.lighting.scenes[15].iconFb"
+				},
+				"34": {
+					"1": "currentRoom.lighting.scenes[16].labelFb",
+					"2": "currentRoom.lighting.scenes[16].iconFb"
+				},
+				"35": {
+					"1": "currentRoom.lighting.scenes[17].labelFb",
+					"2": "currentRoom.lighting.scenes[17].iconFb"
+				},
+				"36": {
+					"1": "currentRoom.lighting.scenes[18].labelFb",
+					"2": "currentRoom.lighting.scenes[18].iconFb"
+				},
+				"37": {
+					"1": "currentRoom.lighting.scenes[19].labelFb",
+					"2": "currentRoom.lighting.scenes[19].iconFb"
+				},
+				"38": {
+					"1": "currentRoom.lighting.circuits[0].labelFb"
+				},
+				"39": {
+					"1": "currentRoom.lighting.circuits[1].labelFb"
+				},
+				"40": {
+					"1": "currentRoom.lighting.circuits[2].labelFb"
+				},
+				"41": {
+					"1": "currentRoom.lighting.circuits[3].labelFb"
+				},
+				"42": {
+					"1": "currentRoom.lighting.circuits[4].labelFb"
+				},
+				"43": {
+					"1": "currentRoom.lighting.circuits[5].labelFb"
+				},
+				"44": {
+					"1": "currentRoom.lighting.circuits[6].labelFb"
+				},
+				"45": {
+					"1": "currentRoom.lighting.circuits[7].labelFb"
+				},
+				"46": {
+					"1": "currentRoom.lighting.circuits[8].labelFb"
+				},
+				"47": {
+					"1": "currentRoom.lighting.circuits[9].labelFb"
+				},
+				"48": {
+					"1": "currentRoom.lighting.circuits[10].labelFb"
+				},
+				"49": {
+					"1": "currentRoom.lighting.circuits[11].labelFb"
+				},
+				"50": {
+					"1": "currentRoom.lighting.circuits[12].labelFb"
+				},
+				"51": {
+					"1": "currentRoom.lighting.circuits[13].labelFb"
+				},
+				"52": {
+					"1": "currentRoom.lighting.circuits[14].labelFb"
+				},
+				"53": {
+					"1": "currentRoom.lighting.circuits[15].labelFb"
+				},
+				"54": {
+					"1": "currentRoom.lighting.circuits[16].labelFb"
+				},
+				"55": {
+					"1": "currentRoom.lighting.circuits[17].labelFb"
+				},
+				"56": {
+					"1": "currentRoom.lighting.circuits[18].labelFb"
+				},
+				"57": {
+					"1": "currentRoom.lighting.circuits[19].labelFb"
+				},
+				"58": {
+					"1": "currentRoom.lighting.circuits[20].labelFb"
+				},
+				"59": {
+					"1": "currentRoom.lighting.circuits[21].labelFb"
+				},
+				"60": {
+					"1": "currentRoom.lighting.circuits[22].labelFb"
+				},
+				"61": {
+					"1": "currentRoom.lighting.circuits[23].labelFb"
+				},
+				"62": {
+					"1": "currentRoom.lighting.circuits[24].labelFb"
+				},
+				"63": {
+					"1": "currentRoom.lighting.circuits[25].labelFb"
+				},
+				"64": {
+					"1": "currentRoom.lighting.circuits[26].labelFb"
+				},
+				"65": {
+					"1": "currentRoom.lighting.circuits[27].labelFb"
+				},
+				"66": {
+					"1": "currentRoom.lighting.circuits[28].labelFb"
+				},
+				"67": {
+					"1": "currentRoom.lighting.circuits[29].labelFb"
+				},
+				"68": {
+					"1": "currentRoom.shading.scenes[0].labelFb",
+					"2": "currentRoom.shading.scenes[0].iconFb"
+				},
+				"69": {
+					"1": "currentRoom.shading.scenes[1].labelFb",
+					"2": "currentRoom.shading.scenes[1].iconFb"
+				},
+				"70": {
+					"1": "currentRoom.shading.scenes[2].labelFb",
+					"2": "currentRoom.shading.scenes[2].iconFb"
+				},
+				"71": {
+					"1": "currentRoom.shading.scenes[3].labelFb",
+					"2": "currentRoom.shading.scenes[3].iconFb"
+				},
+				"72": {
+					"1": "currentRoom.shading.scenes[4].labelFb",
+					"2": "currentRoom.shading.scenes[4].iconFb"
+				},
+				"73": {
+					"1": "currentRoom.shading.scenes[5].labelFb",
+					"2": "currentRoom.shading.scenes[5].iconFb"
+				},
+				"74": {
+					"1": "currentRoom.shading.scenes[6].labelFb",
+					"2": "currentRoom.shading.scenes[6].iconFb"
+				},
+				"75": {
+					"1": "currentRoom.shading.scenes[7].labelFb",
+					"2": "currentRoom.shading.scenes[7].iconFb"
+				},
+				"76": {
+					"1": "currentRoom.shading.scenes[8].labelFb",
+					"2": "currentRoom.shading.scenes[8].iconFb"
+				},
+				"77": {
+					"1": "currentRoom.shading.scenes[9].labelFb",
+					"2": "currentRoom.shading.scenes[9].iconFb"
+				},
+				"78": {
+					"1": "currentRoom.shading.scenes[10].labelFb",
+					"2": "currentRoom.shading.scenes[10].iconFb"
+				},
+				"79": {
+					"1": "currentRoom.shading.scenes[11].labelFb",
+					"2": "currentRoom.shading.scenes[11].iconFb"
+				},
+				"80": {
+					"1": "currentRoom.shading.scenes[12].labelFb",
+					"2": "currentRoom.shading.scenes[12].iconFb"
+				},
+				"81": {
+					"1": "currentRoom.shading.scenes[13].labelFb",
+					"2": "currentRoom.shading.scenes[13].iconFb"
+				},
+				"82": {
+					"1": "currentRoom.shading.scenes[14].labelFb",
+					"2": "currentRoom.shading.scenes[14].iconFb"
+				},
+				"83": {
+					"1": "currentRoom.shading.scenes[15].labelFb",
+					"2": "currentRoom.shading.scenes[15].iconFb"
+				},
+				"84": {
+					"1": "currentRoom.shading.scenes[16].labelFb",
+					"2": "currentRoom.shading.scenes[16].iconFb"
+				},
+				"85": {
+					"1": "currentRoom.shading.scenes[17].labelFb",
+					"2": "currentRoom.shading.scenes[17].iconFb"
+				},
+				"86": {
+					"1": "currentRoom.shading.scenes[18].labelFb",
+					"2": "currentRoom.shading.scenes[18].iconFb"
+				},
+				"87": {
+					"1": "currentRoom.shading.scenes[19].labelFb",
+					"2": "currentRoom.shading.scenes[19].iconFb"
+				},
+				"88": {
+					"1": "currentRoom.climate.zones[0].labelFb",
+					"2": "currentRoom.climate.zones[0].setpointFb",
+					"3": "currentRoom.climate.zones[0].temperatureFb"
+				},
+				"89": {
+					"1": "currentRoom.climate.zones[1].labelFb",
+					"2": "currentRoom.climate.zones[1].setpointFb",
+					"3": "currentRoom.climate.zones[1].temperatureFb"
+				},
+				"90": {
+					"1": "currentRoom.climate.zones[2].labelFb",
+					"2": "currentRoom.climate.zones[2].setpointFb",
+					"3": "currentRoom.climate.zones[2].temperatureFb"
+				},
+				"91": {
+					"1": "currentRoom.climate.zones[3].labelFb",
+					"2": "currentRoom.climate.zones[3].setpointFb",
+					"3": "currentRoom.climate.zones[3].temperatureFb"
+				},
+				"92": {
+					"1": "currentRoom.climate.zones[4].labelFb",
+					"2": "currentRoom.climate.zones[4].setpointFb",
+					"3": "currentRoom.climate.zones[4].temperatureFb"
+				},
+				"93": {
+					"1": "currentRoom.watch.sources[0].labelFb",
+					"2": "currentRoom.watch.sources[0].iconFb"
+				},
+				"94": {
+					"1": "currentRoom.watch.sources[1].labelFb",
+					"2": "currentRoom.watch.sources[1].iconFb"
+				},
+				"95": {
+					"1": "currentRoom.watch.sources[2].labelFb",
+					"2": "currentRoom.watch.sources[2].iconFb"
+				},
+				"96": {
+					"1": "currentRoom.watch.sources[3].labelFb",
+					"2": "currentRoom.watch.sources[3].iconFb"
+				},
+				"97": {
+					"1": "currentRoom.watch.sources[4].labelFb",
+					"2": "currentRoom.watch.sources[4].iconFb"
+				},
+				"98": {
+					"1": "currentRoom.watch.sources[5].labelFb",
+					"2": "currentRoom.watch.sources[5].iconFb"
+				},
+				"99": {
+					"1": "currentRoom.watch.sources[6].labelFb",
+					"2": "currentRoom.watch.sources[6].iconFb"
+				},
+				"100": {
+					"1": "currentRoom.watch.sources[7].labelFb",
+					"2": "currentRoom.watch.sources[7].iconFb"
+				},
+				"101": {
+					"1": "currentRoom.watch.sources[8].labelFb",
+					"2": "currentRoom.watch.sources[8].iconFb"
+				},
+				"102": {
+					"1": "currentRoom.watch.sources[9].labelFb",
+					"2": "currentRoom.watch.sources[9].iconFb"
+				},
+				"103": {
+					"1": "currentRoom.watch.sources[10].labelFb",
+					"2": "currentRoom.watch.sources[10].iconFb"
+				},
+				"104": {
+					"1": "currentRoom.watch.sources[11].labelFb",
+					"2": "currentRoom.watch.sources[11].iconFb"
+				},
+				"105": {
+					"1": "currentRoom.watch.sources[12].labelFb",
+					"2": "currentRoom.watch.sources[12].iconFb"
+				},
+				"106": {
+					"1": "currentRoom.watch.sources[13].labelFb",
+					"2": "currentRoom.watch.sources[13].iconFb"
+				},
+				"107": {
+					"1": "currentRoom.watch.sources[14].labelFb",
+					"2": "currentRoom.watch.sources[14].iconFb"
+				},
+				"108": {
+					"1": "currentRoom.watch.sources[15].labelFb",
+					"2": "currentRoom.watch.sources[15].iconFb"
+				},
+				"109": {
+					"1": "currentRoom.watch.sources[16].labelFb",
+					"2": "currentRoom.watch.sources[16].iconFb"
+				},
+				"110": {
+					"1": "currentRoom.watch.sources[17].labelFb",
+					"2": "currentRoom.watch.sources[17].iconFb"
+				},
+				"111": {
+					"1": "currentRoom.watch.sources[18].labelFb",
+					"2": "currentRoom.watch.sources[18].iconFb"
+				},
+				"112": {
+					"1": "currentRoom.watch.sources[19].labelFb",
+					"2": "currentRoom.watch.sources[19].iconFb"
+				},
+				"113": {
+					"1": "currentRoom.listen.sources[0].labelFb",
+					"2": "currentRoom.listen.sources[0].iconFb"
+				},
+				"114": {
+					"1": "currentRoom.listen.sources[1].labelFb",
+					"2": "currentRoom.listen.sources[1].iconFb"
+				},
+				"115": {
+					"1": "currentRoom.listen.sources[2].labelFb",
+					"2": "currentRoom.listen.sources[2].iconFb"
+				},
+				"116": {
+					"1": "currentRoom.listen.sources[3].labelFb",
+					"2": "currentRoom.listen.sources[3].iconFb"
+				},
+				"117": {
+					"1": "currentRoom.listen.sources[4].labelFb",
+					"2": "currentRoom.listen.sources[4].iconFb"
+				},
+				"118": {
+					"1": "currentRoom.listen.sources[5].labelFb",
+					"2": "currentRoom.listen.sources[5].iconFb"
+				},
+				"119": {
+					"1": "currentRoom.listen.sources[6].labelFb",
+					"2": "currentRoom.listen.sources[6].iconFb"
+				},
+				"120": {
+					"1": "currentRoom.listen.sources[7].labelFb",
+					"2": "currentRoom.listen.sources[7].iconFb"
+				},
+				"121": {
+					"1": "currentRoom.listen.sources[8].labelFb",
+					"2": "currentRoom.listen.sources[8].iconFb"
+				},
+				"122": {
+					"1": "currentRoom.listen.sources[9].labelFb",
+					"2": "currentRoom.listen.sources[9].iconFb"
+				},
+				"123": {
+					"1": "currentRoom.listen.sources[10].labelFb",
+					"2": "currentRoom.listen.sources[10].iconFb"
+				},
+				"124": {
+					"1": "currentRoom.listen.sources[11].labelFb",
+					"2": "currentRoom.listen.sources[11].iconFb"
+				},
+				"125": {
+					"1": "currentRoom.listen.sources[12].labelFb",
+					"2": "currentRoom.listen.sources[12].iconFb"
+				},
+				"126": {
+					"1": "currentRoom.listen.sources[13].labelFb",
+					"2": "currentRoom.listen.sources[13].iconFb"
+				},
+				"127": {
+					"1": "currentRoom.listen.sources[14].labelFb",
+					"2": "currentRoom.listen.sources[14].iconFb"
+				},
+				"128": {
+					"1": "currentRoom.listen.sources[15].labelFb",
+					"2": "currentRoom.listen.sources[15].iconFb"
+				},
+				"129": {
+					"1": "currentRoom.listen.sources[16].labelFb",
+					"2": "currentRoom.listen.sources[16].iconFb"
+				},
+				"130": {
+					"1": "currentRoom.listen.sources[17].labelFb",
+					"2": "currentRoom.listen.sources[17].iconFb"
+				},
+				"131": {
+					"1": "currentRoom.listen.sources[18].labelFb",
+					"2": "currentRoom.listen.sources[18].iconFb"
+				},
+				"132": {
+					"1": "currentRoom.listen.sources[19].labelFb",
+					"2": "currentRoom.listen.sources[19].iconFb"
+				},
+				"133": {
+					"1": "currentRoom.climate.zones[0].modes[0].labelFb",
+					"2": "currentRoom.climate.zones[0].modes[0].iconFb"
+				},
+				"134": {
+					"1": "currentRoom.climate.zones[0].modes[1].labelFb",
+					"2": "currentRoom.climate.zones[0].modes[1].iconFb"
+				},
+				"135": {
+					"1": "currentRoom.climate.zones[0].modes[2].labelFb",
+					"2": "currentRoom.climate.zones[0].modes[2].iconFb"
+				},
+				"136": {
+					"1": "currentRoom.climate.zones[0].modes[3].labelFb",
+					"2": "currentRoom.climate.zones[0].modes[3].iconFb"
+				},
+				"137": {
+					"1": "currentRoom.climate.zones[0].modes[4].labelFb",
+					"2": "currentRoom.climate.zones[0].modes[4].iconFb"
+				},
+				"138": {
+					"1": "currentRoom.climate.zones[0].fanSpeeds[0].labelFb",
+					"2": "currentRoom.climate.zones[0].fanSpeeds[0].iconFb"
+				},
+				"139": {
+					"1": "currentRoom.climate.zones[0].fanSpeeds[1].labelFb",
+					"2": "currentRoom.climate.zones[0].fanSpeeds[1].iconFb"
+				},
+				"140": {
+					"1": "currentRoom.climate.zones[0].fanSpeeds[2].labelFb",
+					"2": "currentRoom.climate.zones[0].fanSpeeds[2].iconFb"
+				},
+				"141": {
+					"1": "currentRoom.climate.zones[0].fanSpeeds[3].labelFb",
+					"2": "currentRoom.climate.zones[0].fanSpeeds[3].iconFb"
+				},
+				"142": {
+					"1": "currentRoom.climate.zones[0].fanSpeeds[4].labelFb",
+					"2": "currentRoom.climate.zones[0].fanSpeeds[4].iconFb"
+				},
+				"143": {
+					"1": "currentRoom.climate.zones[0].toggles[0].labelFb",
+					"2": "currentRoom.climate.zones[0].toggles[0].iconFb"
+				},
+				"144": {
+					"1": "currentRoom.climate.zones[0].toggles[1].labelFb",
+					"2": "currentRoom.climate.zones[0].toggles[1].iconFb"
+				},
+				"145": {
+					"1": "currentRoom.climate.zones[0].toggles[2].labelFb",
+					"2": "currentRoom.climate.zones[0].toggles[2].iconFb"
+				},
+				"146": {
+					"1": "currentRoom.climate.zones[1].modes[0].labelFb",
+					"2": "currentRoom.climate.zones[1].modes[0].iconFb"
+				},
+				"147": {
+					"1": "currentRoom.climate.zones[1].modes[1].labelFb",
+					"2": "currentRoom.climate.zones[1].modes[1].iconFb"
+				},
+				"148": {
+					"1": "currentRoom.climate.zones[1].modes[2].labelFb",
+					"2": "currentRoom.climate.zones[1].modes[2].iconFb"
+				},
+				"149": {
+					"1": "currentRoom.climate.zones[1].modes[3].labelFb",
+					"2": "currentRoom.climate.zones[1].modes[3].iconFb"
+				},
+				"150": {
+					"1": "currentRoom.climate.zones[1].modes[4].labelFb",
+					"2": "currentRoom.climate.zones[1].modes[4].iconFb"
+				},
+				"151": {
+					"1": "currentRoom.climate.zones[1].fanSpeeds[0].labelFb",
+					"2": "currentRoom.climate.zones[1].fanSpeeds[0].iconFb"
+				},
+				"152": {
+					"1": "currentRoom.climate.zones[1].fanSpeeds[1].labelFb",
+					"2": "currentRoom.climate.zones[1].fanSpeeds[1].iconFb"
+				},
+				"153": {
+					"1": "currentRoom.climate.zones[1].fanSpeeds[2].labelFb",
+					"2": "currentRoom.climate.zones[1].fanSpeeds[2].iconFb"
+				},
+				"154": {
+					"1": "currentRoom.climate.zones[1].fanSpeeds[3].labelFb",
+					"2": "currentRoom.climate.zones[1].fanSpeeds[3].iconFb"
+				},
+				"155": {
+					"1": "currentRoom.climate.zones[1].fanSpeeds[4].labelFb",
+					"2": "currentRoom.climate.zones[1].fanSpeeds[4].iconFb"
+				},
+				"156": {
+					"1": "currentRoom.climate.zones[1].toggles[0].labelFb",
+					"2": "currentRoom.climate.zones[1].toggles[0].iconFb"
+				},
+				"157": {
+					"1": "currentRoom.climate.zones[1].toggles[1].labelFb",
+					"2": "currentRoom.climate.zones[1].toggles[1].iconFb"
+				},
+				"158": {
+					"1": "currentRoom.climate.zones[1].toggles[2].labelFb",
+					"2": "currentRoom.climate.zones[1].toggles[2].iconFb"
+				},
+				"159": {
+					"1": "currentRoom.climate.zones[2].modes[0].labelFb",
+					"2": "currentRoom.climate.zones[2].modes[0].iconFb"
+				},
+				"160": {
+					"1": "currentRoom.climate.zones[2].modes[1].labelFb",
+					"2": "currentRoom.climate.zones[2].modes[1].iconFb"
+				},
+				"161": {
+					"1": "currentRoom.climate.zones[2].modes[2].labelFb",
+					"2": "currentRoom.climate.zones[2].modes[2].iconFb"
+				},
+				"162": {
+					"1": "currentRoom.climate.zones[2].modes[3].labelFb",
+					"2": "currentRoom.climate.zones[2].modes[3].iconFb"
+				},
+				"163": {
+					"1": "currentRoom.climate.zones[2].modes[4].labelFb",
+					"2": "currentRoom.climate.zones[2].modes[4].iconFb"
+				},
+				"164": {
+					"1": "currentRoom.climate.zones[2].fanSpeeds[0].labelFb",
+					"2": "currentRoom.climate.zones[2].fanSpeeds[0].iconFb"
+				},
+				"165": {
+					"1": "currentRoom.climate.zones[2].fanSpeeds[1].labelFb",
+					"2": "currentRoom.climate.zones[2].fanSpeeds[1].iconFb"
+				},
+				"166": {
+					"1": "currentRoom.climate.zones[2].fanSpeeds[2].labelFb",
+					"2": "currentRoom.climate.zones[2].fanSpeeds[2].iconFb"
+				},
+				"167": {
+					"1": "currentRoom.climate.zones[2].fanSpeeds[3].labelFb",
+					"2": "currentRoom.climate.zones[2].fanSpeeds[3].iconFb"
+				},
+				"168": {
+					"1": "currentRoom.climate.zones[2].fanSpeeds[4].labelFb",
+					"2": "currentRoom.climate.zones[2].fanSpeeds[4].iconFb"
+				},
+				"169": {
+					"1": "currentRoom.climate.zones[2].toggles[0].labelFb",
+					"2": "currentRoom.climate.zones[2].toggles[0].iconFb"
+				},
+				"170": {
+					"1": "currentRoom.climate.zones[2].toggles[1].labelFb",
+					"2": "currentRoom.climate.zones[2].toggles[1].iconFb"
+				},
+				"171": {
+					"1": "currentRoom.climate.zones[2].toggles[2].labelFb",
+					"2": "currentRoom.climate.zones[2].toggles[2].iconFb"
+				},
+				"172": {
+					"1": "currentRoom.climate.zones[3].modes[0].labelFb",
+					"2": "currentRoom.climate.zones[3].modes[0].iconFb"
+				},
+				"173": {
+					"1": "currentRoom.climate.zones[3].modes[1].labelFb",
+					"2": "currentRoom.climate.zones[3].modes[1].iconFb"
+				},
+				"174": {
+					"1": "currentRoom.climate.zones[3].modes[2].labelFb",
+					"2": "currentRoom.climate.zones[3].modes[2].iconFb"
+				},
+				"175": {
+					"1": "currentRoom.climate.zones[3].modes[3].labelFb",
+					"2": "currentRoom.climate.zones[3].modes[3].iconFb"
+				},
+				"176": {
+					"1": "currentRoom.climate.zones[3].modes[4].labelFb",
+					"2": "currentRoom.climate.zones[3].modes[4].iconFb"
+				},
+				"177": {
+					"1": "currentRoom.climate.zones[3].fanSpeeds[0].labelFb",
+					"2": "currentRoom.climate.zones[3].fanSpeeds[0].iconFb"
+				},
+				"178": {
+					"1": "currentRoom.climate.zones[3].fanSpeeds[1].labelFb",
+					"2": "currentRoom.climate.zones[3].fanSpeeds[1].iconFb"
+				},
+				"179": {
+					"1": "currentRoom.climate.zones[3].fanSpeeds[2].labelFb",
+					"2": "currentRoom.climate.zones[3].fanSpeeds[2].iconFb"
+				},
+				"180": {
+					"1": "currentRoom.climate.zones[3].fanSpeeds[3].labelFb",
+					"2": "currentRoom.climate.zones[3].fanSpeeds[3].iconFb"
+				},
+				"181": {
+					"1": "currentRoom.climate.zones[3].fanSpeeds[4].labelFb",
+					"2": "currentRoom.climate.zones[3].fanSpeeds[4].iconFb"
+				},
+				"182": {
+					"1": "currentRoom.climate.zones[3].toggles[0].labelFb",
+					"2": "currentRoom.climate.zones[3].toggles[0].iconFb"
+				},
+				"183": {
+					"1": "currentRoom.climate.zones[3].toggles[1].labelFb",
+					"2": "currentRoom.climate.zones[3].toggles[1].iconFb"
+				},
+				"184": {
+					"1": "currentRoom.climate.zones[3].toggles[2].labelFb",
+					"2": "currentRoom.climate.zones[3].toggles[2].iconFb"
+				},
+				"185": {
+					"1": "currentRoom.climate.zones[4].modes[0].labelFb",
+					"2": "currentRoom.climate.zones[4].modes[0].iconFb"
+				},
+				"186": {
+					"1": "currentRoom.climate.zones[4].modes[1].labelFb",
+					"2": "currentRoom.climate.zones[4].modes[1].iconFb"
+				},
+				"187": {
+					"1": "currentRoom.climate.zones[4].modes[2].labelFb",
+					"2": "currentRoom.climate.zones[4].modes[2].iconFb"
+				},
+				"188": {
+					"1": "currentRoom.climate.zones[4].modes[3].labelFb",
+					"2": "currentRoom.climate.zones[4].modes[3].iconFb"
+				},
+				"189": {
+					"1": "currentRoom.climate.zones[4].modes[4].labelFb",
+					"2": "currentRoom.climate.zones[4].modes[4].iconFb"
+				},
+				"190": {
+					"1": "currentRoom.climate.zones[4].fanSpeeds[0].labelFb",
+					"2": "currentRoom.climate.zones[4].fanSpeeds[0].iconFb"
+				},
+				"191": {
+					"1": "currentRoom.climate.zones[4].fanSpeeds[1].labelFb",
+					"2": "currentRoom.climate.zones[4].fanSpeeds[1].iconFb"
+				},
+				"192": {
+					"1": "currentRoom.climate.zones[4].fanSpeeds[2].labelFb",
+					"2": "currentRoom.climate.zones[4].fanSpeeds[2].iconFb"
+				},
+				"193": {
+					"1": "currentRoom.climate.zones[4].fanSpeeds[3].labelFb",
+					"2": "currentRoom.climate.zones[4].fanSpeeds[3].iconFb"
+				},
+				"194": {
+					"1": "currentRoom.climate.zones[4].fanSpeeds[4].labelFb",
+					"2": "currentRoom.climate.zones[4].fanSpeeds[4].iconFb"
+				},
+				"195": {
+					"1": "currentRoom.climate.zones[4].toggles[0].labelFb",
+					"2": "currentRoom.climate.zones[4].toggles[0].iconFb"
+				},
+				"196": {
+					"1": "currentRoom.climate.zones[4].toggles[1].labelFb",
+					"2": "currentRoom.climate.zones[4].toggles[1].iconFb"
+				},
+				"197": {
+					"1": "currentRoom.climate.zones[4].toggles[2].labelFb",
+					"2": "currentRoom.climate.zones[4].toggles[2].iconFb"
+				},
+				"198": {
+					"1": "currentSourceWatch.labelFb",
+					"2": "currentSourceWatch.typeFb",
+					"3": "currentSourceWatch.iconFb"
+				},
+				"199": {
+					"1": "currentSourceListen.labelFb",
+					"2": "currentSourceListen.typeFb",
+					"3": "currentSourceListen.iconFb"
+				},
+				"200": {
+					"1": "property.labelFb"
+				},
+				"203": {
+					"1": "property.security.cameras[0].labelFb",
+					"2": "property.security.cameras[0].urlFb",
+					"3": "property.security.cameras[0].iconFb",
+					"4": "property.security.cameras[0].textFb"
+				},
+				"204": {
+					"1": "property.security.cameras[1].labelFb",
+					"2": "property.security.cameras[1].urlFb",
+					"3": "property.security.cameras[1].iconFb",
+					"4": "property.security.cameras[1].textFb"
+				},
+				"205": {
+					"1": "property.security.cameras[2].labelFb",
+					"2": "property.security.cameras[2].urlFb",
+					"3": "property.security.cameras[2].iconFb",
+					"4": "property.security.cameras[2].textFb"
+				},
+				"206": {
+					"1": "property.security.cameras[3].labelFb",
+					"2": "property.security.cameras[3].urlFb",
+					"3": "property.security.cameras[3].iconFb",
+					"4": "property.security.cameras[3].textFb"
+				},
+				"207": {
+					"1": "property.security.cameras[4].labelFb",
+					"2": "property.security.cameras[4].urlFb",
+					"3": "property.security.cameras[4].iconFb",
+					"4": "property.security.cameras[4].textFb"
+				},
+				"208": {
+					"1": "property.security.cameras[5].labelFb",
+					"2": "property.security.cameras[5].urlFb",
+					"3": "property.security.cameras[5].iconFb",
+					"4": "property.security.cameras[5].textFb"
+				},
+				"209": {
+					"1": "property.security.cameras[6].labelFb",
+					"2": "property.security.cameras[6].urlFb",
+					"3": "property.security.cameras[6].iconFb",
+					"4": "property.security.cameras[6].textFb"
+				},
+				"210": {
+					"1": "property.security.cameras[7].labelFb",
+					"2": "property.security.cameras[7].urlFb",
+					"3": "property.security.cameras[7].iconFb",
+					"4": "property.security.cameras[7].textFb"
+				},
+				"211": {
+					"1": "property.security.cameras[8].labelFb",
+					"2": "property.security.cameras[8].urlFb",
+					"3": "property.security.cameras[8].iconFb",
+					"4": "property.security.cameras[8].textFb"
+				},
+				"212": {
+					"1": "property.security.cameras[9].labelFb",
+					"2": "property.security.cameras[9].urlFb",
+					"3": "property.security.cameras[9].iconFb",
+					"4": "property.security.cameras[9].textFb"
+				},
+				"213": {
+					"1": "property.security.cameras[10].labelFb",
+					"2": "property.security.cameras[10].urlFb",
+					"3": "property.security.cameras[10].iconFb",
+					"4": "property.security.cameras[10].textFb"
+				},
+				"214": {
+					"1": "property.security.cameras[11].labelFb",
+					"2": "property.security.cameras[11].urlFb",
+					"3": "property.security.cameras[11].iconFb",
+					"4": "property.security.cameras[11].textFb"
+				},
+				"215": {
+					"1": "property.security.cameras[12].labelFb",
+					"2": "property.security.cameras[12].urlFb",
+					"3": "property.security.cameras[12].iconFb",
+					"4": "property.security.cameras[12].textFb"
+				},
+				"216": {
+					"1": "property.security.cameras[13].labelFb",
+					"2": "property.security.cameras[13].urlFb",
+					"3": "property.security.cameras[13].iconFb",
+					"4": "property.security.cameras[13].textFb"
+				},
+				"217": {
+					"1": "property.security.cameras[14].labelFb",
+					"2": "property.security.cameras[14].urlFb",
+					"3": "property.security.cameras[14].iconFb",
+					"4": "property.security.cameras[14].textFb"
+				},
+				"218": {
+					"1": "property.security.cameras[15].labelFb",
+					"2": "property.security.cameras[15].urlFb",
+					"3": "property.security.cameras[15].iconFb",
+					"4": "property.security.cameras[15].textFb"
+				},
+				"219": {
+					"1": "property.security.cameras[16].labelFb",
+					"2": "property.security.cameras[16].urlFb",
+					"3": "property.security.cameras[16].iconFb",
+					"4": "property.security.cameras[16].textFb"
+				},
+				"220": {
+					"1": "property.security.cameras[17].labelFb",
+					"2": "property.security.cameras[17].urlFb",
+					"3": "property.security.cameras[17].iconFb",
+					"4": "property.security.cameras[17].textFb"
+				},
+				"221": {
+					"1": "property.security.cameras[18].labelFb",
+					"2": "property.security.cameras[18].urlFb",
+					"3": "property.security.cameras[18].iconFb",
+					"4": "property.security.cameras[18].textFb"
+				},
+				"222": {
+					"1": "property.security.cameras[19].labelFb",
+					"2": "property.security.cameras[19].urlFb",
+					"3": "property.security.cameras[19].iconFb",
+					"4": "property.security.cameras[19].textFb"
+				},
+				"223": {
+					"1": "property.security.cameras[20].labelFb",
+					"2": "property.security.cameras[20].urlFb",
+					"3": "property.security.cameras[20].iconFb",
+					"4": "property.security.cameras[20].textFb"
+				},
+				"224": {
+					"1": "property.security.cameras[21].labelFb",
+					"2": "property.security.cameras[21].urlFb",
+					"3": "property.security.cameras[21].iconFb",
+					"4": "property.security.cameras[21].textFb"
+				},
+				"225": {
+					"1": "property.security.cameras[22].labelFb",
+					"2": "property.security.cameras[22].urlFb",
+					"3": "property.security.cameras[22].iconFb",
+					"4": "property.security.cameras[22].textFb"
+				},
+				"226": {
+					"1": "property.security.cameras[23].labelFb",
+					"2": "property.security.cameras[23].urlFb",
+					"3": "property.security.cameras[23].iconFb",
+					"4": "property.security.cameras[23].textFb"
+				},
+				"227": {
+					"1": "property.security.cameras[24].labelFb",
+					"2": "property.security.cameras[24].urlFb",
+					"3": "property.security.cameras[24].iconFb",
+					"4": "property.security.cameras[24].textFb"
+				},
+				"228": {
+					"1": "property.security.cameras[25].labelFb",
+					"2": "property.security.cameras[25].urlFb",
+					"3": "property.security.cameras[25].iconFb",
+					"4": "property.security.cameras[25].textFb"
+				},
+				"229": {
+					"1": "property.security.cameras[26].labelFb",
+					"2": "property.security.cameras[26].urlFb",
+					"3": "property.security.cameras[26].iconFb",
+					"4": "property.security.cameras[26].textFb"
+				},
+				"230": {
+					"1": "property.security.cameras[27].labelFb",
+					"2": "property.security.cameras[27].urlFb",
+					"3": "property.security.cameras[27].iconFb",
+					"4": "property.security.cameras[27].textFb"
+				},
+				"231": {
+					"1": "property.security.cameras[28].labelFb",
+					"2": "property.security.cameras[28].urlFb",
+					"3": "property.security.cameras[28].iconFb",
+					"4": "property.security.cameras[28].textFb"
+				},
+				"232": {
+					"1": "property.security.cameras[29].labelFb",
+					"2": "property.security.cameras[29].urlFb",
+					"3": "property.security.cameras[29].iconFb",
+					"4": "property.security.cameras[29].textFb"
+				}
+			}
+		},
+		"events": {
+			"boolean": {
+				"rooms[0].favourite": {
+					"joinId": 2,
+					"smartObjectId": 2
+				},
+				"rooms[0].press": {
+					"joinId": 3,
+					"smartObjectId": 2
+				},
+				"rooms[0].roomOff": {
+					"joinId": 4,
+					"smartObjectId": 2
+				},
+				"rooms[0].watchOff": {
+					"joinId": 5,
+					"smartObjectId": 2
+				},
+				"rooms[0].listenOff": {
+					"joinId": 6,
+					"smartObjectId": 2
+				},
+				"rooms[1].favourite": {
+					"joinId": 2,
+					"smartObjectId": 3
+				},
+				"rooms[1].press": {
+					"joinId": 3,
+					"smartObjectId": 3
+				},
+				"rooms[1].roomOff": {
+					"joinId": 4,
+					"smartObjectId": 3
+				},
+				"rooms[1].watchOff": {
+					"joinId": 5,
+					"smartObjectId": 3
+				},
+				"rooms[1].listenOff": {
+					"joinId": 6,
+					"smartObjectId": 3
+				},
+				"rooms[2].favourite": {
+					"joinId": 2,
+					"smartObjectId": 4
+				},
+				"rooms[2].press": {
+					"joinId": 3,
+					"smartObjectId": 4
+				},
+				"rooms[2].roomOff": {
+					"joinId": 4,
+					"smartObjectId": 4
+				},
+				"rooms[2].watchOff": {
+					"joinId": 5,
+					"smartObjectId": 4
+				},
+				"rooms[2].listenOff": {
+					"joinId": 6,
+					"smartObjectId": 4
+				},
+				"rooms[3].favourite": {
+					"joinId": 2,
+					"smartObjectId": 5
+				},
+				"rooms[3].press": {
+					"joinId": 3,
+					"smartObjectId": 5
+				},
+				"rooms[3].roomOff": {
+					"joinId": 4,
+					"smartObjectId": 5
+				},
+				"rooms[3].watchOff": {
+					"joinId": 5,
+					"smartObjectId": 5
+				},
+				"rooms[3].listenOff": {
+					"joinId": 6,
+					"smartObjectId": 5
+				},
+				"rooms[4].favourite": {
+					"joinId": 2,
+					"smartObjectId": 6
+				},
+				"rooms[4].press": {
+					"joinId": 3,
+					"smartObjectId": 6
+				},
+				"rooms[4].roomOff": {
+					"joinId": 4,
+					"smartObjectId": 6
+				},
+				"rooms[4].watchOff": {
+					"joinId": 5,
+					"smartObjectId": 6
+				},
+				"rooms[4].listenOff": {
+					"joinId": 6,
+					"smartObjectId": 6
+				},
+				"currentRoom.volumeRaise": {
+					"joinId": 2,
+					"smartObjectId": 12
+				},
+				"currentRoom.volumeLower": {
+					"joinId": 3,
+					"smartObjectId": 12
+				},
+				"currentRoom.volumeMute": {
+					"joinId": 4,
+					"smartObjectId": 12
+				},
+				"currentRoom.powerOff": {
+					"joinId": 5,
+					"smartObjectId": 12
+				},
+				"currentSourceWatch.play": {
+					"joinId": 1,
+					"smartObjectId": 198
+				},
+				"currentSourceWatch.stop": {
+					"joinId": 2,
+					"smartObjectId": 198
+				},
+				"currentSourceWatch.pause": {
+					"joinId": 3,
+					"smartObjectId": 198
+				},
+				"currentSourceListen.play": {
+					"joinId": 1,
+					"smartObjectId": 199
+				},
+				"currentSourceListen.stop": {
+					"joinId": 2,
+					"smartObjectId": 199
+				},
+				"currentSourceListen.pause": {
+					"joinId": 3,
+					"smartObjectId": 199
+				},
+				"currentRoom.lighting.toggle": {
+					"joinId": 2,
+					"smartObjectId": 13
+				},
+				"currentRoom.shading.toggle": {
+					"joinId": 2,
+					"smartObjectId": 14
+				},
+				"currentRoom.climate.toggle": {
+					"joinId": 2,
+					"smartObjectId": 15
+				},
+				"currentRoom.watch.toggle": {
+					"joinId": 2,
+					"smartObjectId": 16
+				},
+				"currentRoom.listen.toggle": {
+					"joinId": 2,
+					"smartObjectId": 17
+				},
+				"currentRoom.lighting.scenes[0].press": {
+					"joinId": 1,
+					"smartObjectId": 18
+				},
+				"currentRoom.lighting.scenes[1].press": {
+					"joinId": 1,
+					"smartObjectId": 19
+				},
+				"currentRoom.lighting.scenes[2].press": {
+					"joinId": 1,
+					"smartObjectId": 20
+				},
+				"currentRoom.lighting.scenes[3].press": {
+					"joinId": 1,
+					"smartObjectId": 21
+				},
+				"currentRoom.lighting.scenes[4].press": {
+					"joinId": 1,
+					"smartObjectId": 22
+				},
+				"currentRoom.lighting.scenes[5].press": {
+					"joinId": 1,
+					"smartObjectId": 23
+				},
+				"currentRoom.lighting.scenes[6].press": {
+					"joinId": 1,
+					"smartObjectId": 24
+				},
+				"currentRoom.lighting.scenes[7].press": {
+					"joinId": 1,
+					"smartObjectId": 25
+				},
+				"currentRoom.lighting.scenes[8].press": {
+					"joinId": 1,
+					"smartObjectId": 26
+				},
+				"currentRoom.lighting.scenes[9].press": {
+					"joinId": 1,
+					"smartObjectId": 27
+				},
+				"currentRoom.lighting.scenes[10].press": {
+					"joinId": 1,
+					"smartObjectId": 28
+				},
+				"currentRoom.lighting.scenes[11].press": {
+					"joinId": 1,
+					"smartObjectId": 29
+				},
+				"currentRoom.lighting.scenes[12].press": {
+					"joinId": 1,
+					"smartObjectId": 30
+				},
+				"currentRoom.lighting.scenes[13].press": {
+					"joinId": 1,
+					"smartObjectId": 31
+				},
+				"currentRoom.lighting.scenes[14].press": {
+					"joinId": 1,
+					"smartObjectId": 32
+				},
+				"currentRoom.lighting.scenes[15].press": {
+					"joinId": 1,
+					"smartObjectId": 33
+				},
+				"currentRoom.lighting.scenes[16].press": {
+					"joinId": 1,
+					"smartObjectId": 34
+				},
+				"currentRoom.lighting.scenes[17].press": {
+					"joinId": 1,
+					"smartObjectId": 35
+				},
+				"currentRoom.lighting.scenes[18].press": {
+					"joinId": 1,
+					"smartObjectId": 36
+				},
+				"currentRoom.lighting.scenes[19].press": {
+					"joinId": 1,
+					"smartObjectId": 37
+				},
+				"currentRoom.lighting.circuits[0].press": {
+					"joinId": 1,
+					"smartObjectId": 38
+				},
+				"currentRoom.lighting.circuits[0].switchOn": {
+					"joinId": 2,
+					"smartObjectId": 38
+				},
+				"currentRoom.lighting.circuits[0].switchOff": {
+					"joinId": 3,
+					"smartObjectId": 38
+				},
+				"currentRoom.lighting.circuits[0].toggle": {
+					"joinId": 4,
+					"smartObjectId": 38
+				},
+				"currentRoom.lighting.circuits[1].press": {
+					"joinId": 1,
+					"smartObjectId": 39
+				},
+				"currentRoom.lighting.circuits[1].switchOn": {
+					"joinId": 2,
+					"smartObjectId": 39
+				},
+				"currentRoom.lighting.circuits[1].switchOff": {
+					"joinId": 3,
+					"smartObjectId": 39
+				},
+				"currentRoom.lighting.circuits[1].toggle": {
+					"joinId": 4,
+					"smartObjectId": 39
+				},
+				"currentRoom.lighting.circuits[2].press": {
+					"joinId": 1,
+					"smartObjectId": 40
+				},
+				"currentRoom.lighting.circuits[2].switchOn": {
+					"joinId": 2,
+					"smartObjectId": 40
+				},
+				"currentRoom.lighting.circuits[2].switchOff": {
+					"joinId": 3,
+					"smartObjectId": 40
+				},
+				"currentRoom.lighting.circuits[2].toggle": {
+					"joinId": 4,
+					"smartObjectId": 40
+				},
+				"currentRoom.lighting.circuits[3].press": {
+					"joinId": 1,
+					"smartObjectId": 41
+				},
+				"currentRoom.lighting.circuits[3].switchOn": {
+					"joinId": 2,
+					"smartObjectId": 41
+				},
+				"currentRoom.lighting.circuits[3].switchOff": {
+					"joinId": 3,
+					"smartObjectId": 41
+				},
+				"currentRoom.lighting.circuits[3].toggle": {
+					"joinId": 4,
+					"smartObjectId": 41
+				},
+				"currentRoom.lighting.circuits[4].press": {
+					"joinId": 1,
+					"smartObjectId": 42
+				},
+				"currentRoom.lighting.circuits[4].switchOn": {
+					"joinId": 2,
+					"smartObjectId": 42
+				},
+				"currentRoom.lighting.circuits[4].switchOff": {
+					"joinId": 3,
+					"smartObjectId": 42
+				},
+				"currentRoom.lighting.circuits[4].toggle": {
+					"joinId": 4,
+					"smartObjectId": 42
+				},
+				"currentRoom.lighting.circuits[5].press": {
+					"joinId": 1,
+					"smartObjectId": 43
+				},
+				"currentRoom.lighting.circuits[5].switchOn": {
+					"joinId": 2,
+					"smartObjectId": 43
+				},
+				"currentRoom.lighting.circuits[5].switchOff": {
+					"joinId": 3,
+					"smartObjectId": 43
+				},
+				"currentRoom.lighting.circuits[5].toggle": {
+					"joinId": 4,
+					"smartObjectId": 43
+				},
+				"currentRoom.lighting.circuits[6].press": {
+					"joinId": 1,
+					"smartObjectId": 44
+				},
+				"currentRoom.lighting.circuits[6].switchOn": {
+					"joinId": 2,
+					"smartObjectId": 44
+				},
+				"currentRoom.lighting.circuits[6].switchOff": {
+					"joinId": 3,
+					"smartObjectId": 44
+				},
+				"currentRoom.lighting.circuits[6].toggle": {
+					"joinId": 4,
+					"smartObjectId": 44
+				},
+				"currentRoom.lighting.circuits[7].press": {
+					"joinId": 1,
+					"smartObjectId": 45
+				},
+				"currentRoom.lighting.circuits[7].switchOn": {
+					"joinId": 2,
+					"smartObjectId": 45
+				},
+				"currentRoom.lighting.circuits[7].switchOff": {
+					"joinId": 3,
+					"smartObjectId": 45
+				},
+				"currentRoom.lighting.circuits[7].toggle": {
+					"joinId": 4,
+					"smartObjectId": 45
+				},
+				"currentRoom.lighting.circuits[8].press": {
+					"joinId": 1,
+					"smartObjectId": 46
+				},
+				"currentRoom.lighting.circuits[8].switchOn": {
+					"joinId": 2,
+					"smartObjectId": 46
+				},
+				"currentRoom.lighting.circuits[8].switchOff": {
+					"joinId": 3,
+					"smartObjectId": 46
+				},
+				"currentRoom.lighting.circuits[8].toggle": {
+					"joinId": 4,
+					"smartObjectId": 46
+				},
+				"currentRoom.lighting.circuits[9].press": {
+					"joinId": 1,
+					"smartObjectId": 47
+				},
+				"currentRoom.lighting.circuits[9].switchOn": {
+					"joinId": 2,
+					"smartObjectId": 47
+				},
+				"currentRoom.lighting.circuits[9].switchOff": {
+					"joinId": 3,
+					"smartObjectId": 47
+				},
+				"currentRoom.lighting.circuits[9].toggle": {
+					"joinId": 4,
+					"smartObjectId": 47
+				},
+				"currentRoom.lighting.circuits[10].press": {
+					"joinId": 1,
+					"smartObjectId": 48
+				},
+				"currentRoom.lighting.circuits[10].switchOn": {
+					"joinId": 2,
+					"smartObjectId": 48
+				},
+				"currentRoom.lighting.circuits[10].switchOff": {
+					"joinId": 3,
+					"smartObjectId": 48
+				},
+				"currentRoom.lighting.circuits[10].toggle": {
+					"joinId": 4,
+					"smartObjectId": 48
+				},
+				"currentRoom.lighting.circuits[11].press": {
+					"joinId": 1,
+					"smartObjectId": 49
+				},
+				"currentRoom.lighting.circuits[11].switchOn": {
+					"joinId": 2,
+					"smartObjectId": 49
+				},
+				"currentRoom.lighting.circuits[11].switchOff": {
+					"joinId": 3,
+					"smartObjectId": 49
+				},
+				"currentRoom.lighting.circuits[11].toggle": {
+					"joinId": 4,
+					"smartObjectId": 49
+				},
+				"currentRoom.lighting.circuits[12].press": {
+					"joinId": 1,
+					"smartObjectId": 50
+				},
+				"currentRoom.lighting.circuits[12].switchOn": {
+					"joinId": 2,
+					"smartObjectId": 50
+				},
+				"currentRoom.lighting.circuits[12].switchOff": {
+					"joinId": 3,
+					"smartObjectId": 50
+				},
+				"currentRoom.lighting.circuits[12].toggle": {
+					"joinId": 4,
+					"smartObjectId": 50
+				},
+				"currentRoom.lighting.circuits[13].press": {
+					"joinId": 1,
+					"smartObjectId": 51
+				},
+				"currentRoom.lighting.circuits[13].switchOn": {
+					"joinId": 2,
+					"smartObjectId": 51
+				},
+				"currentRoom.lighting.circuits[13].switchOff": {
+					"joinId": 3,
+					"smartObjectId": 51
+				},
+				"currentRoom.lighting.circuits[13].toggle": {
+					"joinId": 4,
+					"smartObjectId": 51
+				},
+				"currentRoom.lighting.circuits[14].press": {
+					"joinId": 1,
+					"smartObjectId": 52
+				},
+				"currentRoom.lighting.circuits[14].switchOn": {
+					"joinId": 2,
+					"smartObjectId": 52
+				},
+				"currentRoom.lighting.circuits[14].switchOff": {
+					"joinId": 3,
+					"smartObjectId": 52
+				},
+				"currentRoom.lighting.circuits[14].toggle": {
+					"joinId": 4,
+					"smartObjectId": 52
+				},
+				"currentRoom.lighting.circuits[15].press": {
+					"joinId": 1,
+					"smartObjectId": 53
+				},
+				"currentRoom.lighting.circuits[15].switchOn": {
+					"joinId": 2,
+					"smartObjectId": 53
+				},
+				"currentRoom.lighting.circuits[15].switchOff": {
+					"joinId": 3,
+					"smartObjectId": 53
+				},
+				"currentRoom.lighting.circuits[15].toggle": {
+					"joinId": 4,
+					"smartObjectId": 53
+				},
+				"currentRoom.lighting.circuits[16].press": {
+					"joinId": 1,
+					"smartObjectId": 54
+				},
+				"currentRoom.lighting.circuits[16].switchOn": {
+					"joinId": 2,
+					"smartObjectId": 54
+				},
+				"currentRoom.lighting.circuits[16].switchOff": {
+					"joinId": 3,
+					"smartObjectId": 54
+				},
+				"currentRoom.lighting.circuits[16].toggle": {
+					"joinId": 4,
+					"smartObjectId": 54
+				},
+				"currentRoom.lighting.circuits[17].press": {
+					"joinId": 1,
+					"smartObjectId": 55
+				},
+				"currentRoom.lighting.circuits[17].switchOn": {
+					"joinId": 2,
+					"smartObjectId": 55
+				},
+				"currentRoom.lighting.circuits[17].switchOff": {
+					"joinId": 3,
+					"smartObjectId": 55
+				},
+				"currentRoom.lighting.circuits[17].toggle": {
+					"joinId": 4,
+					"smartObjectId": 55
+				},
+				"currentRoom.lighting.circuits[18].press": {
+					"joinId": 1,
+					"smartObjectId": 56
+				},
+				"currentRoom.lighting.circuits[18].switchOn": {
+					"joinId": 2,
+					"smartObjectId": 56
+				},
+				"currentRoom.lighting.circuits[18].switchOff": {
+					"joinId": 3,
+					"smartObjectId": 56
+				},
+				"currentRoom.lighting.circuits[18].toggle": {
+					"joinId": 4,
+					"smartObjectId": 56
+				},
+				"currentRoom.lighting.circuits[19].press": {
+					"joinId": 1,
+					"smartObjectId": 57
+				},
+				"currentRoom.lighting.circuits[19].switchOn": {
+					"joinId": 2,
+					"smartObjectId": 57
+				},
+				"currentRoom.lighting.circuits[19].switchOff": {
+					"joinId": 3,
+					"smartObjectId": 57
+				},
+				"currentRoom.lighting.circuits[19].toggle": {
+					"joinId": 4,
+					"smartObjectId": 57
+				},
+				"currentRoom.lighting.circuits[20].press": {
+					"joinId": 1,
+					"smartObjectId": 58
+				},
+				"currentRoom.lighting.circuits[20].switchOn": {
+					"joinId": 2,
+					"smartObjectId": 58
+				},
+				"currentRoom.lighting.circuits[20].switchOff": {
+					"joinId": 3,
+					"smartObjectId": 58
+				},
+				"currentRoom.lighting.circuits[20].toggle": {
+					"joinId": 4,
+					"smartObjectId": 58
+				},
+				"currentRoom.lighting.circuits[21].press": {
+					"joinId": 1,
+					"smartObjectId": 59
+				},
+				"currentRoom.lighting.circuits[21].switchOn": {
+					"joinId": 2,
+					"smartObjectId": 59
+				},
+				"currentRoom.lighting.circuits[21].switchOff": {
+					"joinId": 3,
+					"smartObjectId": 59
+				},
+				"currentRoom.lighting.circuits[21].toggle": {
+					"joinId": 4,
+					"smartObjectId": 59
+				},
+				"currentRoom.lighting.circuits[22].press": {
+					"joinId": 1,
+					"smartObjectId": 60
+				},
+				"currentRoom.lighting.circuits[22].switchOn": {
+					"joinId": 2,
+					"smartObjectId": 60
+				},
+				"currentRoom.lighting.circuits[22].switchOff": {
+					"joinId": 3,
+					"smartObjectId": 60
+				},
+				"currentRoom.lighting.circuits[22].toggle": {
+					"joinId": 4,
+					"smartObjectId": 60
+				},
+				"currentRoom.lighting.circuits[23].press": {
+					"joinId": 1,
+					"smartObjectId": 61
+				},
+				"currentRoom.lighting.circuits[23].switchOn": {
+					"joinId": 2,
+					"smartObjectId": 61
+				},
+				"currentRoom.lighting.circuits[23].switchOff": {
+					"joinId": 3,
+					"smartObjectId": 61
+				},
+				"currentRoom.lighting.circuits[23].toggle": {
+					"joinId": 4,
+					"smartObjectId": 61
+				},
+				"currentRoom.lighting.circuits[24].press": {
+					"joinId": 1,
+					"smartObjectId": 62
+				},
+				"currentRoom.lighting.circuits[24].switchOn": {
+					"joinId": 2,
+					"smartObjectId": 62
+				},
+				"currentRoom.lighting.circuits[24].switchOff": {
+					"joinId": 3,
+					"smartObjectId": 62
+				},
+				"currentRoom.lighting.circuits[24].toggle": {
+					"joinId": 4,
+					"smartObjectId": 62
+				},
+				"currentRoom.lighting.circuits[25].press": {
+					"joinId": 1,
+					"smartObjectId": 63
+				},
+				"currentRoom.lighting.circuits[25].switchOn": {
+					"joinId": 2,
+					"smartObjectId": 63
+				},
+				"currentRoom.lighting.circuits[25].switchOff": {
+					"joinId": 3,
+					"smartObjectId": 63
+				},
+				"currentRoom.lighting.circuits[25].toggle": {
+					"joinId": 4,
+					"smartObjectId": 63
+				},
+				"currentRoom.lighting.circuits[26].press": {
+					"joinId": 1,
+					"smartObjectId": 64
+				},
+				"currentRoom.lighting.circuits[26].switchOn": {
+					"joinId": 2,
+					"smartObjectId": 64
+				},
+				"currentRoom.lighting.circuits[26].switchOff": {
+					"joinId": 3,
+					"smartObjectId": 64
+				},
+				"currentRoom.lighting.circuits[26].toggle": {
+					"joinId": 4,
+					"smartObjectId": 64
+				},
+				"currentRoom.lighting.circuits[27].press": {
+					"joinId": 1,
+					"smartObjectId": 65
+				},
+				"currentRoom.lighting.circuits[27].switchOn": {
+					"joinId": 2,
+					"smartObjectId": 65
+				},
+				"currentRoom.lighting.circuits[27].switchOff": {
+					"joinId": 3,
+					"smartObjectId": 65
+				},
+				"currentRoom.lighting.circuits[27].toggle": {
+					"joinId": 4,
+					"smartObjectId": 65
+				},
+				"currentRoom.lighting.circuits[28].press": {
+					"joinId": 1,
+					"smartObjectId": 66
+				},
+				"currentRoom.lighting.circuits[28].switchOn": {
+					"joinId": 2,
+					"smartObjectId": 66
+				},
+				"currentRoom.lighting.circuits[28].switchOff": {
+					"joinId": 3,
+					"smartObjectId": 66
+				},
+				"currentRoom.lighting.circuits[28].toggle": {
+					"joinId": 4,
+					"smartObjectId": 66
+				},
+				"currentRoom.lighting.circuits[29].press": {
+					"joinId": 1,
+					"smartObjectId": 67
+				},
+				"currentRoom.lighting.circuits[29].switchOn": {
+					"joinId": 2,
+					"smartObjectId": 67
+				},
+				"currentRoom.lighting.circuits[29].switchOff": {
+					"joinId": 3,
+					"smartObjectId": 67
+				},
+				"currentRoom.lighting.circuits[29].toggle": {
+					"joinId": 4,
+					"smartObjectId": 67
+				},
+				"currentRoom.shading.scenes[0].press": {
+					"joinId": 1,
+					"smartObjectId": 68
+				},
+				"currentRoom.shading.scenes[1].press": {
+					"joinId": 1,
+					"smartObjectId": 69
+				},
+				"currentRoom.shading.scenes[2].press": {
+					"joinId": 1,
+					"smartObjectId": 70
+				},
+				"currentRoom.shading.scenes[3].press": {
+					"joinId": 1,
+					"smartObjectId": 71
+				},
+				"currentRoom.shading.scenes[4].press": {
+					"joinId": 1,
+					"smartObjectId": 72
+				},
+				"currentRoom.shading.scenes[5].press": {
+					"joinId": 1,
+					"smartObjectId": 73
+				},
+				"currentRoom.shading.scenes[6].press": {
+					"joinId": 1,
+					"smartObjectId": 74
+				},
+				"currentRoom.shading.scenes[7].press": {
+					"joinId": 1,
+					"smartObjectId": 75
+				},
+				"currentRoom.shading.scenes[8].press": {
+					"joinId": 1,
+					"smartObjectId": 76
+				},
+				"currentRoom.shading.scenes[9].press": {
+					"joinId": 1,
+					"smartObjectId": 77
+				},
+				"currentRoom.shading.scenes[10].press": {
+					"joinId": 1,
+					"smartObjectId": 78
+				},
+				"currentRoom.shading.scenes[11].press": {
+					"joinId": 1,
+					"smartObjectId": 79
+				},
+				"currentRoom.shading.scenes[12].press": {
+					"joinId": 1,
+					"smartObjectId": 80
+				},
+				"currentRoom.shading.scenes[13].press": {
+					"joinId": 1,
+					"smartObjectId": 81
+				},
+				"currentRoom.shading.scenes[14].press": {
+					"joinId": 1,
+					"smartObjectId": 82
+				},
+				"currentRoom.shading.scenes[15].press": {
+					"joinId": 1,
+					"smartObjectId": 83
+				},
+				"currentRoom.shading.scenes[16].press": {
+					"joinId": 1,
+					"smartObjectId": 84
+				},
+				"currentRoom.shading.scenes[17].press": {
+					"joinId": 1,
+					"smartObjectId": 85
+				},
+				"currentRoom.shading.scenes[18].press": {
+					"joinId": 1,
+					"smartObjectId": 86
+				},
+				"currentRoom.shading.scenes[19].press": {
+					"joinId": 1,
+					"smartObjectId": 87
+				},
+				"currentRoom.climate.zones[0].setpointRaise": {
+					"joinId": 2,
+					"smartObjectId": 88
+				},
+				"currentRoom.climate.zones[0].setpointLower": {
+					"joinId": 3,
+					"smartObjectId": 88
+				},
+				"currentRoom.climate.zones[0].enable": {
+					"joinId": 6,
+					"smartObjectId": 88
+				},
+				"currentRoom.climate.zones[1].setpointRaise": {
+					"joinId": 2,
+					"smartObjectId": 89
+				},
+				"currentRoom.climate.zones[1].setpointLower": {
+					"joinId": 3,
+					"smartObjectId": 89
+				},
+				"currentRoom.climate.zones[1].enable": {
+					"joinId": 6,
+					"smartObjectId": 89
+				},
+				"currentRoom.climate.zones[2].setpointRaise": {
+					"joinId": 2,
+					"smartObjectId": 90
+				},
+				"currentRoom.climate.zones[2].setpointLower": {
+					"joinId": 3,
+					"smartObjectId": 90
+				},
+				"currentRoom.climate.zones[2].enable": {
+					"joinId": 6,
+					"smartObjectId": 90
+				},
+				"currentRoom.climate.zones[3].setpointRaise": {
+					"joinId": 2,
+					"smartObjectId": 91
+				},
+				"currentRoom.climate.zones[3].setpointLower": {
+					"joinId": 3,
+					"smartObjectId": 91
+				},
+				"currentRoom.climate.zones[3].enable": {
+					"joinId": 6,
+					"smartObjectId": 91
+				},
+				"currentRoom.climate.zones[4].setpointRaise": {
+					"joinId": 2,
+					"smartObjectId": 92
+				},
+				"currentRoom.climate.zones[4].setpointLower": {
+					"joinId": 3,
+					"smartObjectId": 92
+				},
+				"currentRoom.climate.zones[4].enable": {
+					"joinId": 6,
+					"smartObjectId": 92
+				},
+				"currentRoom.watch.sources[0].press": {
+					"joinId": 3,
+					"smartObjectId": 93
+				},
+				"currentRoom.watch.sources[1].press": {
+					"joinId": 3,
+					"smartObjectId": 94
+				},
+				"currentRoom.watch.sources[2].press": {
+					"joinId": 3,
+					"smartObjectId": 95
+				},
+				"currentRoom.watch.sources[3].press": {
+					"joinId": 3,
+					"smartObjectId": 96
+				},
+				"currentRoom.watch.sources[4].press": {
+					"joinId": 3,
+					"smartObjectId": 97
+				},
+				"currentRoom.watch.sources[5].press": {
+					"joinId": 3,
+					"smartObjectId": 98
+				},
+				"currentRoom.watch.sources[6].press": {
+					"joinId": 3,
+					"smartObjectId": 99
+				},
+				"currentRoom.watch.sources[7].press": {
+					"joinId": 3,
+					"smartObjectId": 100
+				},
+				"currentRoom.watch.sources[8].press": {
+					"joinId": 3,
+					"smartObjectId": 101
+				},
+				"currentRoom.watch.sources[9].press": {
+					"joinId": 3,
+					"smartObjectId": 102
+				},
+				"currentRoom.watch.sources[10].press": {
+					"joinId": 3,
+					"smartObjectId": 103
+				},
+				"currentRoom.watch.sources[11].press": {
+					"joinId": 3,
+					"smartObjectId": 104
+				},
+				"currentRoom.watch.sources[12].press": {
+					"joinId": 3,
+					"smartObjectId": 105
+				},
+				"currentRoom.watch.sources[13].press": {
+					"joinId": 3,
+					"smartObjectId": 106
+				},
+				"currentRoom.watch.sources[14].press": {
+					"joinId": 3,
+					"smartObjectId": 107
+				},
+				"currentRoom.watch.sources[15].press": {
+					"joinId": 3,
+					"smartObjectId": 108
+				},
+				"currentRoom.watch.sources[16].press": {
+					"joinId": 3,
+					"smartObjectId": 109
+				},
+				"currentRoom.watch.sources[17].press": {
+					"joinId": 3,
+					"smartObjectId": 110
+				},
+				"currentRoom.watch.sources[18].press": {
+					"joinId": 3,
+					"smartObjectId": 111
+				},
+				"currentRoom.watch.sources[19].press": {
+					"joinId": 3,
+					"smartObjectId": 112
+				},
+				"currentRoom.listen.sources[0].press": {
+					"joinId": 3,
+					"smartObjectId": 113
+				},
+				"currentRoom.listen.sources[1].press": {
+					"joinId": 3,
+					"smartObjectId": 114
+				},
+				"currentRoom.listen.sources[2].press": {
+					"joinId": 3,
+					"smartObjectId": 115
+				},
+				"currentRoom.listen.sources[3].press": {
+					"joinId": 3,
+					"smartObjectId": 116
+				},
+				"currentRoom.listen.sources[4].press": {
+					"joinId": 3,
+					"smartObjectId": 117
+				},
+				"currentRoom.listen.sources[5].press": {
+					"joinId": 3,
+					"smartObjectId": 118
+				},
+				"currentRoom.listen.sources[6].press": {
+					"joinId": 3,
+					"smartObjectId": 119
+				},
+				"currentRoom.listen.sources[7].press": {
+					"joinId": 3,
+					"smartObjectId": 120
+				},
+				"currentRoom.listen.sources[8].press": {
+					"joinId": 3,
+					"smartObjectId": 121
+				},
+				"currentRoom.listen.sources[9].press": {
+					"joinId": 3,
+					"smartObjectId": 122
+				},
+				"currentRoom.listen.sources[10].press": {
+					"joinId": 3,
+					"smartObjectId": 123
+				},
+				"currentRoom.listen.sources[11].press": {
+					"joinId": 3,
+					"smartObjectId": 124
+				},
+				"currentRoom.listen.sources[12].press": {
+					"joinId": 3,
+					"smartObjectId": 125
+				},
+				"currentRoom.listen.sources[13].press": {
+					"joinId": 3,
+					"smartObjectId": 126
+				},
+				"currentRoom.listen.sources[14].press": {
+					"joinId": 3,
+					"smartObjectId": 127
+				},
+				"currentRoom.listen.sources[15].press": {
+					"joinId": 3,
+					"smartObjectId": 128
+				},
+				"currentRoom.listen.sources[16].press": {
+					"joinId": 3,
+					"smartObjectId": 129
+				},
+				"currentRoom.listen.sources[17].press": {
+					"joinId": 3,
+					"smartObjectId": 130
+				},
+				"currentRoom.listen.sources[18].press": {
+					"joinId": 3,
+					"smartObjectId": 131
+				},
+				"currentRoom.listen.sources[19].press": {
+					"joinId": 3,
+					"smartObjectId": 132
+				},
+				"currentRoom.climate.zones[0].modes[0].press": {
+					"joinId": 1,
+					"smartObjectId": 133
+				},
+				"currentRoom.climate.zones[0].modes[1].press": {
+					"joinId": 1,
+					"smartObjectId": 134
+				},
+				"currentRoom.climate.zones[0].modes[2].press": {
+					"joinId": 1,
+					"smartObjectId": 135
+				},
+				"currentRoom.climate.zones[0].modes[3].press": {
+					"joinId": 1,
+					"smartObjectId": 136
+				},
+				"currentRoom.climate.zones[0].modes[4].press": {
+					"joinId": 1,
+					"smartObjectId": 137
+				},
+				"currentRoom.climate.zones[0].fanSpeeds[0].press": {
+					"joinId": 1,
+					"smartObjectId": 138
+				},
+				"currentRoom.climate.zones[0].fanSpeeds[1].press": {
+					"joinId": 1,
+					"smartObjectId": 139
+				},
+				"currentRoom.climate.zones[0].fanSpeeds[2].press": {
+					"joinId": 1,
+					"smartObjectId": 140
+				},
+				"currentRoom.climate.zones[0].fanSpeeds[3].press": {
+					"joinId": 1,
+					"smartObjectId": 141
+				},
+				"currentRoom.climate.zones[0].fanSpeeds[4].press": {
+					"joinId": 1,
+					"smartObjectId": 142
+				},
+				"currentRoom.climate.zones[0].toggles[0].press": {
+					"joinId": 1,
+					"smartObjectId": 143
+				},
+				"currentRoom.climate.zones[0].toggles[1].press": {
+					"joinId": 1,
+					"smartObjectId": 144
+				},
+				"currentRoom.climate.zones[0].toggles[2].press": {
+					"joinId": 1,
+					"smartObjectId": 145
+				},
+				"currentRoom.climate.zones[1].modes[0].press": {
+					"joinId": 1,
+					"smartObjectId": 146
+				},
+				"currentRoom.climate.zones[1].modes[1].press": {
+					"joinId": 1,
+					"smartObjectId": 147
+				},
+				"currentRoom.climate.zones[1].modes[2].press": {
+					"joinId": 1,
+					"smartObjectId": 148
+				},
+				"currentRoom.climate.zones[1].modes[3].press": {
+					"joinId": 1,
+					"smartObjectId": 149
+				},
+				"currentRoom.climate.zones[1].modes[4].press": {
+					"joinId": 1,
+					"smartObjectId": 150
+				},
+				"currentRoom.climate.zones[1].fanSpeeds[0].press": {
+					"joinId": 1,
+					"smartObjectId": 151
+				},
+				"currentRoom.climate.zones[1].fanSpeeds[1].press": {
+					"joinId": 1,
+					"smartObjectId": 152
+				},
+				"currentRoom.climate.zones[1].fanSpeeds[2].press": {
+					"joinId": 1,
+					"smartObjectId": 153
+				},
+				"currentRoom.climate.zones[1].fanSpeeds[3].press": {
+					"joinId": 1,
+					"smartObjectId": 154
+				},
+				"currentRoom.climate.zones[1].fanSpeeds[4].press": {
+					"joinId": 1,
+					"smartObjectId": 155
+				},
+				"currentRoom.climate.zones[1].toggles[0].press": {
+					"joinId": 1,
+					"smartObjectId": 156
+				},
+				"currentRoom.climate.zones[1].toggles[1].press": {
+					"joinId": 1,
+					"smartObjectId": 157
+				},
+				"currentRoom.climate.zones[1].toggles[2].press": {
+					"joinId": 1,
+					"smartObjectId": 158
+				},
+				"currentRoom.climate.zones[2].modes[0].press": {
+					"joinId": 1,
+					"smartObjectId": 159
+				},
+				"currentRoom.climate.zones[2].modes[1].press": {
+					"joinId": 1,
+					"smartObjectId": 160
+				},
+				"currentRoom.climate.zones[2].modes[2].press": {
+					"joinId": 1,
+					"smartObjectId": 161
+				},
+				"currentRoom.climate.zones[2].modes[3].press": {
+					"joinId": 1,
+					"smartObjectId": 162
+				},
+				"currentRoom.climate.zones[2].modes[4].press": {
+					"joinId": 1,
+					"smartObjectId": 163
+				},
+				"currentRoom.climate.zones[2].fanSpeeds[0].press": {
+					"joinId": 1,
+					"smartObjectId": 164
+				},
+				"currentRoom.climate.zones[2].fanSpeeds[1].press": {
+					"joinId": 1,
+					"smartObjectId": 165
+				},
+				"currentRoom.climate.zones[2].fanSpeeds[2].press": {
+					"joinId": 1,
+					"smartObjectId": 166
+				},
+				"currentRoom.climate.zones[2].fanSpeeds[3].press": {
+					"joinId": 1,
+					"smartObjectId": 167
+				},
+				"currentRoom.climate.zones[2].fanSpeeds[4].press": {
+					"joinId": 1,
+					"smartObjectId": 168
+				},
+				"currentRoom.climate.zones[2].toggles[0].press": {
+					"joinId": 1,
+					"smartObjectId": 169
+				},
+				"currentRoom.climate.zones[2].toggles[1].press": {
+					"joinId": 1,
+					"smartObjectId": 170
+				},
+				"currentRoom.climate.zones[2].toggles[2].press": {
+					"joinId": 1,
+					"smartObjectId": 171
+				},
+				"currentRoom.climate.zones[3].modes[0].press": {
+					"joinId": 1,
+					"smartObjectId": 172
+				},
+				"currentRoom.climate.zones[3].modes[1].press": {
+					"joinId": 1,
+					"smartObjectId": 173
+				},
+				"currentRoom.climate.zones[3].modes[2].press": {
+					"joinId": 1,
+					"smartObjectId": 174
+				},
+				"currentRoom.climate.zones[3].modes[3].press": {
+					"joinId": 1,
+					"smartObjectId": 175
+				},
+				"currentRoom.climate.zones[3].modes[4].press": {
+					"joinId": 1,
+					"smartObjectId": 176
+				},
+				"currentRoom.climate.zones[3].fanSpeeds[0].press": {
+					"joinId": 1,
+					"smartObjectId": 177
+				},
+				"currentRoom.climate.zones[3].fanSpeeds[1].press": {
+					"joinId": 1,
+					"smartObjectId": 178
+				},
+				"currentRoom.climate.zones[3].fanSpeeds[2].press": {
+					"joinId": 1,
+					"smartObjectId": 179
+				},
+				"currentRoom.climate.zones[3].fanSpeeds[3].press": {
+					"joinId": 1,
+					"smartObjectId": 180
+				},
+				"currentRoom.climate.zones[3].fanSpeeds[4].press": {
+					"joinId": 1,
+					"smartObjectId": 181
+				},
+				"currentRoom.climate.zones[3].toggles[0].press": {
+					"joinId": 1,
+					"smartObjectId": 182
+				},
+				"currentRoom.climate.zones[3].toggles[1].press": {
+					"joinId": 1,
+					"smartObjectId": 183
+				},
+				"currentRoom.climate.zones[3].toggles[2].press": {
+					"joinId": 1,
+					"smartObjectId": 184
+				},
+				"currentRoom.climate.zones[4].modes[0].press": {
+					"joinId": 1,
+					"smartObjectId": 185
+				},
+				"currentRoom.climate.zones[4].modes[1].press": {
+					"joinId": 1,
+					"smartObjectId": 186
+				},
+				"currentRoom.climate.zones[4].modes[2].press": {
+					"joinId": 1,
+					"smartObjectId": 187
+				},
+				"currentRoom.climate.zones[4].modes[3].press": {
+					"joinId": 1,
+					"smartObjectId": 188
+				},
+				"currentRoom.climate.zones[4].modes[4].press": {
+					"joinId": 1,
+					"smartObjectId": 189
+				},
+				"currentRoom.climate.zones[4].fanSpeeds[0].press": {
+					"joinId": 1,
+					"smartObjectId": 190
+				},
+				"currentRoom.climate.zones[4].fanSpeeds[1].press": {
+					"joinId": 1,
+					"smartObjectId": 191
+				},
+				"currentRoom.climate.zones[4].fanSpeeds[2].press": {
+					"joinId": 1,
+					"smartObjectId": 192
+				},
+				"currentRoom.climate.zones[4].fanSpeeds[3].press": {
+					"joinId": 1,
+					"smartObjectId": 193
+				},
+				"currentRoom.climate.zones[4].fanSpeeds[4].press": {
+					"joinId": 1,
+					"smartObjectId": 194
+				},
+				"currentRoom.climate.zones[4].toggles[0].press": {
+					"joinId": 1,
+					"smartObjectId": 195
+				},
+				"currentRoom.climate.zones[4].toggles[1].press": {
+					"joinId": 1,
+					"smartObjectId": 196
+				},
+				"currentRoom.climate.zones[4].toggles[2].press": {
+					"joinId": 1,
+					"smartObjectId": 197
+				}
+			},
+			"numeric": {
+				"currentRoom.volumeLevel": {
+					"joinId": 1,
+					"smartObjectId": 12
+				},
+				"currentRoom.lighting.circuits[0].level": {
+					"joinId": 2,
+					"smartObjectId": 38
+				},
+				"currentRoom.lighting.circuits[0].red": {
+					"joinId": 3,
+					"smartObjectId": 38
+				},
+				"currentRoom.lighting.circuits[0].green": {
+					"joinId": 4,
+					"smartObjectId": 38
+				},
+				"currentRoom.lighting.circuits[0].blue": {
+					"joinId": 5,
+					"smartObjectId": 38
+				},
+				"currentRoom.lighting.circuits[0].white": {
+					"joinId": 6,
+					"smartObjectId": 38
+				},
+				"currentRoom.lighting.circuits[0].warmWhite": {
+					"joinId": 7,
+					"smartObjectId": 38
+				},
+				"currentRoom.lighting.circuits[1].level": {
+					"joinId": 2,
+					"smartObjectId": 39
+				},
+				"currentRoom.lighting.circuits[1].red": {
+					"joinId": 3,
+					"smartObjectId": 39
+				},
+				"currentRoom.lighting.circuits[1].green": {
+					"joinId": 4,
+					"smartObjectId": 39
+				},
+				"currentRoom.lighting.circuits[1].blue": {
+					"joinId": 5,
+					"smartObjectId": 39
+				},
+				"currentRoom.lighting.circuits[1].white": {
+					"joinId": 6,
+					"smartObjectId": 39
+				},
+				"currentRoom.lighting.circuits[1].warmWhite": {
+					"joinId": 7,
+					"smartObjectId": 39
+				},
+				"currentRoom.lighting.circuits[2].level": {
+					"joinId": 2,
+					"smartObjectId": 40
+				},
+				"currentRoom.lighting.circuits[2].red": {
+					"joinId": 3,
+					"smartObjectId": 40
+				},
+				"currentRoom.lighting.circuits[2].green": {
+					"joinId": 4,
+					"smartObjectId": 40
+				},
+				"currentRoom.lighting.circuits[2].blue": {
+					"joinId": 5,
+					"smartObjectId": 40
+				},
+				"currentRoom.lighting.circuits[2].white": {
+					"joinId": 6,
+					"smartObjectId": 40
+				},
+				"currentRoom.lighting.circuits[2].warmWhite": {
+					"joinId": 7,
+					"smartObjectId": 40
+				},
+				"currentRoom.lighting.circuits[3].level": {
+					"joinId": 2,
+					"smartObjectId": 41
+				},
+				"currentRoom.lighting.circuits[3].red": {
+					"joinId": 3,
+					"smartObjectId": 41
+				},
+				"currentRoom.lighting.circuits[3].green": {
+					"joinId": 4,
+					"smartObjectId": 41
+				},
+				"currentRoom.lighting.circuits[3].blue": {
+					"joinId": 5,
+					"smartObjectId": 41
+				},
+				"currentRoom.lighting.circuits[3].white": {
+					"joinId": 6,
+					"smartObjectId": 41
+				},
+				"currentRoom.lighting.circuits[3].warmWhite": {
+					"joinId": 7,
+					"smartObjectId": 41
+				},
+				"currentRoom.lighting.circuits[4].level": {
+					"joinId": 2,
+					"smartObjectId": 42
+				},
+				"currentRoom.lighting.circuits[4].red": {
+					"joinId": 3,
+					"smartObjectId": 42
+				},
+				"currentRoom.lighting.circuits[4].green": {
+					"joinId": 4,
+					"smartObjectId": 42
+				},
+				"currentRoom.lighting.circuits[4].blue": {
+					"joinId": 5,
+					"smartObjectId": 42
+				},
+				"currentRoom.lighting.circuits[4].white": {
+					"joinId": 6,
+					"smartObjectId": 42
+				},
+				"currentRoom.lighting.circuits[4].warmWhite": {
+					"joinId": 7,
+					"smartObjectId": 42
+				},
+				"currentRoom.lighting.circuits[5].level": {
+					"joinId": 2,
+					"smartObjectId": 43
+				},
+				"currentRoom.lighting.circuits[5].red": {
+					"joinId": 3,
+					"smartObjectId": 43
+				},
+				"currentRoom.lighting.circuits[5].green": {
+					"joinId": 4,
+					"smartObjectId": 43
+				},
+				"currentRoom.lighting.circuits[5].blue": {
+					"joinId": 5,
+					"smartObjectId": 43
+				},
+				"currentRoom.lighting.circuits[5].white": {
+					"joinId": 6,
+					"smartObjectId": 43
+				},
+				"currentRoom.lighting.circuits[5].warmWhite": {
+					"joinId": 7,
+					"smartObjectId": 43
+				},
+				"currentRoom.lighting.circuits[6].level": {
+					"joinId": 2,
+					"smartObjectId": 44
+				},
+				"currentRoom.lighting.circuits[6].red": {
+					"joinId": 3,
+					"smartObjectId": 44
+				},
+				"currentRoom.lighting.circuits[6].green": {
+					"joinId": 4,
+					"smartObjectId": 44
+				},
+				"currentRoom.lighting.circuits[6].blue": {
+					"joinId": 5,
+					"smartObjectId": 44
+				},
+				"currentRoom.lighting.circuits[6].white": {
+					"joinId": 6,
+					"smartObjectId": 44
+				},
+				"currentRoom.lighting.circuits[6].warmWhite": {
+					"joinId": 7,
+					"smartObjectId": 44
+				},
+				"currentRoom.lighting.circuits[7].level": {
+					"joinId": 2,
+					"smartObjectId": 45
+				},
+				"currentRoom.lighting.circuits[7].red": {
+					"joinId": 3,
+					"smartObjectId": 45
+				},
+				"currentRoom.lighting.circuits[7].green": {
+					"joinId": 4,
+					"smartObjectId": 45
+				},
+				"currentRoom.lighting.circuits[7].blue": {
+					"joinId": 5,
+					"smartObjectId": 45
+				},
+				"currentRoom.lighting.circuits[7].white": {
+					"joinId": 6,
+					"smartObjectId": 45
+				},
+				"currentRoom.lighting.circuits[7].warmWhite": {
+					"joinId": 7,
+					"smartObjectId": 45
+				},
+				"currentRoom.lighting.circuits[8].level": {
+					"joinId": 2,
+					"smartObjectId": 46
+				},
+				"currentRoom.lighting.circuits[8].red": {
+					"joinId": 3,
+					"smartObjectId": 46
+				},
+				"currentRoom.lighting.circuits[8].green": {
+					"joinId": 4,
+					"smartObjectId": 46
+				},
+				"currentRoom.lighting.circuits[8].blue": {
+					"joinId": 5,
+					"smartObjectId": 46
+				},
+				"currentRoom.lighting.circuits[8].white": {
+					"joinId": 6,
+					"smartObjectId": 46
+				},
+				"currentRoom.lighting.circuits[8].warmWhite": {
+					"joinId": 7,
+					"smartObjectId": 46
+				},
+				"currentRoom.lighting.circuits[9].level": {
+					"joinId": 2,
+					"smartObjectId": 47
+				},
+				"currentRoom.lighting.circuits[9].red": {
+					"joinId": 3,
+					"smartObjectId": 47
+				},
+				"currentRoom.lighting.circuits[9].green": {
+					"joinId": 4,
+					"smartObjectId": 47
+				},
+				"currentRoom.lighting.circuits[9].blue": {
+					"joinId": 5,
+					"smartObjectId": 47
+				},
+				"currentRoom.lighting.circuits[9].white": {
+					"joinId": 6,
+					"smartObjectId": 47
+				},
+				"currentRoom.lighting.circuits[9].warmWhite": {
+					"joinId": 7,
+					"smartObjectId": 47
+				},
+				"currentRoom.lighting.circuits[10].level": {
+					"joinId": 2,
+					"smartObjectId": 48
+				},
+				"currentRoom.lighting.circuits[10].red": {
+					"joinId": 3,
+					"smartObjectId": 48
+				},
+				"currentRoom.lighting.circuits[10].green": {
+					"joinId": 4,
+					"smartObjectId": 48
+				},
+				"currentRoom.lighting.circuits[10].blue": {
+					"joinId": 5,
+					"smartObjectId": 48
+				},
+				"currentRoom.lighting.circuits[10].white": {
+					"joinId": 6,
+					"smartObjectId": 48
+				},
+				"currentRoom.lighting.circuits[10].warmWhite": {
+					"joinId": 7,
+					"smartObjectId": 48
+				},
+				"currentRoom.lighting.circuits[11].level": {
+					"joinId": 2,
+					"smartObjectId": 49
+				},
+				"currentRoom.lighting.circuits[11].red": {
+					"joinId": 3,
+					"smartObjectId": 49
+				},
+				"currentRoom.lighting.circuits[11].green": {
+					"joinId": 4,
+					"smartObjectId": 49
+				},
+				"currentRoom.lighting.circuits[11].blue": {
+					"joinId": 5,
+					"smartObjectId": 49
+				},
+				"currentRoom.lighting.circuits[11].white": {
+					"joinId": 6,
+					"smartObjectId": 49
+				},
+				"currentRoom.lighting.circuits[11].warmWhite": {
+					"joinId": 7,
+					"smartObjectId": 49
+				},
+				"currentRoom.lighting.circuits[12].level": {
+					"joinId": 2,
+					"smartObjectId": 50
+				},
+				"currentRoom.lighting.circuits[12].red": {
+					"joinId": 3,
+					"smartObjectId": 50
+				},
+				"currentRoom.lighting.circuits[12].green": {
+					"joinId": 4,
+					"smartObjectId": 50
+				},
+				"currentRoom.lighting.circuits[12].blue": {
+					"joinId": 5,
+					"smartObjectId": 50
+				},
+				"currentRoom.lighting.circuits[12].white": {
+					"joinId": 6,
+					"smartObjectId": 50
+				},
+				"currentRoom.lighting.circuits[12].warmWhite": {
+					"joinId": 7,
+					"smartObjectId": 50
+				},
+				"currentRoom.lighting.circuits[13].level": {
+					"joinId": 2,
+					"smartObjectId": 51
+				},
+				"currentRoom.lighting.circuits[13].red": {
+					"joinId": 3,
+					"smartObjectId": 51
+				},
+				"currentRoom.lighting.circuits[13].green": {
+					"joinId": 4,
+					"smartObjectId": 51
+				},
+				"currentRoom.lighting.circuits[13].blue": {
+					"joinId": 5,
+					"smartObjectId": 51
+				},
+				"currentRoom.lighting.circuits[13].white": {
+					"joinId": 6,
+					"smartObjectId": 51
+				},
+				"currentRoom.lighting.circuits[13].warmWhite": {
+					"joinId": 7,
+					"smartObjectId": 51
+				},
+				"currentRoom.lighting.circuits[14].level": {
+					"joinId": 2,
+					"smartObjectId": 52
+				},
+				"currentRoom.lighting.circuits[14].red": {
+					"joinId": 3,
+					"smartObjectId": 52
+				},
+				"currentRoom.lighting.circuits[14].green": {
+					"joinId": 4,
+					"smartObjectId": 52
+				},
+				"currentRoom.lighting.circuits[14].blue": {
+					"joinId": 5,
+					"smartObjectId": 52
+				},
+				"currentRoom.lighting.circuits[14].white": {
+					"joinId": 6,
+					"smartObjectId": 52
+				},
+				"currentRoom.lighting.circuits[14].warmWhite": {
+					"joinId": 7,
+					"smartObjectId": 52
+				},
+				"currentRoom.lighting.circuits[15].level": {
+					"joinId": 2,
+					"smartObjectId": 53
+				},
+				"currentRoom.lighting.circuits[15].red": {
+					"joinId": 3,
+					"smartObjectId": 53
+				},
+				"currentRoom.lighting.circuits[15].green": {
+					"joinId": 4,
+					"smartObjectId": 53
+				},
+				"currentRoom.lighting.circuits[15].blue": {
+					"joinId": 5,
+					"smartObjectId": 53
+				},
+				"currentRoom.lighting.circuits[15].white": {
+					"joinId": 6,
+					"smartObjectId": 53
+				},
+				"currentRoom.lighting.circuits[15].warmWhite": {
+					"joinId": 7,
+					"smartObjectId": 53
+				},
+				"currentRoom.lighting.circuits[16].level": {
+					"joinId": 2,
+					"smartObjectId": 54
+				},
+				"currentRoom.lighting.circuits[16].red": {
+					"joinId": 3,
+					"smartObjectId": 54
+				},
+				"currentRoom.lighting.circuits[16].green": {
+					"joinId": 4,
+					"smartObjectId": 54
+				},
+				"currentRoom.lighting.circuits[16].blue": {
+					"joinId": 5,
+					"smartObjectId": 54
+				},
+				"currentRoom.lighting.circuits[16].white": {
+					"joinId": 6,
+					"smartObjectId": 54
+				},
+				"currentRoom.lighting.circuits[16].warmWhite": {
+					"joinId": 7,
+					"smartObjectId": 54
+				},
+				"currentRoom.lighting.circuits[17].level": {
+					"joinId": 2,
+					"smartObjectId": 55
+				},
+				"currentRoom.lighting.circuits[17].red": {
+					"joinId": 3,
+					"smartObjectId": 55
+				},
+				"currentRoom.lighting.circuits[17].green": {
+					"joinId": 4,
+					"smartObjectId": 55
+				},
+				"currentRoom.lighting.circuits[17].blue": {
+					"joinId": 5,
+					"smartObjectId": 55
+				},
+				"currentRoom.lighting.circuits[17].white": {
+					"joinId": 6,
+					"smartObjectId": 55
+				},
+				"currentRoom.lighting.circuits[17].warmWhite": {
+					"joinId": 7,
+					"smartObjectId": 55
+				},
+				"currentRoom.lighting.circuits[18].level": {
+					"joinId": 2,
+					"smartObjectId": 56
+				},
+				"currentRoom.lighting.circuits[18].red": {
+					"joinId": 3,
+					"smartObjectId": 56
+				},
+				"currentRoom.lighting.circuits[18].green": {
+					"joinId": 4,
+					"smartObjectId": 56
+				},
+				"currentRoom.lighting.circuits[18].blue": {
+					"joinId": 5,
+					"smartObjectId": 56
+				},
+				"currentRoom.lighting.circuits[18].white": {
+					"joinId": 6,
+					"smartObjectId": 56
+				},
+				"currentRoom.lighting.circuits[18].warmWhite": {
+					"joinId": 7,
+					"smartObjectId": 56
+				},
+				"currentRoom.lighting.circuits[19].level": {
+					"joinId": 2,
+					"smartObjectId": 57
+				},
+				"currentRoom.lighting.circuits[19].red": {
+					"joinId": 3,
+					"smartObjectId": 57
+				},
+				"currentRoom.lighting.circuits[19].green": {
+					"joinId": 4,
+					"smartObjectId": 57
+				},
+				"currentRoom.lighting.circuits[19].blue": {
+					"joinId": 5,
+					"smartObjectId": 57
+				},
+				"currentRoom.lighting.circuits[19].white": {
+					"joinId": 6,
+					"smartObjectId": 57
+				},
+				"currentRoom.lighting.circuits[19].warmWhite": {
+					"joinId": 7,
+					"smartObjectId": 57
+				},
+				"currentRoom.lighting.circuits[20].level": {
+					"joinId": 2,
+					"smartObjectId": 58
+				},
+				"currentRoom.lighting.circuits[20].red": {
+					"joinId": 3,
+					"smartObjectId": 58
+				},
+				"currentRoom.lighting.circuits[20].green": {
+					"joinId": 4,
+					"smartObjectId": 58
+				},
+				"currentRoom.lighting.circuits[20].blue": {
+					"joinId": 5,
+					"smartObjectId": 58
+				},
+				"currentRoom.lighting.circuits[20].white": {
+					"joinId": 6,
+					"smartObjectId": 58
+				},
+				"currentRoom.lighting.circuits[20].warmWhite": {
+					"joinId": 7,
+					"smartObjectId": 58
+				},
+				"currentRoom.lighting.circuits[21].level": {
+					"joinId": 2,
+					"smartObjectId": 59
+				},
+				"currentRoom.lighting.circuits[21].red": {
+					"joinId": 3,
+					"smartObjectId": 59
+				},
+				"currentRoom.lighting.circuits[21].green": {
+					"joinId": 4,
+					"smartObjectId": 59
+				},
+				"currentRoom.lighting.circuits[21].blue": {
+					"joinId": 5,
+					"smartObjectId": 59
+				},
+				"currentRoom.lighting.circuits[21].white": {
+					"joinId": 6,
+					"smartObjectId": 59
+				},
+				"currentRoom.lighting.circuits[21].warmWhite": {
+					"joinId": 7,
+					"smartObjectId": 59
+				},
+				"currentRoom.lighting.circuits[22].level": {
+					"joinId": 2,
+					"smartObjectId": 60
+				},
+				"currentRoom.lighting.circuits[22].red": {
+					"joinId": 3,
+					"smartObjectId": 60
+				},
+				"currentRoom.lighting.circuits[22].green": {
+					"joinId": 4,
+					"smartObjectId": 60
+				},
+				"currentRoom.lighting.circuits[22].blue": {
+					"joinId": 5,
+					"smartObjectId": 60
+				},
+				"currentRoom.lighting.circuits[22].white": {
+					"joinId": 6,
+					"smartObjectId": 60
+				},
+				"currentRoom.lighting.circuits[22].warmWhite": {
+					"joinId": 7,
+					"smartObjectId": 60
+				},
+				"currentRoom.lighting.circuits[23].level": {
+					"joinId": 2,
+					"smartObjectId": 61
+				},
+				"currentRoom.lighting.circuits[23].red": {
+					"joinId": 3,
+					"smartObjectId": 61
+				},
+				"currentRoom.lighting.circuits[23].green": {
+					"joinId": 4,
+					"smartObjectId": 61
+				},
+				"currentRoom.lighting.circuits[23].blue": {
+					"joinId": 5,
+					"smartObjectId": 61
+				},
+				"currentRoom.lighting.circuits[23].white": {
+					"joinId": 6,
+					"smartObjectId": 61
+				},
+				"currentRoom.lighting.circuits[23].warmWhite": {
+					"joinId": 7,
+					"smartObjectId": 61
+				},
+				"currentRoom.lighting.circuits[24].level": {
+					"joinId": 2,
+					"smartObjectId": 62
+				},
+				"currentRoom.lighting.circuits[24].red": {
+					"joinId": 3,
+					"smartObjectId": 62
+				},
+				"currentRoom.lighting.circuits[24].green": {
+					"joinId": 4,
+					"smartObjectId": 62
+				},
+				"currentRoom.lighting.circuits[24].blue": {
+					"joinId": 5,
+					"smartObjectId": 62
+				},
+				"currentRoom.lighting.circuits[24].white": {
+					"joinId": 6,
+					"smartObjectId": 62
+				},
+				"currentRoom.lighting.circuits[24].warmWhite": {
+					"joinId": 7,
+					"smartObjectId": 62
+				},
+				"currentRoom.lighting.circuits[25].level": {
+					"joinId": 2,
+					"smartObjectId": 63
+				},
+				"currentRoom.lighting.circuits[25].red": {
+					"joinId": 3,
+					"smartObjectId": 63
+				},
+				"currentRoom.lighting.circuits[25].green": {
+					"joinId": 4,
+					"smartObjectId": 63
+				},
+				"currentRoom.lighting.circuits[25].blue": {
+					"joinId": 5,
+					"smartObjectId": 63
+				},
+				"currentRoom.lighting.circuits[25].white": {
+					"joinId": 6,
+					"smartObjectId": 63
+				},
+				"currentRoom.lighting.circuits[25].warmWhite": {
+					"joinId": 7,
+					"smartObjectId": 63
+				},
+				"currentRoom.lighting.circuits[26].level": {
+					"joinId": 2,
+					"smartObjectId": 64
+				},
+				"currentRoom.lighting.circuits[26].red": {
+					"joinId": 3,
+					"smartObjectId": 64
+				},
+				"currentRoom.lighting.circuits[26].green": {
+					"joinId": 4,
+					"smartObjectId": 64
+				},
+				"currentRoom.lighting.circuits[26].blue": {
+					"joinId": 5,
+					"smartObjectId": 64
+				},
+				"currentRoom.lighting.circuits[26].white": {
+					"joinId": 6,
+					"smartObjectId": 64
+				},
+				"currentRoom.lighting.circuits[26].warmWhite": {
+					"joinId": 7,
+					"smartObjectId": 64
+				},
+				"currentRoom.lighting.circuits[27].level": {
+					"joinId": 2,
+					"smartObjectId": 65
+				},
+				"currentRoom.lighting.circuits[27].red": {
+					"joinId": 3,
+					"smartObjectId": 65
+				},
+				"currentRoom.lighting.circuits[27].green": {
+					"joinId": 4,
+					"smartObjectId": 65
+				},
+				"currentRoom.lighting.circuits[27].blue": {
+					"joinId": 5,
+					"smartObjectId": 65
+				},
+				"currentRoom.lighting.circuits[27].white": {
+					"joinId": 6,
+					"smartObjectId": 65
+				},
+				"currentRoom.lighting.circuits[27].warmWhite": {
+					"joinId": 7,
+					"smartObjectId": 65
+				},
+				"currentRoom.lighting.circuits[28].level": {
+					"joinId": 2,
+					"smartObjectId": 66
+				},
+				"currentRoom.lighting.circuits[28].red": {
+					"joinId": 3,
+					"smartObjectId": 66
+				},
+				"currentRoom.lighting.circuits[28].green": {
+					"joinId": 4,
+					"smartObjectId": 66
+				},
+				"currentRoom.lighting.circuits[28].blue": {
+					"joinId": 5,
+					"smartObjectId": 66
+				},
+				"currentRoom.lighting.circuits[28].white": {
+					"joinId": 6,
+					"smartObjectId": 66
+				},
+				"currentRoom.lighting.circuits[28].warmWhite": {
+					"joinId": 7,
+					"smartObjectId": 66
+				},
+				"currentRoom.lighting.circuits[29].level": {
+					"joinId": 2,
+					"smartObjectId": 67
+				},
+				"currentRoom.lighting.circuits[29].red": {
+					"joinId": 3,
+					"smartObjectId": 67
+				},
+				"currentRoom.lighting.circuits[29].green": {
+					"joinId": 4,
+					"smartObjectId": 67
+				},
+				"currentRoom.lighting.circuits[29].blue": {
+					"joinId": 5,
+					"smartObjectId": 67
+				},
+				"currentRoom.lighting.circuits[29].white": {
+					"joinId": 6,
+					"smartObjectId": 67
+				},
+				"currentRoom.lighting.circuits[29].warmWhite": {
+					"joinId": 7,
+					"smartObjectId": 67
+				}
+			}
+		}
+	}
+}

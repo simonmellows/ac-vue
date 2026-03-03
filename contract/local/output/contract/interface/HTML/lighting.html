@@ -1,0 +1,55 @@
+<template id="contract.roomLighting.lighting">
+	<div id="roomLighting.lighting">
+	 		<ch5-button receiveStateSelected="lighting.visibleFb" disabled>
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="lighting.toggle" receiveStateSelected="lighting.toggleFb">
+        	</ch5-button>
+	 	<ch5-list id="roomLighting.itemButton.scene" indexId="idx2" size="20" orientation="horizontal">
+ 	 	 <template>
+ 	 	 <div class="horizontal-list-item">
+	 	<span data-ch5-textcontent="lighting.scene[{{idx2}}].labelFb">Label</span>
+	 	<span data-ch5-textcontent="lighting.scene[{{idx2}}].iconFb">Label</span>
+	 		<ch5-button receiveStateSelected="lighting.scene[{{idx2}}].visibleFb" disabled>
+        	</ch5-button>
+	 		<ch5-button receiveStateSelected="lighting.scene[{{idx2}}].enableFb" disabled>
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="lighting.scene[{{idx2}}].press" receiveStateSelected="lighting.scene[{{idx2}}].pressFb">
+        	</ch5-button>
+	 	 </div> 
+ 	 	</template>
+ 	</ch5-list>
+
+	 	<ch5-list id="roomLighting.itemLightingCircuit.circuit" indexId="idx2" size="30" orientation="horizontal">
+ 	 	 <template>
+ 	 	 <div class="horizontal-list-item">
+	 	<span data-ch5-textcontent="lighting.circuit[{{idx2}}].labelFb">Label</span>
+	 		<ch5-button receiveStateSelected="lighting.circuit[{{idx2}}].visibleFb" disabled>
+        	</ch5-button>
+	 		<ch5-slider receiveStateValue="lighting.circuit[{{idx2}}].typeFb" nohandle>
+        	</ch5-slider>
+	 		<ch5-button sendEventOnClick="lighting.circuit[{{idx2}}].press" receiveStateSelected="lighting.circuit[{{idx2}}].pressFb">
+        	</ch5-button>
+	 		<ch5-slider sendEventOnChange="lighting.circuit[{{idx2}}].level" receiveStateValue="lighting.circuit[{{idx2}}].levelFb">
+        	</ch5-slider>
+	 		<ch5-button sendEventOnClick="lighting.circuit[{{idx2}}].switchOn" receiveStateSelected="lighting.circuit[{{idx2}}].switchOnFb">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="lighting.circuit[{{idx2}}].switchOff" receiveStateSelected="lighting.circuit[{{idx2}}].switchOffFb">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="lighting.circuit[{{idx2}}].toggle">
+        	</ch5-button>
+	 		<ch5-slider sendEventOnChange="lighting.circuit[{{idx2}}].red" receiveStateValue="lighting.circuit[{{idx2}}].redFb">
+        	</ch5-slider>
+	 		<ch5-slider sendEventOnChange="lighting.circuit[{{idx2}}].green" receiveStateValue="lighting.circuit[{{idx2}}].greenFb">
+        	</ch5-slider>
+	 		<ch5-slider sendEventOnChange="lighting.circuit[{{idx2}}].blue" receiveStateValue="lighting.circuit[{{idx2}}].blueFb">
+        	</ch5-slider>
+	 		<ch5-slider sendEventOnChange="lighting.circuit[{{idx2}}].white" receiveStateValue="lighting.circuit[{{idx2}}].whiteFb">
+        	</ch5-slider>
+	 		<ch5-slider sendEventOnChange="lighting.circuit[{{idx2}}].warmWhite" receiveStateValue="lighting.circuit[{{idx2}}].warmWhiteFb">
+        	</ch5-slider>
+	 	 </div> 
+ 	 	</template>
+ 	</ch5-list>
+
+	 </div>
+</template>

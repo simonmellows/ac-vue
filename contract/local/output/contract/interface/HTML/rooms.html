@@ -1,0 +1,28 @@
+<template id="contract.itemRoom.rooms">
+	<ch5-list id="itemRoom.rooms" indexId="idx1" size="5" orientation="horizontal">
+ 	 	 <template>
+ 	 	 <div class="horizontal-list-item">
+	 	<span data-ch5-textcontent="rooms[{{idx1}}].labelFb">Label</span>
+	 		<ch5-button receiveStateSelected="rooms[{{idx1}}].visibleFb" disabled>
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="rooms[{{idx1}}].favourite" receiveStateSelected="rooms[{{idx1}}].favouriteFb">
+        	</ch5-button>
+	 		<ch5-slider receiveStateValue="rooms[{{idx1}}].roomGroupFb" nohandle>
+        	</ch5-slider>
+	 		<ch5-button sendEventOnClick="rooms[{{idx1}}].press" receiveStateSelected="rooms[{{idx1}}].pressFb">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="rooms[{{idx1}}].roomOff">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="rooms[{{idx1}}].watchOff">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="rooms[{{idx1}}].listenOff">
+        	</ch5-button>
+	 		<ch5-slider receiveStateValue="rooms[{{idx1}}].sourceWatchFb" nohandle>
+        	</ch5-slider>
+	 		<ch5-slider receiveStateValue="rooms[{{idx1}}].sourceListenFb" nohandle>
+        	</ch5-slider>
+	 	 </div> 
+ 	 	</template>
+ 	</ch5-list>
+
+</template>

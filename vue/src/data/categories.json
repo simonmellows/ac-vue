@@ -1,0 +1,56 @@
+{
+    "lighting": {
+        "id": "lights",
+        "label": "Lights",
+        "icon": "mdi-lightbulb",
+        "color": "amber"
+    },
+    "shading": {
+        "id": "shades",
+        "label": "Shades",
+        "icon": "mdi-roller-shade",
+        "color": "primary"
+    },
+    "climate": {
+        "id": "climate",
+        "label": "Climate",
+        "icon": "mdi-thermometer",
+        "color": "orange"
+    },
+    "watch": {
+        "id": "watch",
+        "label": "Watch",
+        "icon": "mdi-television",
+        "color": "indigo"
+    },
+    "listen": {
+        "id": "listen",
+        "label": "Listen",
+        "color": "purple",
+        "icon": "mdi-music"
+    },
+    "entertainment": {
+        "id": "entertainment",
+        "label": "Entertainment",
+        "color": "purple",
+        "icon": "mdi-music"
+    },
+    "security": {
+        "id": "security",
+        "label": "Security",
+        "color": "purple",
+        "icon": "mdi-shield"
+    },
+    "floorplan": {
+        "id": "floorplan",
+        "label": "Floorplans",
+        "color": "purple",
+        "icon": "mdi-map"
+    },
+    "system": {
+        "id": "system",
+        "label": "System Health",
+        "color": "purple",
+        "icon": "mdi-chart-line"
+    }
+}
