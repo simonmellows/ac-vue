@@ -7,10 +7,10 @@
             density="compact">
             </v-btn>
         </template>
-        <template #title>
+        <template #title v-if="showTitle">
             <span class="card-title-lg">{{ title }}</span>
         </template>
-        <template #subtitle>
+        <template #subtitle v-if="showSubtitle">
             <span style="font-size: 1rem; letter-spacing: 2px; text-transform: uppercase;">
                 {{ subtitle }}
             </span>
@@ -27,7 +27,7 @@
 
 <script setup>
 
-const props = defineProps(['title', 'subtitle', 'sublabel', 'sublabelClass', 'showBack'])
+const props = defineProps(['title', 'subtitle', 'sublabel', 'sublabelClass', 'showBack', 'showTitle', 'showSubtitle'])
 const emit = defineEmits(['back'])
 
 </script>

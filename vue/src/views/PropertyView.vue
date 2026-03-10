@@ -1,6 +1,12 @@
 <template>
-<v-container fluid class="h-100 pb-2 px-2 d-flex flex-column">
-        <div class="d-flex" v-if="propertyWindowItem > 0">
+    <v-container fluid class="h-100 pb-2 px-2 d-flex flex-column">
+        <div class="d-flex py-2" v-if="propertyWindowItem > 0">
+            <v-btn
+            :showBack="propertyWindowItem > 0"
+            icon="mdi-chevron-left" variant="text"
+            @click="propertyWindowItem--"
+            density="compact">
+            </v-btn>
             <v-breadcrumbs :items="breadcrumbs" class="py-0 overflow-x-scroll no-scrollbar">
                 <template v-slot:title="{ item }">
                     <span 
@@ -15,7 +21,9 @@
         </div>
         <Dashboard
         :title="propertyName"
-        :showBack="propertyWindowItem > 0"
+        :showBack="false"
+        :showTitle="propertyWindowItem == 0"
+        :showSubtitle="propertyWindowItem == 0"
         :subtitle="propertyWindowItem < 1 ? 'Dashboard' : selectedCategory?.label"
         @back="propertyWindowItem--"
         >
@@ -146,8 +154,29 @@ const categories = computed(() => [
     },
 ].filter(category => category.visible))
 
+const breadcrumbs = computed(() => 
+    [
+        {
+            label: "Property",
+            disabled: propertyWindowItem.value < 1 ? true : false,
+            click: () => propertyWindowItem.value = 0,
+            validator: propertyWindowItem.value > 0,
+        },
+        {
+            label: selectedCategory.value?.label,
+            click: () => propertyWindowItem.value = 1,
+            validator: propertyWindowItem.value >= 1
+        }
+    ]
+.filter(breadcrumb => breadcrumb.validator))
+
 </script>
 
-<style scoped>
-
+<style>
+.v-breadcrumbs-item span {
+    font-size: 1rem !important;
+    line-height: unset !important;
+}
 </style>
+
+

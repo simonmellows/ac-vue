@@ -1,7 +1,7 @@
 <template>
     <RoomCardList 
     :rooms="rooms.filter(room => room.hasShading)"
-    :show-favourite="true"
+    :show-favourite="false"
     :card-body="Scenes"
     :card-body-props="room => ({ 
         commandPrefix: room.commandPrefix + '.shading.scenes', 

@@ -1,12 +1,13 @@
 <template>
     <RoomCardList 
     :rooms="rooms.filter(room => room.hasLighting)"
-    :show-favourite="true"
+    :show-favourite="false"
     :card-body="Scenes"
     :card-body-props="room => ({ 
         commandPrefix: room.commandPrefix + '.lighting.scenes', 
         maxSceneCount: 5, 
-        activeColor: 'warning' 
+        activeColor: 'warning',
+        cols: 12
     })"
     />
 </template>
