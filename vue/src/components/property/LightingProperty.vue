@@ -9,6 +9,12 @@
             cols: 12,
             align: 'center',
         })"
+        :card-subtitle="CategoryStatus"
+        :card-subtitle-props="room => ({
+            text: 'Lights are ON',
+            color: 'amber',
+            size: 18
+        })"
     />
 </template>
 
@@ -18,6 +24,7 @@ import ButtonList from '../lists/ButtonList.vue';
 import useRooms from '@/composables/useRooms';
 import { pulse } from '@/composables/useInteractions';
 import { useSystemFeedbackStore } from '@/store/useSystemFeedbackStore';
+import CategoryStatus from '../general/CategoryStatus.vue';
 
 const { rooms } = useRooms()
 const systemFeedbackStore = useSystemFeedbackStore()

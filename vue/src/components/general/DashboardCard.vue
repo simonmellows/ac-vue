@@ -6,6 +6,9 @@
         <template #title>
             <div class="text-button text-truncate" :class="{'dashboard-card-title' : !xs}">{{ label }}</div>
         </template>
+        <template #subtitle v-if="$slots.subtitle">
+            <slot name="subtitle"></slot>
+        </template>
         <template #append v-if="$slots.append">
             <slot name="append"></slot>
         </template>

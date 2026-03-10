@@ -6,6 +6,9 @@
                     <template #text v-if="cardBody">
                         <component :is="cardBody" v-bind="resolveCardBodyProps(room)" />
                     </template>
+                    <template #subtitle v-if="cardSubtitle">
+                        <component :is="cardSubtitle" v-bind="resolveCardSubtitleProps(room)" />
+                    </template>
                     <template #append v-if="showFavourite">
                         <v-icon
                             color="error"
@@ -28,13 +31,18 @@ const props = defineProps({
     rooms: { type: Array, default: () => [] },
     showFavourite: { type: Boolean, default: false },
     cardBody: { type: Object, default: null },
-    cardBodyProps: { type: [Object, Function], default: () => ({}) }
+    cardBodyProps: { type: [Object, Function], default: () => ({}) },
+    cardSubtitle: { type: Object, default: null },
+    cardSubtitleProps: { type: [Object, Function], default: () => ({}) },
 })
 
 const emit = defineEmits(['roomSelected'])
 
 function resolveCardBodyProps(room) {
     return typeof props.cardBodyProps === 'function' ? props.cardBodyProps(room) : props.cardBodyProps
+}
+function resolveCardSubtitleProps(room) {
+    return typeof props.cardSubtitleProps === 'function' ? props.cardSubtitleProps(room) : props.cardSubtitleProps
 }
 </script>
 
