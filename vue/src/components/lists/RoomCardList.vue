@@ -1,7 +1,7 @@
 <template>
     <v-container fluid class="h-100 pb-0">
         <v-row class="h-100 room-list-row overflow-y-scroll">
-            <v-col v-for="room in rooms" :key="room.index" cols="12" sm="6" md="4" xl="3" class="h-50">
+            <v-col v-for="room in rooms" :key="room.index" cols="12" sm="6" md="3" xl="3" class="h-50">
                 <DashboardCard :label="room.label" @click="emit('roomSelected', room)">
                     <template #text v-if="cardBody">
                         <component :is="cardBody" v-bind="resolveCardBodyProps(room)" />
