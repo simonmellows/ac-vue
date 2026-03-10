@@ -1,5 +1,5 @@
 <template>
-    <div class="d-flex flex-column ga-2">
+    <div class="d-flex flex-column ga-2 justify-center">
         <v-btn class="w-100" height="60" v-for="scene in scenes"
         @click="scene.click"
         :variant="scene.model ? 'flat' : 'tonal'"
@@ -35,5 +35,4 @@ const scenes = computed(() => {
 </script>
 
 <style scoped>
-
 </style>

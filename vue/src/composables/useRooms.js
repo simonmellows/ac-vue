@@ -21,6 +21,8 @@ export default function useRooms(){
             visible: systemFeedbackStore.getPropertyValue(`${commandPrefix}.visibleFb`, 'digital'),
             sourceWatch: systemFeedbackStore.getPropertyValue(`${commandPrefix}.sourceWatchFb`, 'analog'),
             sourceListen: systemFeedbackStore.getPropertyValue(`${commandPrefix}.sourceListenFb`, 'analog'),
+            hasLighting: systemFeedbackStore.getPropertyValue(`${commandPrefix}.lighting.visibleFb`, 'digital'),
+            hasShading: systemFeedbackStore.getPropertyValue(`${commandPrefix}.shading.visibleFb`, 'digital'),
 
             // Methods
             'click:favourite': () => pulse(`${commandPrefix}.favourite`),

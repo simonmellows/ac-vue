@@ -74,6 +74,16 @@ export const useSystemFeedbackStore = defineStore('systemFeedback', {
             "rooms[3].visibleFb": true,
             "rooms[4].visibleFb": true,
 
+            "rooms[0].lighting.scenes[0].visibleFb": true,
+            "rooms[0].lighting.scenes[1].visibleFb": true,
+            "rooms[0].lighting.scenes[2].visibleFb": true,
+            "rooms[0].lighting.scenes[3].visibleFb": true,
+
+            "rooms[0].shading.scenes[0].visibleFb": true,
+            "rooms[0].shading.scenes[1].visibleFb": true,
+            "rooms[0].shading.scenes[2].visibleFb": true,
+            "rooms[0].shading.scenes[3].visibleFb": true,
+
             // roomGroups
             "roomGroups[0].visibleFb": true,
             "roomGroups[1].visibleFb": true,
@@ -174,6 +184,16 @@ export const useSystemFeedbackStore = defineStore('systemFeedback', {
             "rooms[5].labelFb": "Master Bathroom",
             "rooms[6].labelFb": "Bedroom 1",
             "rooms[7].labelFb": "Bathroom 1",
+
+            "rooms[0].lighting.scenes[0].labelFb": "Scene #1",
+            "rooms[0].lighting.scenes[1].labelFb": "Scene #2",
+            "rooms[0].lighting.scenes[2].labelFb": "Scene #3",
+            "rooms[0].lighting.scenes[3].labelFb": "Scene #4",
+
+            "rooms[0].shading.scenes[0].labelFb": "Scene #1",
+            "rooms[0].shading.scenes[1].labelFb": "Scene #2",
+            "rooms[0].shading.scenes[2].labelFb": "Scene #3",
+            "rooms[0].shading.scenes[3].labelFb": "Scene #4",
         }
     }),
     getters: {
